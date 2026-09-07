@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-07T16:50:42.712837Z",
+  "results": [
+    {
+      "symbol": "RELIANCE",
+      "ltp": 1309.5,
+      "ema5": 1308.93,
+      "ema13": 1306.42,
+      "ema21": 1306.32,
+      "rsi": 51.0,
+      "efi": 6582240.0,
+      "signal": "Strong Buy",
+      "direction": "buy",
+      "pct": 100
+    },
+    {
+      "symbol": "TCS",
+      "ltp": 2270.0,
+      "ema5": 2307.31,
+      "ema13": 2318.84,
+      "ema21": 2319.91,
+      "rsi": 44.7,
+      "efi": -6823134.0,
+      "signal": "Strong Sell",
+      "direction": "sell",
+      "pct": 100
+    },
+    {
+      "symbol": "INFY",
+      "ltp": 1087.5,
+      "ema5": 1118.78,
+      "ema13": 1129.02,
+      "ema21": 1130.82,
+      "rsi": 40.1,
+      "efi": -32523108.0,
+      "signal": "Strong Sell",
+      "direction": "sell",
+      "pct": 100
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ltp": 710.5,
+      "ema5": 710.29,
+      "ema13": 715.58,
+      "ema21": 721.96,
+      "rsi": 39.1,
+      "efi": -95279111.0,
+      "signal": "Strong Sell",
+      "direction": "sell",
+      "pct": 100
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ltp": 1427.5,
+      "ema5": 1428.61,
+      "ema13": 1428.27,
+      "ema21": 1426.34,
+      "rsi": 51.4,
+      "efi": 9988091.0,
+      "signal": "Strong Buy",
+      "direction": "buy",
+      "pct": 100
+    }
+  ],
+  "errors": []
+}
