@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5-13-21 Confluence Scanner</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+  :root{
+    --bg: #0B0D10;
+    --panel: #13161B;
+    --panel-2: #1A1E25;
+    --line: #262B33;
+    --ink: #E7EAEE;
+    --muted: #7C8592;
+    --green: #35C97F;
+    --green-dim: #1E3D2E;
+    --red: #F04F4F;
+    --red-dim: #3D2020;
+    --blue: #4E8FE0;
+    --amber: #E0A94E;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'IBM Plex Mono', monospace;
+    padding:28px 20px 60px;
+    min-height:100vh;
+  }
+  h1,h2{font-family:'Space Grotesk', sans-serif;}
+  .wrap{max-width:1180px;margin:0 auto;}
+  code{background:var(--panel-2); padding:1px 5px; border-radius:3px; font-size:11.5px;}
+
+  .head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    flex-wrap:wrap; gap:10px 24px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:18px; margin-bottom:22px;
+  }
+  .head h1{font-size:22px; font-weight:700; margin:0; letter-spacing:-0.01em;}
+  .head .sub{color:var(--muted); font-size:12.5px; max-width:560px; line-height:1.5;}
+
+  .legend{display:flex; gap:18px; font-size:11.5px; color:var(--muted); flex-wrap:wrap;}
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:18px;
+    margin-bottom:20px;
+  }
+
+  .toprow{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify-content:space-between;}
+  .meta{font-size:12px; color:var(--muted);}
+  button{
+    background:var(--ink); color:var(--bg); border:none; font-weight:600;
+    font-family:'Space Grotesk', sans-serif; font-size:13.5px;
+    padding:10px 18px; border-radius:4px; cursor:pointer; white-space:nowrap;
+  }
+  button:hover{background:#fff;}
+  button:disabled{opacity:0.5; cursor:default;}
+
+  .status{font-size:12px; color:var(--muted); margin-top:10px; min-height:16px;}
+  .status.err{color:var(--red);}
+
+  table{width:100%; border-collapse:collapse; font-size:12.5px;}
+  thead th{
+    text-align:left; font-weight:500; color:var(--muted); font-size:10.5px;
+    text-transform:lowercase; padding:8px 10px; border-bottom:1px solid var(--line);
+    white-space:nowrap;
+  }
+  tbody td{padding:11px 10px; border-bottom:1px solid var(--line); vertical-align:middle; white-space:nowrap;}
+  tbody tr:hover{background:var(--panel-2);}
+  .sym{font-family:'Space Grotesk', sans-serif; font-weight:600; font-size:13.5px;}
+  .num{font-variant-numeric:tabular-nums;}
+  .muted{color:var(--muted);}
+
+  .pill{
+    display:inline-block; padding:3px 9px; border-radius:3px; font-size:11px; font-weight:600;
+    font-family:'Space Grotesk', sans-serif; letter-spacing:0.01em;
+  }
+  .pill.buy{background:var(--green-dim); color:var(--green);}
+  .pill.sell{background:var(--red-dim); color:var(--red);}
+  .pill.neutral{background:var(--panel-2); color:var(--muted); border:1px solid var(--line);}
+
+  .bar{display:inline-flex; align-items:center; gap:6px;}
+  .bar-track{width:40px; height:5px; background:var(--panel-2); border-radius:3px; overflow:hidden;}
+  .bar-fill{height:100%; border-radius:3px;}
+
+  .toggle{display:inline-flex; gap:4px;}
+  .toggle button{
+    padding:5px 9px; font-size:10.5px; border-radius:3px; font-family:'IBM Plex Mono', monospace; font-weight:500;
+    background:var(--panel-2); color:var(--muted); border:1px solid var(--line);
+  }
+  .toggle button.active-buy{background:var(--green-dim); color:var(--green); border-color:var(--green);}
+  .toggle button.active-sell{background:var(--red-dim); color:var(--red); border-color:var(--red);}
+
+  .final{font-weight:600; font-family:'Space Grotesk', sans-serif; font-size:12.5px;}
+  .final.can-buy{color:var(--green);}
+  .final.can-sell{color:var(--red);}
+  .final.wait{color:var(--amber);}
+
+  .note{font-size:11.5px; color:var(--muted); line-height:1.6; margin-top:16px; border-top:1px solid var(--line); padding-top:14px;}
+  .empty{color:var(--muted); font-size:13px; padding:30px 0; text-align:center; line-height:1.7;}
+  a{color:var(--blue); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="head">
+    <div>
+      <h1>5 · 13 · 21 Confluence Scanner</h1>
+      <div class="sub">Daily-chart EMA / RSI50 / Elder Force Index scan for NSE stocks. Data comes from <code>data.json</code>, generated server-side by <code>scan.py</code> (via GitHub Actions) — no browser-side fetch, so no CORS issues.</div>
+    </div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--green)"></span>5 EMA</span>
+      <span><span class="dot" style="background:var(--red)"></span>13 EMA</span>
+      <span><span class="dot" style="background:var(--blue)"></span>21 EMA</span>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="toprow">
+      <div class="meta" id="genMeta">No data.json loaded yet.</div>
+      <button id="reloadBtn" type="button">Reload data.json</button>
+    </div>
+    <div class="status" id="status"></div>
+  </div>
+
+  <div class="panel" id="resultsPanel" style="display:none;">
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>LTP</th>
+          <th>5 EMA</th>
+          <th>13 EMA</th>
+          <th>21 EMA</th>
+          <th>RSI 14</th>
+          <th>EFI 13</th>
+          <th>Daily Signal</th>
+          <th>15-min aligned?</th>
+          <th>Final Action</th>
+        </tr>
+      </thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+    <div class="note">
+      Daily Signal = EMA stack + RSI-50 + EFI-sign confluence (Strong Buy/Sell needs all three aligned; plain Buy/Sell = EMA stack only, unconfirmed). Final Action applies the Daily+15min matrix — toggle "Buy"/"Sell" per stock after checking the 15-min chart (link opens TradingView). This is not investment advice — verify before acting.
+    </div>
+  </div>
+
+  <div class="panel" id="emptyPanel">
+    <div class="empty">
+      Couldn't find <code>data.json</code> next to this file yet.<br>
+      Run <code>python scan.py</code> once locally to generate it, or set up the GitHub Action (see README) so it refreshes automatically after market close.
+    </div>
+  </div>
+
+</div>
+
+<script>
+let intradayState = {};
+let lastData = null;
+
+function fmt(n, d=2){ return n==null || isNaN(n) ? '—' : Number(n).toFixed(d); }
+
+function pillHtml(dir, label){
+  if(!dir) return `<span class="pill neutral">${label}</span>`;
+  return `<span class="pill ${dir==='buy'?'buy':'sell'}">${label}</span>`;
+}
+
+function barHtml(pct, dir){
+  const color = dir==='sell' ? 'var(--red)' : 'var(--green)';
+  return `<span class="bar"><span class="bar-track"><span class="bar-fill" style="width:${pct}%; background:${color}"></span></span><span class="muted">${pct}%</span></span>`;
+}
+
+function finalAction(dailyDir, m15){
+  if(!dailyDir) return {label:'—', cls:''};
+  if(!m15) return {label:'Daily only', cls:'wait'};
+  if(dailyDir===m15) return {label: dailyDir==='buy' ? 'CAN BUY' : 'CAN SELL', cls: dailyDir==='buy'?'can-buy':'can-sell'};
+  return {label:'NO TRADE', cls:'wait'};
+}
+
+function renderRow(row){
+  const { symbol, ltp, ema5, ema13, ema21, rsi, efi, signal, direction, pct } = row;
+  const m15 = intradayState[symbol] || null;
+  const fa = finalAction(direction, m15);
+  const chartUrl = `https://www.tradingview.com/chart/?symbol=NSE:${symbol}`;
+
+  return `<tr>
+    <td class="sym">${symbol}<br><a href="${chartUrl}" target="_blank" style="font-size:10.5px;">15-min chart ↗</a></td>
+    <td class="num">${fmt(ltp)}</td>
+    <td class="num" style="color:var(--green)">${fmt(ema5)}</td>
+    <td class="num" style="color:var(--red)">${fmt(ema13)}</td>
+    <td class="num" style="color:var(--blue)">${fmt(ema21)}</td>
+    <td class="num">${fmt(rsi,1)} <span class="muted">${rsi>50?'▲':'▼'}</span></td>
+    <td class="num">${fmt(efi,0)} <span class="muted">${efi>0?'▲':'▼'}</span></td>
+    <td>${pillHtml(direction, signal)} ${direction ? barHtml(pct, direction) : ''}</td>
+    <td>
+      <span class="toggle">
+        <button type="button" class="m15-buy ${m15==='buy'?'active-buy':''}" data-sym="${symbol}" data-val="buy">Buy</button>
+        <button type="button" class="m15-sell ${m15==='sell'?'active-sell':''}" data-sym="${symbol}" data-val="sell">Sell</button>
+        <button type="button" data-sym="${symbol}" data-val="">Clear</button>
+      </span>
+    </td>
+    <td class="final ${fa.cls}">${fa.label}</td>
+  </tr>`;
+}
+
+function renderErrRow(symbol, message){
+  return `<tr><td class="sym">${symbol}</td><td colspan="9" class="muted" style="white-space:normal;">Couldn't scan — ${message}</td></tr>`;
+}
+
+function redraw(){
+  if(!lastData) return;
+  const body = document.getElementById('resultsBody');
+  const rows = lastData.results.map(renderRow).concat(
+    (lastData.errors || []).map(e => renderErrRow(e.symbol, e.error))
+  );
+  body.innerHTML = rows.join('');
+}
+
+async function loadData(){
+  const status = document.getElementById('status');
+  const btn = document.getElementById('reloadBtn');
+  btn.disabled = true;
+  status.className = 'status';
+  status.textContent = 'Loading data.json...';
+  try{
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    lastData = await res.json();
+    document.getElementById('resultsPanel').style.display = 'block';
+    document.getElementById('emptyPanel').style.display = 'none';
+    const genTime = lastData.generated_at ? new Date(lastData.generated_at).toLocaleString() : 'unknown time';
+    document.getElementById('genMeta').textContent = `Last scanned: ${genTime} · ${lastData.results.length} ok${lastData.errors && lastData.errors.length ? `, ${lastData.errors.length} failed` : ''}`;
+    status.textContent = '';
+    redraw();
+  }catch(e){
+    document.getElementById('resultsPanel').style.display = 'none';
+    document.getElementById('emptyPanel').style.display = 'block';
+    status.className = 'status err';
+    status.textContent = `Couldn't load data.json — ${e.message}. Make sure it's in the same folder as this HTML file (or run scan.py first).`;
+  }
+  btn.disabled = false;
+}
+
+document.getElementById('reloadBtn').addEventListener('click', loadData);
+
+document.getElementById('resultsBody').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-sym]');
+  if(!btn) return;
+  const sym = btn.getAttribute('data-sym');
+  const val = btn.getAttribute('data-val') || null;
+  intradayState[sym] = val;
+  redraw();
+});
+
+loadData();
+</script>
+</body>
+</html>
