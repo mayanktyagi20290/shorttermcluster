@@ -4,8 +4,8 @@ Fetches daily NSE data via yfinance (server-side, no CORS issues) and
 writes data.json for the dashboard to read.
 
 Usage:
-    python scan.py RELIANCE TCS INFY HDFCBANK ICICIBANK
-    (or edit WATCHLIST below and run with no args)
+    python scan.py                       (uses WATCHLIST below)
+    python scan.py RELIANCE TCS INFY     (overrides with given symbols)
 """
 
 import sys
@@ -14,7 +14,21 @@ import datetime
 import pandas as pd
 import yfinance as yf
 
-WATCHLIST = ["RELIANCE", "TCS", "INFY", "HDFCBANK", "ICICIBANK"]
+# Nifty 50 constituents (NSE symbols, no .NS suffix — added automatically).
+# Index is rebalanced twice a year (end Jan / end Jul) — update this list
+# after a rebalance if a stock has changed.
+WATCHLIST = [
+    "ADANIENT", "ADANIPORTS", "APOLLOHOSP", "ASIANPAINT", "AXISBANK",
+    "BAJAJ-AUTO", "BAJFINANCE", "BAJAJFINSV", "BEL", "BHARTIARTL",
+    "CIPLA", "COALINDIA", "DRREDDY", "EICHERMOT", "ETERNAL",
+    "GRASIM", "HCLTECH", "HDFCBANK", "HDFCLIFE", "HINDALCO",
+    "HINDUNILVR", "ICICIBANK", "ITC", "INFY", "INDIGO",
+    "JSWSTEEL", "JIOFIN", "KOTAKBANK", "LT", "M&M",
+    "MARUTI", "MAXHEALTH", "NTPC", "NESTLEIND", "ONGC",
+    "POWERGRID", "RELIANCE", "SBILIFE", "SHRIRAMFIN", "SBIN",
+    "SUNPHARMA", "TCS", "TATACONSUM", "TMPV", "TATASTEEL",
+    "TECHM", "TITAN", "TRENT", "ULTRACEMCO", "WIPRO",
+]
 
 
 def ema(series: pd.Series, period: int) -> pd.Series:
@@ -56,17 +70,12 @@ def classify(v5, v13, v21, r, efi):
     return "Neutral", None, 0
 
 
-def scan_symbol(symbol: str):
-    ticker = f"{symbol}.NS"
-    df = yf.download(ticker, period="6mo", interval="1d", progress=False, auto_adjust=True)
-    if df is None or df.empty or len(df) < 25:
-        raise ValueError(f"not enough data for {ticker}")
+def compute_row(symbol: str, close: pd.Series, volume: pd.Series):
+    close = close.dropna()
+    volume = volume.reindex(close.index)
+    if len(close) < 25:
+        raise ValueError(f"not enough history ({len(close)} bars)")
 
-    # yfinance sometimes returns MultiIndex columns for a single ticker
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(0)
-
-    close, volume = df["Close"], df["Volume"]
     e5, e13, e21 = ema(close, 5), ema(close, 13), ema(close, 21)
     r = rsi(close, 14)
     efi = elder_force_index(close, volume, 13)
@@ -93,10 +102,32 @@ def scan_symbol(symbol: str):
 
 def main():
     symbols = sys.argv[1:] if len(sys.argv) > 1 else WATCHLIST
+    tickers = [f"{s}.NS" for s in symbols]
+
+    # Single batched call for all tickers — much faster and gentler on
+    # Yahoo's rate limits than fetching one symbol at a time.
+    raw = yf.download(
+        tickers=tickers,
+        period="6mo",
+        interval="1d",
+        group_by="ticker",
+        auto_adjust=True,
+        threads=True,
+        progress=False,
+    )
+
     results, errors = [], []
-    for sym in symbols:
+    for sym, ticker in zip(symbols, tickers):
         try:
-            results.append(scan_symbol(sym))
+            if len(tickers) == 1:
+                df = raw
+            else:
+                if ticker not in raw.columns.get_level_values(0):
+                    raise ValueError("no data returned")
+                df = raw[ticker]
+            if df is None or df.empty:
+                raise ValueError("empty dataframe")
+            results.append(compute_row(sym, df["Close"], df["Volume"]))
         except Exception as e:
             errors.append({"symbol": sym, "error": str(e)})
 
