@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-09-08T03:16:16.704069Z",
+  "generated_at": "2026-09-08T12:54:53.934861Z",
   "results": [
     {
       "symbol": "IDBI",
-      "ltp": 90.75,
+      "ltp": 81.11,
       "short": {
-        "ema5": 91.07,
-        "ema13": 89.7,
-        "ema21": 88.37,
-        "rsi": 59.9,
-        "efi": 26048542.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
+        "ema5": 87.75,
+        "ema13": 88.48,
+        "ema21": 87.71,
+        "rsi": 37.2,
+        "efi": -72736347.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
       },
       "long": {
-        "sma20": 87.1,
-        "sma50": 85.46,
-        "sma100": 80.83,
-        "sma200": 88.59,
-        "rsi": 59.9,
-        "macd_hist": 0.33,
-        "vol_ratio": 0.64,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+        "sma20": 87.03,
+        "sma50": 85.42,
+        "sma100": 80.89,
+        "sma200": 88.49,
+        "rsi": 37.2,
+        "macd_hist": -0.43,
+        "vol_ratio": 4.39,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
       }
     },
     {
       "symbol": "MEESHO",
-      "ltp": 209.0,
+      "ltp": 211.06,
       "short": {
-        "ema5": 208.66,
-        "ema13": 205.52,
-        "ema21": 202.3,
-        "rsi": 63.1,
-        "efi": 20787564.0,
+        "ema5": 209.82,
+        "ema13": 206.9,
+        "ema21": 203.76,
+        "rsi": 65.3,
+        "efi": 19715323.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": null,
-      "long_error": "not enough history for 200 SMA (186 bars)"
+      "long_error": "not enough history for 200 SMA (188 bars)"
     },
     {
       "symbol": "ASTERDM",
-      "ltp": 785.75,
+      "ltp": 790.35,
       "short": {
-        "ema5": 773.92,
-        "ema13": 775.75,
-        "ema21": 783.3,
-        "rsi": 49.5,
-        "efi": -31644852.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
+        "ema5": 779.4,
+        "ema13": 777.84,
+        "ema21": 783.94,
+        "rsi": 51.4,
+        "efi": -26770809.0,
+        "signal": "Buy (anticipatory)",
+        "direction": "buy",
+        "pct": 40
       },
       "long": {
-        "sma20": 789.49,
-        "sma50": 800.69,
-        "sma100": 773.67,
-        "sma200": 698.6,
-        "rsi": 49.5,
-        "macd_hist": 0.27,
-        "vol_ratio": 0.2,
+        "sma20": 785.65,
+        "sma50": 801.19,
+        "sma100": 774.77,
+        "sma200": 699.24,
+        "rsi": 51.4,
+        "macd_hist": 1.9,
+        "vol_ratio": 0.09,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -71,25 +71,25 @@
     },
     {
       "symbol": "WELCORP",
-      "ltp": 2597.9,
+      "ltp": 2599.5,
       "short": {
-        "ema5": 2559.89,
-        "ema13": 2406.58,
-        "ema21": 2271.49,
+        "ema5": 2573.09,
+        "ema13": 2434.14,
+        "ema21": 2301.31,
         "rsi": 77.9,
-        "efi": 270724469.0,
+        "efi": 232290366.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 2234.55,
-        "sma50": 1875.31,
-        "sma100": 1602.31,
-        "sma200": 1209.96,
+        "sma20": 2272.68,
+        "sma50": 1896.86,
+        "sma100": 1617.33,
+        "sma200": 1218.63,
         "rsi": 77.9,
-        "macd_hist": 23.94,
-        "vol_ratio": 0.51,
+        "macd_hist": 16.99,
+        "vol_ratio": 0.35,
         "signal": "Bullish",
         "direction": "buy",
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
@@ -97,93 +97,103 @@
     },
     {
       "symbol": "RBLBANK",
-      "ltp": 414.35,
+      "ltp": 418.5,
       "short": {
-        "ema5": 399.72,
-        "ema13": 391.51,
-        "ema21": 387.91,
-        "rsi": 73.2,
-        "efi": 56798389.0,
+        "ema5": 405.98,
+        "ema13": 395.36,
+        "ema21": 390.69,
+        "rsi": 74.9,
+        "efi": 49866014.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 388.21,
-        "sma50": 376.77,
-        "sma100": 360.06,
-        "sma200": 333.51,
-        "rsi": 73.2,
-        "macd_hist": 1.88,
-        "vol_ratio": 2.52,
+        "sma20": 389.63,
+        "sma50": 377.88,
+        "sma100": 361.08,
+        "sma200": 334.04,
+        "rsi": 74.9,
+        "macd_hist": 2.83,
+        "vol_ratio": 0.64,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "PIRAMALFIN",
+      "ltp": 2298.5,
+      "short": {
+        "ema5": 2257.82,
+        "ema13": 2222.1,
+        "ema21": 2195.0,
+        "rsi": 65.4,
+        "efi": 2435266.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 2175.88,
+        "sma50": 2142.61,
+        "sma100": 2055.56,
+        "sma200": 1881.05,
+        "rsi": 65.4,
+        "macd_hist": 8.13,
+        "vol_ratio": 1.22,
         "signal": "Strong Bullish",
         "direction": "buy",
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
       }
     },
     {
-      "symbol": "PIRAMALFIN",
-      "ltp": 2225.0,
-      "short": {
-        "ema5": 2225.72,
-        "ema13": 2200.76,
-        "ema21": 2177.01,
-        "rsi": 58.2,
-        "efi": -3199865.0,
-        "signal": "Buy (confirmed)",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": null,
-      "long_error": "not enough history for 200 SMA (209 bars)"
-    },
-    {
       "symbol": "HINDCOPPER",
-      "ltp": 509.1,
+      "ltp": 532.85,
       "short": {
-        "ema5": 519.37,
-        "ema13": 529.31,
-        "ema21": 530.16,
-        "rsi": 42.6,
-        "efi": -25115851.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 541.8,
-        "sma50": 514.29,
-        "sma100": 526.77,
-        "sma200": 514.7,
-        "rsi": 42.6,
-        "macd_hist": -6.08,
-        "vol_ratio": 0.36,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "SONACOMS",
-      "ltp": 788.0,
-      "short": {
-        "ema5": 794.13,
-        "ema13": 799.76,
-        "ema21": 794.84,
-        "rsi": 50.2,
-        "efi": -4443164.0,
+        "ema5": 523.86,
+        "ema13": 529.81,
+        "ema21": 530.41,
+        "rsi": 51.3,
+        "efi": 62863858.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 806.1,
-        "sma50": 750.54,
-        "sma100": 672.51,
-        "sma200": 586.63,
-        "rsi": 50.2,
-        "macd_hist": -7.72,
-        "vol_ratio": 0.66,
+        "sma20": 541.78,
+        "sma50": 514.93,
+        "sma100": 526.58,
+        "sma200": 515.79,
+        "rsi": 51.3,
+        "macd_hist": -4.58,
+        "vol_ratio": 1.42,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "SONACOMS",
+      "ltp": 804.0,
+      "short": {
+        "ema5": 797.42,
+        "ema13": 800.36,
+        "ema21": 795.67,
+        "rsi": 55.6,
+        "efi": -1208682.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
+      },
+      "long": {
+        "sma20": 806.3,
+        "sma50": 754.22,
+        "sma100": 674.75,
+        "sma200": 588.15,
+        "rsi": 55.6,
+        "macd_hist": -6.55,
+        "vol_ratio": 0.65,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -191,25 +201,25 @@
     },
     {
       "symbol": "GLAND",
-      "ltp": 2974.3,
+      "ltp": 2959.3,
       "short": {
-        "ema5": 2925.01,
-        "ema13": 2881.32,
-        "ema21": 2832.9,
-        "rsi": 70.1,
-        "efi": 34832923.0,
+        "ema5": 2936.44,
+        "ema13": 2892.46,
+        "ema21": 2844.39,
+        "rsi": 67.9,
+        "efi": 28336398.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 2886.88,
-        "sma50": 2640.74,
-        "sma100": 2359.8,
-        "sma200": 2041.15,
-        "rsi": 70.1,
-        "macd_hist": -6.1,
-        "vol_ratio": 1.05,
+        "sma20": 2888.62,
+        "sma50": 2650.4,
+        "sma100": 2371.71,
+        "sma200": 2046.93,
+        "rsi": 67.9,
+        "macd_hist": -5.33,
+        "vol_ratio": 1.22,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -217,25 +227,25 @@
     },
     {
       "symbol": "AEGISLOG",
-      "ltp": 1253.7,
+      "ltp": 1268.1,
       "short": {
-        "ema5": 1264.62,
-        "ema13": 1283.84,
-        "ema21": 1291.88,
-        "rsi": 45.7,
-        "efi": 1387449.0,
+        "ema5": 1265.78,
+        "ema13": 1281.59,
+        "ema21": 1289.72,
+        "rsi": 47.5,
+        "efi": 1839290.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 1298.32,
-        "sma50": 1308.16,
-        "sma100": 1053.93,
-        "sma200": 871.72,
-        "rsi": 45.7,
-        "macd_hist": -10.97,
-        "vol_ratio": 0.47,
+        "sma20": 1296.85,
+        "sma50": 1310.17,
+        "sma100": 1059.37,
+        "sma200": 874.19,
+        "rsi": 47.5,
+        "macd_hist": -9.14,
+        "vol_ratio": 0.41,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -243,51 +253,51 @@
     },
     {
       "symbol": "NAVINFLUOR",
-      "ltp": 8603.5,
+      "ltp": 8731.0,
       "short": {
-        "ema5": 8592.41,
-        "ema13": 8490.66,
-        "ema21": 8375.34,
-        "rsi": 60.7,
-        "efi": 21534371.0,
+        "ema5": 8638.61,
+        "ema13": 8524.99,
+        "ema21": 8407.67,
+        "rsi": 63.9,
+        "efi": 20616261.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 8396.67,
-        "sma50": 7978.47,
-        "sma100": 7517.39,
-        "sma200": 6797.6,
-        "rsi": 60.7,
-        "macd_hist": -0.1,
-        "vol_ratio": 0.56,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
+        "sma20": 8425.42,
+        "sma50": 7999.35,
+        "sma100": 7541.04,
+        "sma200": 6811.4,
+        "rsi": 63.9,
+        "macd_hist": 2.64,
+        "vol_ratio": 0.91,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       }
     },
     {
       "symbol": "POONAWALLA",
-      "ltp": 459.15,
+      "ltp": 455.25,
       "short": {
-        "ema5": 464.31,
-        "ema13": 470.81,
-        "ema21": 473.31,
-        "rsi": 41.3,
-        "efi": -1299096.0,
+        "ema5": 461.29,
+        "ema13": 468.59,
+        "ema21": 471.67,
+        "rsi": 39.4,
+        "efi": -1346283.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 480.34,
-        "sma50": 473.7,
-        "sma100": 443.15,
-        "sma200": 442.35,
-        "rsi": 41.3,
-        "macd_hist": -3.51,
-        "vol_ratio": 0.46,
+        "sma20": 478.74,
+        "sma50": 473.99,
+        "sma100": 443.48,
+        "sma200": 442.27,
+        "rsi": 39.4,
+        "macd_hist": -3.58,
+        "vol_ratio": 0.44,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -295,25 +305,25 @@
     },
     {
       "symbol": "NH",
-      "ltp": 1858.5,
+      "ltp": 1897.4,
       "short": {
-        "ema5": 1889.03,
-        "ema13": 1886.37,
-        "ema21": 1889.52,
-        "rsi": 44.1,
-        "efi": -367120.0,
-        "signal": "Buy (anticipatory)",
+        "ema5": 1891.82,
+        "ema13": 1887.95,
+        "ema21": 1890.24,
+        "rsi": 50.4,
+        "efi": 387016.0,
+        "signal": "Buy (confirmed)",
         "direction": "buy",
-        "pct": 40
+        "pct": 100
       },
       "long": {
-        "sma20": 1859.42,
-        "sma50": 1937.04,
-        "sma100": 1900.58,
-        "sma200": 1857.51,
-        "rsi": 44.1,
-        "macd_hist": 7.54,
-        "vol_ratio": 0.72,
+        "sma20": 1862.56,
+        "sma50": 1937.01,
+        "sma100": 1901.6,
+        "sma200": 1856.93,
+        "rsi": 50.4,
+        "macd_hist": 7.12,
+        "vol_ratio": 0.47,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -321,1398 +331,24 @@
     },
     {
       "symbol": "ANANDRATHI",
-      "ltp": 2215.9,
+      "ltp": 2229.5,
       "short": {
-        "ema5": 2204.82,
-        "ema13": 2189.42,
-        "ema21": 2170.61,
-        "rsi": 66.6,
-        "efi": 1180539.0,
+        "ema5": 2213.05,
+        "ema13": 2195.15,
+        "ema21": 2175.96,
+        "rsi": 68.9,
+        "efi": 1244179.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 2184.99,
-        "sma50": 2109.0,
-        "sma100": 1953.21,
-        "sma200": 1740.4,
-        "rsi": 66.6,
-        "macd_hist": -2.67,
-        "vol_ratio": 0.57,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "PWL",
-      "ltp": 126.42,
-      "short": {
-        "ema5": 121.13,
-        "ema13": 121.01,
-        "ema21": 122.0,
-        "rsi": 55.5,
-        "efi": 64601051.0,
-        "signal": "Buy (anticipatory)",
-        "direction": "buy",
-        "pct": 40
-      },
-      "long": null,
-      "long_error": "not enough history for 200 SMA (202 bars)"
-    },
-    {
-      "symbol": "DELHIVERY",
-      "ltp": 457.9,
-      "short": {
-        "ema5": 459.32,
-        "ema13": 459.03,
-        "ema21": 460.99,
-        "rsi": 47.1,
-        "efi": 2591308.0,
-        "signal": "Buy (anticipatory)",
-        "direction": "buy",
-        "pct": 40
-      },
-      "long": {
-        "sma20": 458.97,
-        "sma50": 476.3,
-        "sma100": 467.46,
-        "sma200": 443.44,
-        "rsi": 47.1,
-        "macd_hist": 1.4,
-        "vol_ratio": 0.69,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "WOCKPHARMA",
-      "ltp": 2208.0,
-      "short": {
-        "ema5": 2051.42,
-        "ema13": 1973.12,
-        "ema21": 1950.1,
-        "rsi": 70.3,
-        "efi": 141148576.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1920.58,
-        "sma50": 1914.32,
-        "sma100": 1825.1,
-        "sma200": 1586.67,
-        "rsi": 70.3,
-        "macd_hist": 27.34,
-        "vol_ratio": 4.4,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
-      }
-    },
-    {
-      "symbol": "HSCL",
-      "ltp": 672.65,
-      "short": {
-        "ema5": 669.64,
-        "ema13": 681.62,
-        "ema21": 694.22,
-        "rsi": 42.0,
-        "efi": -45582350.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 704.68,
-        "sma50": 715.7,
-        "sma100": 668.7,
-        "sma200": 565.47,
-        "rsi": 42.0,
-        "macd_hist": -3.32,
-        "vol_ratio": 0.33,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "KARURVYSYA",
-      "ltp": 341.7,
-      "short": {
-        "ema5": 345.96,
-        "ema13": 344.39,
-        "ema21": 341.49,
-        "rsi": 52.9,
-        "efi": 3787863.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 341.12,
-        "sma50": 327.64,
-        "sma100": 308.79,
-        "sma200": 293.31,
-        "rsi": 52.9,
-        "macd_hist": -0.66,
-        "vol_ratio": 0.77,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "SAILIFE",
-      "ltp": 1584.3,
-      "short": {
-        "ema5": 1552.95,
-        "ema13": 1504.5,
-        "ema21": 1470.37,
-        "rsi": 71.4,
-        "efi": 33173104.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1474.62,
-        "sma50": 1358.99,
-        "sma100": 1244.53,
-        "sma200": 1083.56,
-        "rsi": 71.4,
-        "macd_hist": 7.87,
-        "vol_ratio": 0.71,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "NUVAMA",
-      "ltp": 1815.6,
-      "short": {
-        "ema5": 1812.57,
-        "ema13": 1785.96,
-        "ema21": 1776.49,
-        "rsi": 56.2,
-        "efi": 9609798.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1750.21,
-        "sma50": 1804.96,
-        "sma100": 1661.53,
-        "sma200": 1496.32,
-        "rsi": 56.2,
-        "macd_hist": 12.57,
-        "vol_ratio": 0.69,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "STARHEALTH",
-      "ltp": 557.35,
-      "short": {
-        "ema5": 562.54,
-        "ema13": 570.19,
-        "ema21": 574.0,
-        "rsi": 36.2,
-        "efi": -520034.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 576.23,
-        "sma50": 584.0,
-        "sma100": 556.05,
-        "sma200": 509.12,
-        "rsi": 36.2,
-        "macd_hist": -2.69,
-        "vol_ratio": 0.8,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "TATATECH",
-      "ltp": 800.0,
-      "short": {
-        "ema5": 808.42,
-        "ema13": 812.45,
-        "ema21": 808.98,
-        "rsi": 48.8,
-        "efi": 9790265.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 827.25,
-        "sma50": 773.17,
-        "sma100": 720.93,
-        "sma200": 664.36,
-        "rsi": 48.8,
-        "macd_hist": -5.57,
-        "vol_ratio": 0.79,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "MANAPPURAM",
-      "ltp": 325.6,
-      "short": {
-        "ema5": 336.43,
-        "ema13": 343.79,
-        "ema21": 346.44,
-        "rsi": 34.9,
-        "efi": -25521926.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 348.35,
-        "sma50": 346.48,
-        "sma100": 327.68,
-        "sma200": 305.78,
-        "rsi": 34.9,
-        "macd_hist": -3.22,
-        "vol_ratio": 1.36,
-        "signal": "Bearish",
-        "direction": "sell",
-        "stage": "Below 50/100 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "LALPATHLAB",
-      "ltp": 1877.5,
-      "short": {
-        "ema5": 1906.35,
-        "ema13": 1909.81,
-        "ema21": 1898.76,
-        "rsi": 48.4,
-        "efi": -1922641.0,
-        "signal": "Sell (anticipatory)",
-        "direction": "sell",
-        "pct": 60
-      },
-      "long": {
-        "sma20": 1917.58,
-        "sma50": 1816.89,
-        "sma100": 1691.68,
-        "sma200": 1550.48,
-        "rsi": 48.4,
-        "macd_hist": -10.03,
-        "vol_ratio": 1.4,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "NETWEB",
-      "ltp": 5193.0,
-      "short": {
-        "ema5": 5207.51,
-        "ema13": 5197.83,
-        "ema21": 5121.03,
-        "rsi": 54.5,
-        "efi": 64720851.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 5196.71,
-        "sma50": 4726.07,
-        "sma100": 4514.66,
-        "sma200": 3888.52,
-        "rsi": 54.5,
-        "macd_hist": -38.7,
-        "vol_ratio": 0.88,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "MRPL",
-      "ltp": 173.19,
-      "short": {
-        "ema5": 173.77,
-        "ema13": 173.24,
-        "ema21": 172.51,
-        "rsi": 52.0,
-        "efi": 12932566.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 174.15,
-        "sma50": 167.34,
-        "sma100": 163.03,
-        "sma200": 165.45,
-        "rsi": 52.0,
-        "macd_hist": -0.31,
-        "vol_ratio": 0.2,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "PNBHOUSING",
-      "ltp": 1166.0,
-      "short": {
-        "ema5": 1156.3,
-        "ema13": 1156.7,
-        "ema21": 1149.07,
-        "rsi": 58.0,
-        "efi": 4420328.0,
-        "signal": "Sell (anticipatory)",
-        "direction": "sell",
-        "pct": 60
-      },
-      "long": {
-        "sma20": 1160.69,
-        "sma50": 1110.38,
-        "sma100": 1066.23,
-        "sma200": 965.38,
-        "rsi": 58.0,
-        "macd_hist": -5.38,
-        "vol_ratio": 1.16,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "IKS",
-      "ltp": 1759.9,
-      "short": {
-        "ema5": 1748.74,
-        "ema13": 1761.99,
-        "ema21": 1772.82,
-        "rsi": 46.9,
-        "efi": -356844.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1775.43,
-        "sma50": 1810.51,
-        "sma100": 1721.98,
-        "sma200": 1643.28,
-        "rsi": 46.9,
-        "macd_hist": -4.08,
-        "vol_ratio": 1.48,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "CDSL",
-      "ltp": 1394.6,
-      "short": {
-        "ema5": 1391.68,
-        "ema13": 1385.66,
-        "ema21": 1377.24,
-        "rsi": 55.7,
-        "efi": 10285471.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1373.04,
-        "sma50": 1359.25,
-        "sma100": 1304.15,
-        "sma200": 1333.22,
-        "rsi": 55.7,
-        "macd_hist": 0.16,
-        "vol_ratio": 0.88,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "NEULANDLAB",
-      "ltp": 22660.0,
-      "short": {
-        "ema5": 22897.61,
-        "ema13": 22906.51,
-        "ema21": 22556.23,
-        "rsi": 55.6,
-        "efi": 10762628.0,
-        "signal": "Sell (anticipatory)",
-        "direction": "sell",
-        "pct": 60
-      },
-      "long": {
-        "sma20": 23102.1,
-        "sma50": 20745.44,
-        "sma100": 18651.09,
-        "sma200": 16409.19,
-        "rsi": 55.6,
-        "macd_hist": -224.49,
-        "vol_ratio": 0.4,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "REDINGTON",
-      "ltp": 378.2,
-      "short": {
-        "ema5": 369.79,
-        "ema13": 360.32,
-        "ema21": 351.63,
-        "rsi": 67.4,
-        "efi": 45503477.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 352.78,
-        "sma50": 316.46,
-        "sma100": 272.97,
-        "sma200": 261.9,
-        "rsi": 67.4,
-        "macd_hist": 0.01,
-        "vol_ratio": 0.96,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "GRSE",
-      "ltp": 2533.2,
-      "short": {
-        "ema5": 2535.78,
-        "ema13": 2566.85,
-        "ema21": 2580.7,
-        "rsi": 42.3,
-        "efi": 926944.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 2592.4,
-        "sma50": 2614.94,
-        "sma100": 2686.68,
-        "sma200": 2564.7,
-        "rsi": 42.3,
-        "macd_hist": -10.09,
-        "vol_ratio": 0.69,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "CHOLAHLDNG",
-      "ltp": 1525.7,
-      "short": {
-        "ema5": 1507.99,
-        "ema13": 1522.95,
-        "ema21": 1535.87,
-        "rsi": 46.4,
-        "efi": -251101.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1547.43,
-        "sma50": 1576.42,
-        "sma100": 1585.76,
-        "sma200": 1644.78,
-        "rsi": 46.4,
-        "macd_hist": -4.31,
-        "vol_ratio": 0.51,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "PPLPHARMA",
-      "ltp": 214.22,
-      "short": {
-        "ema5": 214.14,
-        "ema13": 212.7,
-        "ema21": 209.84,
-        "rsi": 59.7,
-        "efi": 2415030.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 212.32,
-        "sma50": 194.77,
-        "sma100": 181.44,
-        "sma200": 171.7,
-        "rsi": 59.7,
-        "macd_hist": -1.02,
-        "vol_ratio": 0.65,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "URBANCO",
-      "ltp": 181.09,
-      "short": {
-        "ema5": 174.63,
-        "ema13": 166.4,
-        "ema21": 160.2,
-        "rsi": 82.3,
-        "efi": 73264436.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 157.59,
-        "sma50": 143.45,
-        "sma100": 137.27,
-        "sma200": 130.83,
-        "rsi": 82.3,
-        "macd_hist": 1.71,
-        "vol_ratio": 0.45,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "IIFL",
-      "ltp": 654.05,
-      "short": {
-        "ema5": 648.53,
-        "ema13": 645.7,
-        "ema21": 638.13,
-        "rsi": 57.9,
-        "efi": 11075485.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 644.56,
-        "sma50": 596.79,
-        "sma100": 538.72,
-        "sma200": 535.63,
-        "rsi": 57.9,
-        "macd_hist": -3.71,
-        "vol_ratio": 1.6,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "IFCI",
-      "ltp": 102.51,
-      "short": {
-        "ema5": 97.82,
-        "ema13": 91.23,
-        "ema21": 87.42,
-        "rsi": 76.9,
-        "efi": 740178453.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 85.4,
-        "sma50": 78.67,
-        "sma100": 74.07,
-        "sma200": 64.43,
-        "rsi": 76.9,
-        "macd_hist": 1.9,
-        "vol_ratio": 2.24,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
-      }
-    },
-    {
-      "symbol": "ANGELONE",
-      "ltp": 299.8,
-      "short": {
-        "ema5": 290.37,
-        "ema13": 290.79,
-        "ema21": 293.3,
-        "rsi": 53.3,
-        "efi": 53948209.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 290.88,
-        "sma50": 308.85,
-        "sma100": 318.22,
-        "sma200": 283.59,
-        "rsi": 53.3,
-        "macd_hist": 1.25,
-        "vol_ratio": 4.48,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "CGCL",
-      "ltp": 275.7,
-      "short": {
-        "ema5": 269.09,
-        "ema13": 256.26,
-        "ema21": 249.81,
-        "rsi": 67.5,
-        "efi": 71016678.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 243.51,
-        "sma50": 241.32,
-        "sma100": 219.43,
-        "sma200": 197.86,
-        "rsi": 67.5,
-        "macd_hist": 4.36,
-        "vol_ratio": 0.84,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "BANDHANBNK",
-      "ltp": 164.7,
-      "short": {
-        "ema5": 164.74,
-        "ema13": 167.22,
-        "ema21": 169.72,
-        "rsi": 37.2,
-        "efi": -6855151.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 169.86,
-        "sma50": 181.44,
-        "sma100": 189.81,
-        "sma200": 172.55,
-        "rsi": 37.2,
-        "macd_hist": 0.02,
-        "vol_ratio": 0.97,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "AMBER",
-      "ltp": 7474.0,
-      "short": {
-        "ema5": 7474.76,
-        "ema13": 7455.36,
-        "ema21": 7437.81,
-        "rsi": 51.7,
-        "efi": 7914343.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 7355.93,
-        "sma50": 7464.95,
-        "sma100": 7648.14,
-        "sma200": 7237.78,
-        "rsi": 51.7,
-        "macd_hist": 16.4,
-        "vol_ratio": 0.38,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "ITI",
-      "ltp": 272.5,
-      "short": {
-        "ema5": 270.98,
-        "ema13": 273.84,
-        "ema21": 275.98,
-        "rsi": 41.2,
-        "efi": 69837.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 277.2,
-        "sma50": 282.3,
-        "sma100": 290.27,
-        "sma200": 289.29,
-        "rsi": 41.2,
-        "macd_hist": -0.61,
-        "vol_ratio": 0.85,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "DATAPATTNS",
-      "ltp": 4585.0,
-      "short": {
-        "ema5": 4575.27,
-        "ema13": 4589.99,
-        "ema21": 4574.28,
-        "rsi": 51.2,
-        "efi": 20314900.0,
-        "signal": "Sell (anticipatory)",
-        "direction": "sell",
-        "pct": 60
-      },
-      "long": {
-        "sma20": 4597.14,
-        "sma50": 4476.17,
-        "sma100": 4321.53,
-        "sma200": 3597.19,
-        "rsi": 51.2,
-        "macd_hist": -19.08,
-        "vol_ratio": 0.5,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "KAYNES",
-      "ltp": 3598.0,
-      "short": {
-        "ema5": 3622.63,
-        "ema13": 3711.33,
-        "ema21": 3710.69,
-        "rsi": 45.5,
-        "efi": -24135845.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 3762.33,
-        "sma50": 3551.77,
-        "sma100": 3557.79,
-        "sma200": 3782.15,
-        "rsi": 45.5,
-        "macd_hist": -54.44,
-        "vol_ratio": 0.9,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "CUB",
-      "ltp": 238.48,
-      "short": {
-        "ema5": 234.56,
-        "ema13": 228.77,
-        "ema21": 225.26,
-        "rsi": 63.4,
-        "efi": 8897439.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 222.97,
-        "sma50": 219.81,
-        "sma100": 206.44,
-        "sma200": 204.19,
-        "rsi": 63.4,
-        "macd_hist": 1.69,
-        "vol_ratio": 2.37,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
-      }
-    },
-    {
-      "symbol": "NBCC",
-      "ltp": 86.0,
-      "short": {
-        "ema5": 86.25,
-        "ema13": 87.25,
-        "ema21": 88.51,
-        "rsi": 34.9,
-        "efi": -1313504.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 88.07,
-        "sma50": 93.21,
-        "sma100": 96.11,
-        "sma200": 97.97,
-        "rsi": 34.9,
-        "macd_hist": 0.1,
-        "vol_ratio": 0.34,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "FORCEMOT",
-      "ltp": 17500.0,
-      "short": {
-        "ema5": 17536.81,
-        "ema13": 17658.78,
-        "ema21": 17771.76,
-        "rsi": 43.1,
-        "efi": 1072764.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 17907.8,
-        "sma50": 18030.74,
-        "sma100": 18696.24,
-        "sma200": 19584.29,
-        "rsi": 43.1,
-        "macd_hist": -28.74,
-        "vol_ratio": 0.64,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "CREDITACC",
-      "ltp": 1443.1,
-      "short": {
-        "ema5": 1423.94,
-        "ema13": 1440.82,
-        "ema21": 1460.16,
-        "rsi": 45.5,
-        "efi": -105084.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1473.88,
-        "sma50": 1509.31,
-        "sma100": 1422.0,
-        "sma200": 1345.75,
-        "rsi": 45.5,
-        "macd_hist": -5.12,
-        "vol_ratio": 0.78,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "JYOTICNC",
-      "ltp": 1003.9,
-      "short": {
-        "ema5": 1000.76,
-        "ema13": 977.31,
-        "ema21": 947.75,
-        "rsi": 62.2,
-        "efi": 31033253.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 939.18,
-        "sma50": 854.93,
-        "sma100": 778.78,
-        "sma200": 822.48,
-        "rsi": 62.2,
-        "macd_hist": -0.27,
-        "vol_ratio": 0.74,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "AFFLE",
-      "ltp": 1616.5,
-      "short": {
-        "ema5": 1580.37,
-        "ema13": 1615.04,
-        "ema21": 1622.56,
-        "rsi": 49.7,
-        "efi": 42904170.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1651.92,
-        "sma50": 1579.01,
-        "sma100": 1523.06,
-        "sma200": 1547.44,
-        "rsi": 49.7,
-        "macd_hist": -21.14,
-        "vol_ratio": 8.23,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "BRIGADE",
-      "ltp": 696.1,
-      "short": {
-        "ema5": 677.15,
-        "ema13": 652.69,
-        "ema21": 635.01,
-        "rsi": 69.2,
-        "efi": 46049432.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 632.04,
-        "sma50": 580.29,
-        "sma100": 557.09,
-        "sma200": 571.85,
-        "rsi": 69.2,
-        "macd_hist": 4.41,
-        "vol_ratio": 2.16,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
-      }
-    },
-    {
-      "symbol": "ANANTRAJ",
-      "ltp": 638.25,
-      "short": {
-        "ema5": 621.75,
-        "ema13": 615.83,
-        "ema21": 613.71,
-        "rsi": 62.4,
-        "efi": 98492929.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 617.05,
-        "sma50": 598.74,
-        "sma100": 558.32,
-        "sma200": 540.75,
-        "rsi": 62.4,
-        "macd_hist": 0.15,
-        "vol_ratio": 1.78,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
-      }
-    },
-    {
-      "symbol": "IGL",
-      "ltp": 158.04,
-      "short": {
-        "ema5": 152.02,
-        "ema13": 150.66,
-        "ema21": 150.88,
-        "rsi": 63.4,
-        "efi": 11588597.0,
-        "signal": "Buy (confirmed)",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 150.52,
-        "sma50": 152.36,
-        "sma100": 158.16,
-        "sma200": 165.77,
-        "rsi": 63.4,
-        "macd_hist": 0.74,
-        "vol_ratio": 3.1,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "SAGILITY",
-      "ltp": 46.82,
-      "short": {
-        "ema5": 46.48,
-        "ema13": 45.34,
-        "ema21": 44.64,
-        "rsi": 69.3,
-        "efi": 17817647.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 44.13,
-        "sma50": 42.82,
-        "sma100": 41.99,
-        "sma200": 44.32,
-        "rsi": 69.3,
-        "macd_hist": 0.33,
-        "vol_ratio": 0.46,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "TENNIND",
-      "ltp": 517.55,
-      "short": {
-        "ema5": 522.48,
-        "ema13": 533.62,
-        "ema21": 539.66,
-        "rsi": 35.8,
-        "efi": -7639237.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": null,
-      "long_error": "not enough history for 200 SMA (201 bars)"
-    },
-    {
-      "symbol": "RAMCOCEM",
-      "ltp": 884.5,
-      "short": {
-        "ema5": 881.78,
-        "ema13": 892.46,
-        "ema21": 899.37,
-        "rsi": 44.3,
-        "efi": -1286015.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 904.01,
-        "sma50": 916.71,
-        "sma100": 913.12,
-        "sma200": 979.54,
-        "rsi": 44.3,
-        "macd_hist": -3.43,
-        "vol_ratio": 0.29,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "GESHIP",
-      "ltp": 1376.7,
-      "short": {
-        "ema5": 1353.84,
-        "ema13": 1337.56,
-        "ema21": 1336.75,
-        "rsi": 56.7,
-        "efi": 9747368.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1317.95,
-        "sma50": 1357.82,
-        "sma100": 1422.44,
-        "sma200": 1318.15,
-        "rsi": 56.7,
-        "macd_hist": 9.62,
-        "vol_ratio": 0.96,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "CESC",
-      "ltp": 146.5,
-      "short": {
-        "ema5": 147.4,
-        "ema13": 150.51,
-        "ema21": 152.62,
-        "rsi": 32.9,
-        "efi": -1040084.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 154.19,
-        "sma50": 157.1,
-        "sma100": 164.87,
-        "sma200": 159.38,
-        "rsi": 32.9,
-        "macd_hist": -0.9,
-        "vol_ratio": 0.78,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "HBLENGINE",
-      "ltp": 703.9,
-      "short": {
-        "ema5": 684.96,
-        "ema13": 682.18,
-        "ema21": 687.92,
-        "rsi": 53.6,
-        "efi": 55440446.0,
-        "signal": "Buy (anticipatory)",
-        "direction": "buy",
-        "pct": 40
-      },
-      "long": {
-        "sma20": 682.07,
-        "sma50": 720.2,
-        "sma100": 758.97,
-        "sma200": 766.12,
-        "rsi": 53.6,
-        "macd_hist": 4.08,
-        "vol_ratio": 0.62,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "PINELABS",
-      "ltp": 166.37,
-      "short": {
-        "ema5": 162.6,
-        "ema13": 162.08,
-        "ema21": 160.85,
-        "rsi": 56.3,
-        "efi": 74369592.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": null,
-      "long_error": "not enough history for 200 SMA (204 bars)"
-    },
-    {
-      "symbol": "CASTROLIND",
-      "ltp": 189.01,
-      "short": {
-        "ema5": 187.96,
-        "ema13": 187.01,
-        "ema21": 186.27,
-        "rsi": 62.8,
-        "efi": 2143555.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 187.11,
-        "sma50": 182.63,
-        "sma100": 180.31,
-        "sma200": 177.95,
-        "rsi": 62.8,
-        "macd_hist": -0.04,
-        "vol_ratio": 0.86,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "FSL",
-      "ltp": 259.6,
-      "short": {
-        "ema5": 264.19,
-        "ema13": 268.08,
-        "ema21": 270.25,
-        "rsi": 40.9,
-        "efi": -2761616.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 269.63,
-        "sma50": 269.21,
-        "sma100": 256.9,
-        "sma200": 269.02,
-        "rsi": 40.9,
-        "macd_hist": -1.57,
-        "vol_ratio": 0.79,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "CAMS",
-      "ltp": 748.8,
-      "short": {
-        "ema5": 750.45,
-        "ema13": 755.39,
-        "ema21": 759.93,
-        "rsi": 44.5,
-        "efi": 6898862.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 760.14,
-        "sma50": 771.27,
-        "sma100": 771.05,
-        "sma200": 740.19,
-        "rsi": 44.5,
-        "macd_hist": -0.75,
-        "vol_ratio": 0.36,
-        "signal": "Bearish",
-        "direction": "sell",
-        "stage": "Below 50/100 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "TRITURBINE",
-      "ltp": 577.3,
-      "short": {
-        "ema5": 574.1,
-        "ema13": 577.95,
-        "ema21": 584.24,
-        "rsi": 44.0,
-        "efi": -789349.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 581.83,
-        "sma50": 608.65,
-        "sma100": 622.39,
-        "sma200": 559.54,
-        "rsi": 44.0,
-        "macd_hist": 1.11,
-        "vol_ratio": 0.38,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "SARDAEN",
-      "ltp": 508.55,
-      "short": {
-        "ema5": 503.9,
-        "ema13": 505.27,
-        "ema21": 506.0,
-        "rsi": 51.4,
-        "efi": 10184371.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 507.59,
-        "sma50": 503.6,
-        "sma100": 526.44,
-        "sma200": 517.85,
-        "rsi": 51.4,
-        "macd_hist": -0.75,
-        "vol_ratio": 0.35,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "GMDCLTD",
-      "ltp": 557.6,
-      "short": {
-        "ema5": 561.62,
-        "ema13": 565.76,
-        "ema21": 568.95,
-        "rsi": 42.0,
-        "efi": 547412.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 571.8,
-        "sma50": 577.26,
-        "sma100": 617.03,
-        "sma200": 590.6,
-        "rsi": 42.0,
-        "macd_hist": -0.66,
-        "vol_ratio": 0.4,
-        "signal": "Strong Bearish",
-        "direction": "sell",
-        "stage": "Below 20/50/100/200 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "AARTIIND",
-      "ltp": 492.05,
-      "short": {
-        "ema5": 507.67,
-        "ema13": 517.69,
-        "ema21": 516.67,
-        "rsi": 38.6,
-        "efi": -853607.0,
-        "signal": "Sell (confirmed)",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 524.64,
-        "sma50": 500.38,
-        "sma100": 487.68,
-        "sma200": 443.81,
-        "rsi": 38.6,
-        "macd_hist": -5.96,
+        "sma20": 2189.89,
+        "sma50": 2113.81,
+        "sma100": 1957.22,
+        "sma200": 1744.39,
+        "rsi": 68.9,
+        "macd_hist": -1.71,
         "vol_ratio": 0.59,
         "signal": "Neutral / Wait",
         "direction": null,
@@ -1720,181 +356,743 @@
       }
     },
     {
-      "symbol": "OLAELEC",
-      "ltp": 38.2,
+      "symbol": "PWL",
+      "ltp": 126.63,
       "short": {
-        "ema5": 38.55,
-        "ema13": 38.63,
-        "ema21": 38.73,
-        "rsi": 47.3,
-        "efi": 25010266.0,
+        "ema5": 124.86,
+        "ema13": 122.87,
+        "ema21": 123.06,
+        "rsi": 54.6,
+        "efi": 52321864.0,
+        "signal": "Buy (confirmed)",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": null,
+      "long_error": "not enough history for 200 SMA (204 bars)"
+    },
+    {
+      "symbol": "DELHIVERY",
+      "ltp": 454.9,
+      "short": {
+        "ema5": 457.85,
+        "ema13": 458.44,
+        "ema21": 460.44,
+        "rsi": 45.5,
+        "efi": 1272777.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 38.62,
-        "sma50": 39.55,
-        "sma100": 39.49,
-        "sma200": 36.04,
-        "rsi": 47.3,
-        "macd_hist": 0.08,
-        "vol_ratio": 0.87,
+        "sma20": 457.79,
+        "sma50": 476.13,
+        "sma100": 467.36,
+        "sma200": 443.59,
+        "rsi": 45.5,
+        "macd_hist": 1.07,
+        "vol_ratio": 1.02,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       }
     },
     {
-      "symbol": "COHANCE",
-      "ltp": 456.6,
+      "symbol": "WOCKPHARMA",
+      "ltp": 2224.0,
       "short": {
-        "ema5": 457.66,
-        "ema13": 455.16,
-        "ema21": 452.29,
-        "rsi": 53.3,
-        "efi": 6295965.0,
+        "ema5": 2108.94,
+        "ema13": 2008.96,
+        "ema21": 1975.0,
+        "rsi": 71.0,
+        "efi": 124055450.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 453.88,
-        "sma50": 444.81,
-        "sma100": 439.81,
-        "sma200": 424.97,
-        "rsi": 53.3,
-        "macd_hist": 0.03,
-        "vol_ratio": 0.47,
-        "signal": "Bullish",
-        "direction": "buy",
-        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
-      }
-    },
-    {
-      "symbol": "DEEPAKFERT",
-      "ltp": 1362.1,
-      "short": {
-        "ema5": 1390.34,
-        "ema13": 1426.59,
-        "ema21": 1450.36,
-        "rsi": 32.7,
-        "efi": -7621488.0,
-        "signal": "Strong Sell",
-        "direction": "sell",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1448.36,
-        "sma50": 1521.3,
-        "sma100": 1451.71,
-        "sma200": 1285.04,
-        "rsi": 32.7,
-        "macd_hist": -8.29,
-        "vol_ratio": 0.84,
-        "signal": "Bearish",
-        "direction": "sell",
-        "stage": "Below 50/100 SMA, bearish MACD"
-      }
-    },
-    {
-      "symbol": "DEVYANI",
-      "ltp": 139.28,
-      "short": {
-        "ema5": 139.47,
-        "ema13": 140.38,
-        "ema21": 138.33,
-        "rsi": 55.0,
-        "efi": 3584560.0,
-        "signal": "Sell (anticipatory)",
-        "direction": "sell",
-        "pct": 60
-      },
-      "long": {
-        "sma20": 142.35,
-        "sma50": 125.85,
-        "sma100": 120.45,
-        "sma200": 122.82,
-        "rsi": 55.0,
-        "macd_hist": -1.84,
-        "vol_ratio": 0.47,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      }
-    },
-    {
-      "symbol": "BEML",
-      "ltp": 2097.2,
-      "short": {
-        "ema5": 2050.78,
-        "ema13": 1993.28,
-        "ema21": 1955.18,
-        "rsi": 69.2,
-        "efi": 14747060.0,
-        "signal": "Strong Buy",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 1959.06,
-        "sma50": 1858.58,
-        "sma100": 1828.76,
-        "sma200": 1764.31,
-        "rsi": 69.2,
-        "macd_hist": 12.7,
-        "vol_ratio": 1.13,
+        "sma20": 1936.31,
+        "sma50": 1919.97,
+        "sma100": 1833.26,
+        "sma200": 1591.23,
+        "rsi": 71.0,
+        "macd_hist": 35.45,
+        "vol_ratio": 1.35,
         "signal": "Strong Bullish",
         "direction": "buy",
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
       }
     },
     {
-      "symbol": "JSWCEMENT",
-      "ltp": 124.07,
+      "symbol": "HSCL",
+      "ltp": 670.65,
       "short": {
-        "ema5": 124.26,
-        "ema13": 125.55,
-        "ema21": 126.9,
-        "rsi": 37.9,
-        "efi": -115428.0,
+        "ema5": 669.98,
+        "ema13": 680.05,
+        "ema21": 692.08,
+        "rsi": 41.5,
+        "efi": -39552865.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 126.81,
-        "sma50": 132.0,
-        "sma100": 129.34,
-        "sma200": 124.08,
-        "rsi": 37.9,
-        "macd_hist": -0.08,
-        "vol_ratio": 1.06,
+        "sma20": 700.44,
+        "sma50": 715.53,
+        "sma100": 670.35,
+        "sma200": 566.63,
+        "rsi": 41.5,
+        "macd_hist": -2.1,
+        "vol_ratio": 0.22,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "KARURVYSYA",
+      "ltp": 341.15,
+      "short": {
+        "ema5": 344.36,
+        "ema13": 343.92,
+        "ema21": 341.46,
+        "rsi": 52.3,
+        "efi": 3132776.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 341.47,
+        "sma50": 328.59,
+        "sma100": 309.32,
+        "sma200": 293.79,
+        "rsi": 52.3,
+        "macd_hist": -1.06,
+        "vol_ratio": 0.89,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "SAILIFE",
+      "ltp": 1647.1,
+      "short": {
+        "ema5": 1590.26,
+        "ema13": 1534.07,
+        "ema21": 1495.46,
+        "rsi": 75.8,
+        "efi": 37743957.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1492.43,
+        "sma50": 1373.88,
+        "sma100": 1257.62,
+        "sma200": 1091.02,
+        "rsi": 75.8,
+        "macd_hist": 10.5,
+        "vol_ratio": 1.97,
+        "signal": "Strong Bullish",
+        "direction": "buy",
+        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
+      }
+    },
+    {
+      "symbol": "NUVAMA",
+      "ltp": 1836.4,
+      "short": {
+        "ema5": 1820.51,
+        "ema13": 1793.17,
+        "ema21": 1781.93,
+        "rsi": 58.7,
+        "efi": 8976979.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1760.25,
+        "sma50": 1806.26,
+        "sma100": 1666.23,
+        "sma200": 1498.24,
+        "rsi": 58.7,
+        "macd_hist": 12.29,
+        "vol_ratio": 0.73,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "STARHEALTH",
+      "ltp": 572.1,
+      "short": {
+        "ema5": 565.72,
+        "ema13": 570.46,
+        "ema21": 573.82,
+        "rsi": 48.0,
+        "efi": 85385.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 576.09,
+        "sma50": 583.75,
+        "sma100": 556.7,
+        "sma200": 509.45,
+        "rsi": 48.0,
+        "macd_hist": -1.65,
+        "vol_ratio": 0.91,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "TATATECH",
+      "ltp": 798.5,
+      "short": {
+        "ema5": 799.93,
+        "ema13": 807.11,
+        "ema21": 806.05,
+        "rsi": 48.9,
+        "efi": 7587779.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 819.21,
+        "sma50": 776.86,
+        "sma100": 725.35,
+        "sma200": 665.62,
+        "rsi": 48.9,
+        "macd_hist": -6.23,
+        "vol_ratio": 0.84,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "MANAPPURAM",
+      "ltp": 325.0,
+      "short": {
+        "ema5": 332.62,
+        "ema13": 341.1,
+        "ema21": 344.49,
+        "rsi": 34.6,
+        "efi": -22068985.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 346.65,
+        "sma50": 346.52,
+        "sma100": 328.13,
+        "sma200": 306.03,
+        "rsi": 34.6,
+        "macd_hist": -3.53,
+        "vol_ratio": 0.35,
+        "signal": "Bearish",
+        "direction": "sell",
+        "stage": "Below 50/100 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "LALPATHLAB",
+      "ltp": 1912.5,
+      "short": {
+        "ema5": 1908.4,
+        "ema13": 1910.19,
+        "ema21": 1900.01,
+        "rsi": 54.8,
+        "efi": -1195583.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
+      },
+      "long": {
+        "sma20": 1915.5,
+        "sma50": 1822.29,
+        "sma100": 1696.69,
+        "sma200": 1552.28,
+        "rsi": 54.8,
+        "macd_hist": -9.21,
+        "vol_ratio": 0.46,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "NETWEB",
+      "ltp": 5087.5,
+      "short": {
+        "ema5": 5167.51,
+        "ema13": 5182.07,
+        "ema21": 5117.98,
+        "rsi": 50.9,
+        "efi": 43233459.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
+      },
+      "long": {
+        "sma20": 5205.93,
+        "sma50": 4738.78,
+        "sma100": 4527.76,
+        "sma200": 3896.77,
+        "rsi": 50.9,
+        "macd_hist": -46.48,
+        "vol_ratio": 0.4,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "MRPL",
+      "ltp": 172.96,
+      "short": {
+        "ema5": 173.5,
+        "ema13": 173.2,
+        "ema21": 172.55,
+        "rsi": 51.7,
+        "efi": 10914908.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 173.74,
+        "sma50": 167.82,
+        "sma100": 162.96,
+        "sma200": 165.48,
+        "rsi": 51.7,
+        "macd_hist": -0.36,
+        "vol_ratio": 0.54,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "PNBHOUSING",
+      "ltp": 1167.1,
+      "short": {
+        "ema5": 1159.9,
+        "ema13": 1158.19,
+        "ema21": 1150.71,
+        "rsi": 58.3,
+        "efi": 3871326.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1161.58,
+        "sma50": 1113.2,
+        "sma100": 1068.91,
+        "sma200": 966.73,
+        "rsi": 58.3,
+        "macd_hist": -4.52,
+        "vol_ratio": 0.69,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "IKS",
+      "ltp": 1780.0,
+      "short": {
+        "ema5": 1767.88,
+        "ema13": 1767.75,
+        "ema21": 1774.73,
+        "rsi": 50.3,
+        "efi": 98187.0,
+        "signal": "Buy (anticipatory)",
+        "direction": "buy",
+        "pct": 40
+      },
+      "long": {
+        "sma20": 1780.14,
+        "sma50": 1814.29,
+        "sma100": 1728.98,
+        "sma200": 1645.19,
+        "rsi": 50.3,
+        "macd_hist": 1.34,
+        "vol_ratio": 0.51,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "CDSL",
+      "ltp": 1400.0,
+      "short": {
+        "ema5": 1394.45,
+        "ema13": 1387.71,
+        "ema21": 1379.31,
+        "rsi": 56.8,
+        "efi": 9568679.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1376.42,
+        "sma50": 1361.53,
+        "sma100": 1304.57,
+        "sma200": 1332.09,
+        "rsi": 56.8,
+        "macd_hist": 0.12,
+        "vol_ratio": 0.76,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "NEULANDLAB",
+      "ltp": 23995.0,
+      "short": {
+        "ema5": 23263.41,
+        "ema13": 23062.01,
+        "ema21": 22687.03,
+        "rsi": 67.1,
+        "efi": 24893051.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 23191.05,
+        "sma50": 20864.25,
+        "sma100": 18739.3,
+        "sma200": 16445.73,
+        "rsi": 67.1,
+        "macd_hist": -150.21,
+        "vol_ratio": 1.58,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "REDINGTON",
+      "ltp": 373.55,
+      "short": {
+        "ema5": 371.05,
+        "ema13": 362.21,
+        "ema21": 353.62,
+        "rsi": 64.3,
+        "efi": 36966279.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 353.73,
+        "sma50": 318.53,
+        "sma100": 274.49,
+        "sma200": 262.37,
+        "rsi": 64.3,
+        "macd_hist": -0.12,
+        "vol_ratio": 0.57,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "GRSE",
+      "ltp": 2525.7,
+      "short": {
+        "ema5": 2532.42,
+        "ema13": 2560.97,
+        "ema21": 2575.7,
+        "rsi": 41.5,
+        "efi": 421088.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 2589.34,
+        "sma50": 2611.9,
+        "sma100": 2685.26,
+        "sma200": 2562.77,
+        "rsi": 41.5,
+        "macd_hist": -9.19,
+        "vol_ratio": 0.8,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
       }
     },
     {
-      "symbol": "CHAMBLFERT",
-      "ltp": 419.05,
+      "symbol": "CHOLAHLDNG",
+      "ltp": 1526.2,
       "short": {
-        "ema5": 417.4,
-        "ema13": 422.71,
-        "ema21": 427.4,
-        "rsi": 37.8,
-        "efi": -784001.0,
+        "ema5": 1514.06,
+        "ema13": 1523.42,
+        "ema21": 1534.99,
+        "rsi": 46.5,
+        "efi": -205656.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 429.73,
-        "sma50": 440.68,
-        "sma100": 446.95,
-        "sma200": 442.9,
-        "rsi": 37.8,
-        "macd_hist": -1.09,
+        "sma20": 1542.64,
+        "sma50": 1574.03,
+        "sma100": 1584.95,
+        "sma200": 1642.99,
+        "rsi": 46.5,
+        "macd_hist": -1.88,
+        "vol_ratio": 0.87,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "PPLPHARMA",
+      "ltp": 226.62,
+      "short": {
+        "ema5": 218.3,
+        "ema13": 214.69,
+        "ema21": 211.37,
+        "rsi": 70.2,
+        "efi": 39337770.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 212.97,
+        "sma50": 195.97,
+        "sma100": 182.22,
+        "sma200": 171.88,
+        "rsi": 70.2,
+        "macd_hist": -0.26,
+        "vol_ratio": 4.56,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "URBANCO",
+      "ltp": 171.77,
+      "short": {
+        "ema5": 174.0,
+        "ema13": 168.35,
+        "ema21": 162.57,
+        "rsi": 65.6,
+        "efi": 48081284.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 161.03,
+        "sma50": 145.14,
+        "sma100": 138.03,
+        "sma200": 131.13,
+        "rsi": 65.6,
+        "macd_hist": 0.66,
+        "vol_ratio": 0.29,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "IIFL",
+      "ltp": 628.0,
+      "short": {
+        "ema5": 641.69,
+        "ema13": 643.17,
+        "ema21": 637.21,
+        "rsi": 49.1,
+        "efi": -15735672.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
+      },
+      "long": {
+        "sma20": 645.0,
+        "sma50": 599.2,
+        "sma100": 540.23,
+        "sma200": 536.09,
+        "rsi": 49.1,
+        "macd_hist": -4.98,
+        "vol_ratio": 2.09,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "IFCI",
+      "ltp": 92.61,
+      "short": {
+        "ema5": 96.08,
+        "ema13": 91.43,
+        "ema21": 87.89,
+        "rsi": 58.6,
+        "efi": 326971344.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 86.24,
+        "sma50": 79.02,
+        "sma100": 74.39,
+        "sma200": 64.63,
+        "rsi": 58.6,
+        "macd_hist": 1.21,
+        "vol_ratio": 2.1,
+        "signal": "Strong Bullish",
+        "direction": "buy",
+        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
+      }
+    },
+    {
+      "symbol": "ANGELONE",
+      "ltp": 298.0,
+      "short": {
+        "ema5": 292.91,
+        "ema13": 291.82,
+        "ema21": 293.73,
+        "rsi": 51.8,
+        "efi": 45575045.0,
+        "signal": "Buy (anticipatory)",
+        "direction": "buy",
+        "pct": 40
+      },
+      "long": {
+        "sma20": 291.04,
+        "sma50": 308.26,
+        "sma100": 318.02,
+        "sma200": 283.7,
+        "rsi": 51.8,
+        "macd_hist": 1.75,
+        "vol_ratio": 0.4,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "CGCL",
+      "ltp": 270.75,
+      "short": {
+        "ema5": 269.64,
+        "ema13": 258.33,
+        "ema21": 251.71,
+        "rsi": 63.7,
+        "efi": 58013794.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 245.28,
+        "sma50": 242.19,
+        "sma100": 220.31,
+        "sma200": 198.26,
+        "rsi": 63.7,
+        "macd_hist": 3.73,
+        "vol_ratio": 0.54,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "ltp": 171.58,
+      "short": {
+        "ema5": 167.02,
+        "ema13": 167.84,
+        "ema21": 169.89,
+        "rsi": 49.9,
+        "efi": 14591788.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 169.82,
+        "sma50": 180.82,
+        "sma100": 189.78,
+        "sma200": 172.67,
+        "rsi": 49.9,
+        "macd_hist": 0.58,
+        "vol_ratio": 3.38,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "AMBER",
+      "ltp": 7308.0,
+      "short": {
+        "ema5": 7419.17,
+        "ema13": 7434.31,
+        "ema21": 7426.01,
+        "rsi": 44.6,
+        "efi": 3526067.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 7366.57,
+        "sma50": 7462.85,
+        "sma100": 7641.41,
+        "sma200": 7238.04,
+        "rsi": 44.6,
+        "macd_hist": 2.17,
+        "vol_ratio": 0.44,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "ITI",
+      "ltp": 270.2,
+      "short": {
+        "ema5": 270.72,
+        "ema13": 273.32,
+        "ema21": 275.46,
+        "rsi": 38.0,
+        "efi": 13260.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 276.41,
+        "sma50": 281.78,
+        "sma100": 290.05,
+        "sma200": 289.11,
+        "rsi": 38.0,
+        "macd_hist": -0.49,
         "vol_ratio": 0.58,
         "signal": "Strong Bearish",
         "direction": "sell",
@@ -1902,26 +1100,838 @@
       }
     },
     {
-      "symbol": "GPIL",
-      "ltp": 244.05,
+      "symbol": "DATAPATTNS",
+      "ltp": 4932.3,
       "short": {
-        "ema5": 242.03,
-        "ema13": 242.43,
-        "ema21": 242.98,
-        "rsi": 50.4,
-        "efi": 2227826.0,
+        "ema5": 4694.28,
+        "ema13": 4638.89,
+        "ema21": 4606.83,
+        "rsi": 62.9,
+        "efi": 160986511.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 4622.27,
+        "sma50": 4485.57,
+        "sma100": 4336.25,
+        "sma200": 3606.36,
+        "rsi": 62.9,
+        "macd_hist": 4.76,
+        "vol_ratio": 3.31,
+        "signal": "Strong Bullish",
+        "direction": "buy",
+        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
+      }
+    },
+    {
+      "symbol": "KAYNES",
+      "ltp": 3610.0,
+      "short": {
+        "ema5": 3618.42,
+        "ema13": 3696.86,
+        "ema21": 3701.54,
+        "rsi": 46.2,
+        "efi": -19511466.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 3756.07,
+        "sma50": 3560.96,
+        "sma100": 3551.66,
+        "sma200": 3770.36,
+        "rsi": 46.2,
+        "macd_hist": -50.44,
+        "vol_ratio": 0.59,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "CUB",
+      "ltp": 232.97,
+      "short": {
+        "ema5": 234.03,
+        "ema13": 229.37,
+        "ema21": 225.96,
+        "rsi": 57.8,
+        "efi": 6754516.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 223.94,
+        "sma50": 220.33,
+        "sma100": 206.8,
+        "sma200": 204.37,
+        "rsi": 57.8,
+        "macd_hist": 1.25,
+        "vol_ratio": 0.41,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "NBCC",
+      "ltp": 86.0,
+      "short": {
+        "ema5": 86.17,
+        "ema13": 87.07,
+        "ema21": 88.28,
+        "rsi": 34.9,
+        "efi": -1125861.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 87.72,
+        "sma50": 92.85,
+        "sma100": 96.04,
+        "sma200": 97.84,
+        "rsi": 34.9,
+        "macd_hist": 0.14,
+        "vol_ratio": 0.89,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "FORCEMOT",
+      "ltp": 17625.0,
+      "short": {
+        "ema5": 17566.21,
+        "ema13": 17653.95,
+        "ema21": 17758.42,
+        "rsi": 45.9,
+        "efi": 1761959.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 242.44,
-        "sma50": 245.01,
-        "sma100": 264.99,
-        "sma200": 260.99,
-        "rsi": 50.4,
-        "macd_hist": 0.19,
-        "vol_ratio": 0.79,
+        "sma20": 17874.05,
+        "sma50": 18026.74,
+        "sma100": 18653.24,
+        "sma200": 19584.88,
+        "rsi": 45.9,
+        "macd_hist": -13.09,
+        "vol_ratio": 0.63,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "CREDITACC",
+      "ltp": 1417.1,
+      "short": {
+        "ema5": 1421.66,
+        "ema13": 1437.43,
+        "ema21": 1456.24,
+        "rsi": 41.7,
+        "efi": -482509.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1468.21,
+        "sma50": 1509.02,
+        "sma100": 1423.63,
+        "sma200": 1346.2,
+        "rsi": 41.7,
+        "macd_hist": -3.68,
+        "vol_ratio": 0.39,
+        "signal": "Bearish",
+        "direction": "sell",
+        "stage": "Below 50/100 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "JYOTICNC",
+      "ltp": 1037.2,
+      "short": {
+        "ema5": 1017.33,
+        "ema13": 991.17,
+        "ema21": 961.91,
+        "rsi": 66.0,
+        "efi": 27813328.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 961.75,
+        "sma50": 864.87,
+        "sma100": 784.33,
+        "sma200": 822.85,
+        "rsi": 66.0,
+        "macd_hist": -0.24,
+        "vol_ratio": 0.93,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "AFFLE",
+      "ltp": 1609.4,
+      "short": {
+        "ema5": 1590.05,
+        "ema13": 1614.23,
+        "ema21": 1621.37,
+        "rsi": 48.9,
+        "efi": 36626569.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1652.67,
+        "sma50": 1583.21,
+        "sma100": 1524.7,
+        "sma200": 1546.9,
+        "rsi": 48.9,
+        "macd_hist": -16.65,
+        "vol_ratio": 0.39,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "BRIGADE",
+      "ltp": 687.0,
+      "short": {
+        "ema5": 680.43,
+        "ema13": 657.59,
+        "ema21": 639.73,
+        "rsi": 66.0,
+        "efi": 39056060.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 636.0,
+        "sma50": 584.03,
+        "sma100": 558.16,
+        "sma200": 571.84,
+        "rsi": 66.0,
+        "macd_hist": 3.82,
+        "vol_ratio": 0.38,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "ANANTRAJ",
+      "ltp": 625.85,
+      "short": {
+        "ema5": 623.12,
+        "ema13": 617.26,
+        "ema21": 614.81,
+        "rsi": 56.1,
+        "efi": 82643345.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 618.03,
+        "sma50": 600.85,
+        "sma100": 559.45,
+        "sma200": 540.84,
+        "rsi": 56.1,
+        "macd_hist": 0.48,
+        "vol_ratio": 0.35,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "IGL",
+      "ltp": 154.02,
+      "short": {
+        "ema5": 152.68,
+        "ema13": 151.14,
+        "ema21": 151.17,
+        "rsi": 54.7,
+        "efi": 9453974.0,
+        "signal": "Buy (confirmed)",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 150.61,
+        "sma50": 152.13,
+        "sma100": 158.03,
+        "sma200": 165.54,
+        "rsi": 54.7,
+        "macd_hist": 0.83,
+        "vol_ratio": 0.32,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "SAGILITY",
+      "ltp": 45.7,
+      "short": {
+        "ema5": 46.1,
+        "ema13": 45.47,
+        "ema21": 44.85,
+        "rsi": 59.1,
+        "efi": 11571297.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 44.38,
+        "sma50": 43.08,
+        "sma100": 42.06,
+        "sma200": 44.29,
+        "rsi": 59.1,
+        "macd_hist": 0.13,
+        "vol_ratio": 0.62,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "TENNIND",
+      "ltp": 525.7,
+      "short": {
+        "ema5": 521.99,
+        "ema13": 530.26,
+        "ema21": 536.39,
+        "rsi": 41.9,
+        "efi": -4760430.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": null,
+      "long_error": "not enough history for 200 SMA (203 bars)"
+    },
+    {
+      "symbol": "RAMCOCEM",
+      "ltp": 871.45,
+      "short": {
+        "ema5": 878.34,
+        "ema13": 889.46,
+        "ema21": 896.83,
+        "rsi": 40.9,
+        "efi": -1477887.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 900.02,
+        "sma50": 915.59,
+        "sma100": 911.76,
+        "sma200": 978.95,
+        "rsi": 40.9,
+        "macd_hist": -3.37,
+        "vol_ratio": 0.78,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "GESHIP",
+      "ltp": 1383.8,
+      "short": {
+        "ema5": 1363.83,
+        "ema13": 1344.17,
+        "ema21": 1341.03,
+        "rsi": 57.8,
+        "efi": 9125664.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1322.51,
+        "sma50": 1356.15,
+        "sma100": 1422.08,
+        "sma200": 1319.72,
+        "rsi": 57.8,
+        "macd_hist": 10.65,
+        "vol_ratio": 0.84,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "CESC",
+      "ltp": 146.05,
+      "short": {
+        "ema5": 146.95,
+        "ema13": 149.87,
+        "ema21": 152.02,
+        "rsi": 32.2,
+        "efi": -993033.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 153.56,
+        "sma50": 156.84,
+        "sma100": 164.6,
+        "sma200": 159.29,
+        "rsi": 32.2,
+        "macd_hist": -0.78,
+        "vol_ratio": 0.84,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "HBLENGINE",
+      "ltp": 731.25,
+      "short": {
+        "ema5": 700.39,
+        "ema13": 689.19,
+        "ema21": 691.86,
+        "rsi": 61.0,
+        "efi": 55257507.0,
+        "signal": "Buy (confirmed)",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 683.87,
+        "sma50": 718.58,
+        "sma100": 758.45,
+        "sma200": 765.31,
+        "rsi": 61.0,
+        "macd_hist": 7.06,
+        "vol_ratio": 1.25,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "PINELABS",
+      "ltp": 169.55,
+      "short": {
+        "ema5": 165.34,
+        "ema13": 163.44,
+        "ema21": 161.94,
+        "rsi": 58.6,
+        "efi": 79840512.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": null,
+      "long_error": "not enough history for 200 SMA (206 bars)"
+    },
+    {
+      "symbol": "CASTROLIND",
+      "ltp": 189.46,
+      "short": {
+        "ema5": 188.46,
+        "ema13": 187.36,
+        "ema21": 186.56,
+        "rsi": 64.0,
+        "efi": 1926564.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 187.24,
+        "sma50": 182.85,
+        "sma100": 180.43,
+        "sma200": 178.01,
+        "rsi": 64.0,
+        "macd_hist": 0.04,
+        "vol_ratio": 0.77,
+        "signal": "Bullish",
+        "direction": "buy",
+        "stage": "Stage 3 \u2014 above 50/100/200 SMA"
+      }
+    },
+    {
+      "symbol": "FSL",
+      "ltp": 257.8,
+      "short": {
+        "ema5": 262.06,
+        "ema13": 266.61,
+        "ema21": 269.12,
+        "rsi": 39.7,
+        "efi": -2454275.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 268.54,
+        "sma50": 269.8,
+        "sma100": 257.17,
+        "sma200": 268.55,
+        "rsi": 39.7,
+        "macd_hist": -1.71,
+        "vol_ratio": 0.36,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "CAMS",
+      "ltp": 729.5,
+      "short": {
+        "ema5": 743.47,
+        "ema13": 751.69,
+        "ema21": 757.16,
+        "rsi": 38.5,
+        "efi": 4237501.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 757.27,
+        "sma50": 770.22,
+        "sma100": 770.91,
+        "sma200": 739.88,
+        "rsi": 38.5,
+        "macd_hist": -1.78,
+        "vol_ratio": 0.48,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "TRITURBINE",
+      "ltp": 580.6,
+      "short": {
+        "ema5": 576.26,
+        "ema13": 578.33,
+        "ema21": 583.91,
+        "rsi": 45.8,
+        "efi": -500026.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 579.13,
+        "sma50": 606.56,
+        "sma100": 622.46,
+        "sma200": 559.75,
+        "rsi": 45.8,
+        "macd_hist": 1.75,
+        "vol_ratio": 0.56,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "SARDAEN",
+      "ltp": 519.85,
+      "short": {
+        "ema5": 509.22,
+        "ema13": 507.35,
+        "ema21": 507.26,
+        "rsi": 57.5,
+        "efi": 9952928.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 508.65,
+        "sma50": 503.93,
+        "sma100": 525.82,
+        "sma200": 517.94,
+        "rsi": 57.5,
+        "macd_hist": 0.42,
+        "vol_ratio": 0.49,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "GMDCLTD",
+      "ltp": 568.85,
+      "short": {
+        "ema5": 564.03,
+        "ema13": 566.2,
+        "ema21": 568.94,
+        "rsi": 48.8,
+        "efi": 2805045.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 570.09,
+        "sma50": 576.96,
+        "sma100": 615.82,
+        "sma200": 591.0,
+        "rsi": 48.8,
+        "macd_hist": 0.02,
+        "vol_ratio": 1.6,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "AARTIIND",
+      "ltp": 503.7,
+      "short": {
+        "ema5": 506.35,
+        "ema13": 515.69,
+        "ema21": 515.49,
+        "rsi": 45.2,
+        "efi": 543057.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 524.8,
+        "sma50": 501.31,
+        "sma100": 488.26,
+        "sma200": 444.4,
+        "rsi": 45.2,
+        "macd_hist": -5.8,
+        "vol_ratio": 0.58,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "OLAELEC",
+      "ltp": 37.63,
+      "short": {
+        "ema5": 38.11,
+        "ema13": 38.4,
+        "ema21": 38.57,
+        "rsi": 45.2,
+        "efi": 16565512.0,
+        "signal": "Sell (confirmed)",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 38.45,
+        "sma50": 39.38,
+        "sma100": 39.48,
+        "sma200": 36.0,
+        "rsi": 45.2,
+        "macd_hist": -0.02,
+        "vol_ratio": 0.44,
+        "signal": "Bearish",
+        "direction": "sell",
+        "stage": "Below 50/100 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "COHANCE",
+      "ltp": 451.6,
+      "short": {
+        "ema5": 455.64,
+        "ema13": 454.65,
+        "ema21": 452.23,
+        "rsi": 50.6,
+        "efi": 4087833.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 454.11,
+        "sma50": 444.84,
+        "sma100": 440.63,
+        "sma200": 424.32,
+        "rsi": 50.6,
+        "macd_hist": -0.51,
+        "vol_ratio": 1.47,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "DEEPAKFERT",
+      "ltp": 1345.9,
+      "short": {
+        "ema5": 1375.53,
+        "ema13": 1415.06,
+        "ema21": 1440.86,
+        "rsi": 30.9,
+        "efi": -7083593.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1439.65,
+        "sma50": 1517.53,
+        "sma100": 1452.96,
+        "sma200": 1284.58,
+        "rsi": 30.9,
+        "macd_hist": -9.3,
+        "vol_ratio": 0.86,
+        "signal": "Bearish",
+        "direction": "sell",
+        "stage": "Below 50/100 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "DEVYANI",
+      "ltp": 137.99,
+      "short": {
+        "ema5": 138.97,
+        "ema13": 140.04,
+        "ema21": 138.3,
+        "rsi": 52.7,
+        "efi": 2912677.0,
+        "signal": "Sell (anticipatory)",
+        "direction": "sell",
+        "pct": 60
+      },
+      "long": {
+        "sma20": 142.57,
+        "sma50": 126.39,
+        "sma100": 120.77,
+        "sma200": 122.78,
+        "rsi": 52.7,
+        "macd_hist": -1.86,
+        "vol_ratio": 0.18,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
+      }
+    },
+    {
+      "symbol": "BEML",
+      "ltp": 2105.6,
+      "short": {
+        "ema5": 2069.05,
+        "ema13": 2009.33,
+        "ema21": 1968.85,
+        "rsi": 69.8,
+        "efi": 14394332.0,
+        "signal": "Strong Buy",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 1969.23,
+        "sma50": 1865.49,
+        "sma100": 1832.16,
+        "sma200": 1765.34,
+        "rsi": 69.8,
+        "macd_hist": 13.29,
+        "vol_ratio": 3.09,
+        "signal": "Strong Bullish",
+        "direction": "buy",
+        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
+      }
+    },
+    {
+      "symbol": "JSWCEMENT",
+      "ltp": 121.62,
+      "short": {
+        "ema5": 122.83,
+        "ema13": 124.53,
+        "ema21": 126.0,
+        "rsi": 32.6,
+        "efi": -421245.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 125.76,
+        "sma50": 131.54,
+        "sma100": 129.21,
+        "sma200": 124.05,
+        "rsi": 32.6,
+        "macd_hist": -0.2,
+        "vol_ratio": 0.69,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "CHAMBLFERT",
+      "ltp": 418.65,
+      "short": {
+        "ema5": 417.81,
+        "ema13": 422.13,
+        "ema21": 426.61,
+        "rsi": 37.4,
+        "efi": -694791.0,
+        "signal": "Strong Sell",
+        "direction": "sell",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 428.39,
+        "sma50": 439.7,
+        "sma100": 446.68,
+        "sma200": 442.74,
+        "rsi": 37.4,
+        "macd_hist": -0.63,
+        "vol_ratio": 0.7,
+        "signal": "Strong Bearish",
+        "direction": "sell",
+        "stage": "Below 20/50/100/200 SMA, bearish MACD"
+      }
+    },
+    {
+      "symbol": "GPIL",
+      "ltp": 245.71,
+      "short": {
+        "ema5": 243.25,
+        "ema13": 242.9,
+        "ema21": 243.23,
+        "rsi": 52.2,
+        "efi": 2214832.0,
+        "signal": "Buy (confirmed)",
+        "direction": "buy",
+        "pct": 100
+      },
+      "long": {
+        "sma20": 243.16,
+        "sma50": 244.83,
+        "sma100": 264.51,
+        "sma200": 261.02,
+        "rsi": 52.2,
+        "macd_hist": 0.44,
+        "vol_ratio": 0.67,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -1929,25 +1939,25 @@
     },
     {
       "symbol": "KFINTECH",
-      "ltp": 922.5,
+      "ltp": 925.1,
       "short": {
-        "ema5": 931.7,
-        "ema13": 941.99,
-        "ema21": 941.61,
-        "rsi": 44.9,
-        "efi": 1338318.0,
+        "ema5": 929.5,
+        "ema13": 939.58,
+        "ema21": 940.11,
+        "rsi": 45.8,
+        "efi": 1288730.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 949.03,
-        "sma50": 919.51,
-        "sma100": 891.83,
-        "sma200": 941.03,
-        "rsi": 44.9,
-        "macd_hist": -6.93,
-        "vol_ratio": 0.3,
+        "sma20": 948.53,
+        "sma50": 920.65,
+        "sma100": 891.24,
+        "sma200": 940.41,
+        "rsi": 45.8,
+        "macd_hist": -6.73,
+        "vol_ratio": 0.37,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -1955,25 +1965,25 @@
     },
     {
       "symbol": "PGEL",
-      "ltp": 559.55,
+      "ltp": 553.7,
       "short": {
-        "ema5": 564.44,
-        "ema13": 577.37,
-        "ema21": 583.84,
-        "rsi": 36.5,
-        "efi": -1702274.0,
+        "ema5": 560.86,
+        "ema13": 573.99,
+        "ema21": 581.1,
+        "rsi": 34.4,
+        "efi": -2438411.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 590.76,
-        "sma50": 591.83,
-        "sma100": 551.74,
-        "sma200": 557.46,
-        "rsi": 36.5,
-        "macd_hist": -5.4,
-        "vol_ratio": 0.55,
+        "sma20": 587.64,
+        "sma50": 592.24,
+        "sma100": 551.66,
+        "sma200": 557.27,
+        "rsi": 34.4,
+        "macd_hist": -5.21,
+        "vol_ratio": 0.98,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -1981,25 +1991,25 @@
     },
     {
       "symbol": "SYNGENE",
-      "ltp": 389.3,
+      "ltp": 387.55,
       "short": {
-        "ema5": 396.19,
-        "ema13": 400.17,
-        "ema21": 402.21,
-        "rsi": 38.7,
-        "efi": -1151266.0,
+        "ema5": 393.31,
+        "ema13": 398.37,
+        "ema21": 400.88,
+        "rsi": 37.7,
+        "efi": -1107275.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 402.29,
-        "sma50": 409.78,
-        "sma100": 429.99,
-        "sma200": 475.23,
-        "rsi": 38.7,
-        "macd_hist": -0.64,
-        "vol_ratio": 0.79,
+        "sma20": 401.3,
+        "sma50": 408.74,
+        "sma100": 429.43,
+        "sma200": 474.03,
+        "rsi": 37.7,
+        "macd_hist": -1.08,
+        "vol_ratio": 0.85,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2007,25 +2017,25 @@
     },
     {
       "symbol": "TATACHEM",
-      "ltp": 613.35,
+      "ltp": 607.7,
       "short": {
-        "ema5": 627.44,
-        "ema13": 636.64,
-        "ema21": 644.36,
-        "rsi": 31.8,
-        "efi": -2061091.0,
+        "ema5": 620.86,
+        "ema13": 632.51,
+        "ema21": 641.03,
+        "rsi": 30.1,
+        "efi": -2019883.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 643.96,
-        "sma50": 671.67,
-        "sma100": 706.6,
-        "sma200": 708.29,
-        "rsi": 31.8,
-        "macd_hist": -0.41,
-        "vol_ratio": 0.82,
+        "sma20": 640.91,
+        "sma50": 669.5,
+        "sma100": 705.71,
+        "sma200": 707.34,
+        "rsi": 30.1,
+        "macd_hist": -1.32,
+        "vol_ratio": 0.51,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2033,25 +2043,25 @@
     },
     {
       "symbol": "ARE&M",
-      "ltp": 842.95,
+      "ltp": 837.8,
       "short": {
-        "ema5": 864.47,
-        "ema13": 888.37,
-        "ema21": 897.27,
-        "rsi": 31.6,
-        "efi": -72087.0,
+        "ema5": 855.58,
+        "ema13": 881.15,
+        "ema21": 891.86,
+        "rsi": 30.6,
+        "efi": -274695.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 915.2,
-        "sma50": 897.2,
-        "sma100": 873.44,
-        "sma200": 860.64,
-        "rsi": 31.6,
-        "macd_hist": -10.64,
-        "vol_ratio": 0.65,
+        "sma20": 908.58,
+        "sma50": 897.22,
+        "sma100": 874.13,
+        "sma200": 860.09,
+        "rsi": 30.6,
+        "macd_hist": -10.87,
+        "vol_ratio": 0.44,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2059,25 +2069,25 @@
     },
     {
       "symbol": "FIVESTAR",
-      "ltp": 523.05,
+      "ltp": 524.15,
       "short": {
-        "ema5": 528.58,
-        "ema13": 529.37,
-        "ema21": 531.13,
-        "rsi": 46.3,
-        "efi": 597933.0,
+        "ema5": 527.1,
+        "ema13": 528.63,
+        "ema21": 530.5,
+        "rsi": 46.8,
+        "efi": 535441.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 531.43,
-        "sma50": 538.52,
-        "sma100": 502.54,
-        "sma200": 490.61,
-        "rsi": 46.3,
-        "macd_hist": 0.04,
-        "vol_ratio": 1.71,
+        "sma20": 530.31,
+        "sma50": 539.29,
+        "sma100": 503.08,
+        "sma200": 490.2,
+        "rsi": 46.8,
+        "macd_hist": -0.15,
+        "vol_ratio": 0.27,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2085,25 +2095,25 @@
     },
     {
       "symbol": "CROMPTON",
-      "ltp": 232.4,
+      "ltp": 231.9,
       "short": {
-        "ema5": 231.36,
-        "ema13": 236.84,
-        "ema21": 241.05,
-        "rsi": 37.7,
-        "efi": -6150749.0,
+        "ema5": 231.54,
+        "ema13": 236.13,
+        "ema21": 240.22,
+        "rsi": 37.3,
+        "efi": -5503540.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 241.49,
-        "sma50": 252.56,
-        "sma100": 262.42,
-        "sma200": 255.06,
-        "rsi": 37.7,
-        "macd_hist": -1.2,
-        "vol_ratio": 1.12,
+        "sma20": 240.71,
+        "sma50": 251.79,
+        "sma100": 262.16,
+        "sma200": 254.88,
+        "rsi": 37.3,
+        "macd_hist": -0.82,
+        "vol_ratio": 0.82,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2111,25 +2121,25 @@
     },
     {
       "symbol": "NATCOPHARM",
-      "ltp": 828.65,
+      "ltp": 825.75,
       "short": {
-        "ema5": 840.46,
-        "ema13": 858.28,
-        "ema21": 872.16,
-        "rsi": 29.3,
-        "efi": -3231840.0,
+        "ema5": 835.56,
+        "ema13": 853.63,
+        "ema21": 867.94,
+        "rsi": 28.6,
+        "efi": -2895224.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 876.81,
-        "sma50": 914.15,
-        "sma100": 974.16,
-        "sma200": 947.48,
-        "rsi": 29.3,
-        "macd_hist": -3.41,
-        "vol_ratio": 0.87,
+        "sma20": 872.65,
+        "sma50": 912.3,
+        "sma100": 971.44,
+        "sma200": 947.28,
+        "rsi": 28.6,
+        "macd_hist": -3.32,
+        "vol_ratio": 0.58,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2137,25 +2147,25 @@
     },
     {
       "symbol": "JBMA",
-      "ltp": 613.6,
+      "ltp": 615.35,
       "short": {
-        "ema5": 623.18,
-        "ema13": 631.08,
-        "ema21": 636.44,
-        "rsi": 38.3,
-        "efi": 16681027.0,
+        "ema5": 620.57,
+        "ema13": 628.84,
+        "ema21": 634.52,
+        "rsi": 39.3,
+        "efi": 14332283.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 633.46,
-        "sma50": 657.42,
-        "sma100": 656.84,
+        "sma20": 632.03,
+        "sma50": 655.77,
+        "sma100": 656.74,
         "sma200": 617.94,
-        "rsi": 38.3,
-        "macd_hist": -1.21,
-        "vol_ratio": 0.22,
+        "rsi": 39.3,
+        "macd_hist": -1.39,
+        "vol_ratio": 0.15,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2163,25 +2173,25 @@
     },
     {
       "symbol": "APTUS",
-      "ltp": 258.85,
+      "ltp": 256.96,
       "short": {
-        "ema5": 256.28,
-        "ema13": 256.11,
-        "ema21": 258.08,
-        "rsi": 48.9,
-        "efi": 952933.0,
+        "ema5": 256.5,
+        "ema13": 256.23,
+        "ema21": 257.97,
+        "rsi": 46.8,
+        "efi": 678650.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
       },
       "long": {
-        "sma20": 254.89,
-        "sma50": 271.11,
-        "sma100": 266.97,
-        "sma200": 260.22,
-        "rsi": 48.9,
-        "macd_hist": 1.23,
-        "vol_ratio": 0.99,
+        "sma20": 255.08,
+        "sma50": 270.9,
+        "sma100": 267.11,
+        "sma200": 260.11,
+        "rsi": 46.8,
+        "macd_hist": 1.25,
+        "vol_ratio": 0.43,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2189,25 +2199,25 @@
     },
     {
       "symbol": "INOXWIND",
-      "ltp": 75.6,
+      "ltp": 75.71,
       "short": {
-        "ema5": 73.71,
-        "ema13": 73.34,
-        "ema21": 74.01,
-        "rsi": 52.9,
-        "efi": 15979808.0,
-        "signal": "Buy (anticipatory)",
+        "ema5": 74.38,
+        "ema13": 73.68,
+        "ema21": 74.17,
+        "rsi": 53.3,
+        "efi": 13852625.0,
+        "signal": "Buy (confirmed)",
         "direction": "buy",
-        "pct": 40
+        "pct": 100
       },
       "long": {
-        "sma20": 73.47,
-        "sma50": 77.67,
-        "sma100": 86.05,
-        "sma200": 96.15,
-        "rsi": 52.9,
-        "macd_hist": 0.53,
-        "vol_ratio": 1.13,
+        "sma20": 73.54,
+        "sma50": 77.38,
+        "sma100": 85.8,
+        "sma200": 95.84,
+        "rsi": 53.3,
+        "macd_hist": 0.65,
+        "vol_ratio": 0.75,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2215,51 +2225,51 @@
     },
     {
       "symbol": "JMFINANCIL",
-      "ltp": 132.06,
+      "ltp": 128.47,
       "short": {
-        "ema5": 131.3,
-        "ema13": 129.95,
-        "ema21": 129.03,
-        "rsi": 57.2,
-        "efi": 2294045.0,
-        "signal": "Strong Buy",
+        "ema5": 130.35,
+        "ema13": 129.74,
+        "ema21": 128.98,
+        "rsi": 49.9,
+        "efi": 1081736.0,
+        "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 129.03,
-        "sma50": 126.73,
-        "sma100": 128.0,
-        "sma200": 130.18,
-        "rsi": 57.2,
-        "macd_hist": 0.27,
-        "vol_ratio": 1.65,
-        "signal": "Strong Bullish",
-        "direction": "buy",
-        "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
+        "sma20": 129.09,
+        "sma50": 126.82,
+        "sma100": 127.97,
+        "sma200": 130.11,
+        "rsi": 49.9,
+        "macd_hist": 0.03,
+        "vol_ratio": 0.64,
+        "signal": "Neutral / Wait",
+        "direction": null,
+        "stage": "Mixed signals \u2014 no clear trend confirmation"
       }
     },
     {
       "symbol": "SIGNATURE",
-      "ltp": 796.55,
+      "ltp": 785.2,
       "short": {
-        "ema5": 786.08,
-        "ema13": 787.24,
-        "ema21": 790.71,
-        "rsi": 51.5,
-        "efi": 723777.0,
+        "ema5": 785.79,
+        "ema13": 786.95,
+        "ema21": 790.21,
+        "rsi": 47.5,
+        "efi": 320595.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 793.53,
-        "sma50": 795.65,
-        "sma100": 811.63,
-        "sma200": 889.9,
-        "rsi": 51.5,
-        "macd_hist": -0.17,
-        "vol_ratio": 1.13,
+        "sma20": 791.56,
+        "sma50": 796.55,
+        "sma100": 811.47,
+        "sma200": 888.28,
+        "rsi": 47.5,
+        "macd_hist": 0.09,
+        "vol_ratio": 0.9,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2267,25 +2277,25 @@
     },
     {
       "symbol": "IRCON",
-      "ltp": 117.71,
+      "ltp": 116.89,
       "short": {
-        "ema5": 118.9,
-        "ema13": 120.97,
-        "ema21": 122.58,
-        "rsi": 30.9,
-        "efi": -475515.0,
+        "ema5": 118.23,
+        "ema13": 120.39,
+        "ema21": 122.07,
+        "rsi": 29.4,
+        "efi": -501691.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 122.77,
-        "sma50": 127.09,
-        "sma100": 135.11,
-        "sma200": 142.51,
-        "rsi": 30.9,
-        "macd_hist": -0.38,
-        "vol_ratio": 0.99,
+        "sma20": 122.21,
+        "sma50": 126.81,
+        "sma100": 134.74,
+        "sma200": 142.29,
+        "rsi": 29.4,
+        "macd_hist": -0.39,
+        "vol_ratio": 0.62,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2293,25 +2303,25 @@
     },
     {
       "symbol": "KEC",
-      "ltp": 401.65,
+      "ltp": 405.7,
       "short": {
-        "ema5": 408.33,
-        "ema13": 418.69,
-        "ema21": 428.02,
-        "rsi": 28.1,
-        "efi": -2061417.0,
+        "ema5": 407.45,
+        "ema13": 416.83,
+        "ema21": 425.99,
+        "rsi": 31.8,
+        "efi": -1495986.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 425.91,
-        "sma50": 460.3,
-        "sma100": 492.94,
-        "sma200": 559.62,
-        "rsi": 28.1,
-        "macd_hist": -0.83,
-        "vol_ratio": 0.65,
+        "sma20": 423.66,
+        "sma50": 458.11,
+        "sma100": 491.23,
+        "sma200": 558.19,
+        "rsi": 31.8,
+        "macd_hist": -0.48,
+        "vol_ratio": 0.51,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2319,25 +2329,25 @@
     },
     {
       "symbol": "AFCONS",
-      "ltp": 292.8,
+      "ltp": 280.25,
       "short": {
-        "ema5": 289.74,
-        "ema13": 285.41,
-        "ema21": 283.9,
-        "rsi": 60.8,
-        "efi": 2629763.0,
-        "signal": "Strong Buy",
+        "ema5": 287.34,
+        "ema13": 285.63,
+        "ema21": 284.34,
+        "rsi": 45.6,
+        "efi": 420795.0,
+        "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 279.42,
-        "sma50": 286.79,
-        "sma100": 304.43,
-        "sma200": 322.16,
-        "rsi": 60.8,
-        "macd_hist": 2.29,
-        "vol_ratio": 0.39,
+        "sma20": 281.77,
+        "sma50": 285.78,
+        "sma100": 303.5,
+        "sma200": 321.1,
+        "rsi": 45.6,
+        "macd_hist": 1.2,
+        "vol_ratio": 0.91,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2345,25 +2355,25 @@
     },
     {
       "symbol": "ZENSARTECH",
-      "ltp": 453.85,
+      "ltp": 450.55,
       "short": {
-        "ema5": 461.06,
-        "ema13": 469.03,
-        "ema21": 475.01,
-        "rsi": 37.7,
-        "efi": 1011264.0,
+        "ema5": 457.55,
+        "ema13": 466.39,
+        "ema21": 472.79,
+        "rsi": 36.4,
+        "efi": 744366.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 476.82,
-        "sma50": 487.36,
-        "sma100": 484.35,
-        "sma200": 555.85,
-        "rsi": 37.7,
-        "macd_hist": -2.1,
-        "vol_ratio": 0.97,
+        "sma20": 474.32,
+        "sma50": 488.07,
+        "sma100": 482.97,
+        "sma200": 554.65,
+        "rsi": 36.4,
+        "macd_hist": -2.25,
+        "vol_ratio": 0.39,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2371,25 +2381,25 @@
     },
     {
       "symbol": "WHIRLPOOL",
-      "ltp": 815.95,
+      "ltp": 805.0,
       "short": {
-        "ema5": 806.27,
-        "ema13": 796.68,
-        "ema21": 792.88,
-        "rsi": 58.3,
-        "efi": 20176696.0,
+        "ema5": 805.85,
+        "ema13": 797.87,
+        "ema21": 793.98,
+        "rsi": 54.2,
+        "efi": 16789429.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
       },
       "long": {
-        "sma20": 785.9,
-        "sma50": 787.95,
-        "sma100": 824.49,
-        "sma200": 854.47,
-        "rsi": 58.3,
-        "macd_hist": 4.11,
-        "vol_ratio": 0.39,
+        "sma20": 786.25,
+        "sma50": 788.14,
+        "sma100": 823.34,
+        "sma200": 852.59,
+        "rsi": 54.2,
+        "macd_hist": 3.44,
+        "vol_ratio": 0.64,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2397,25 +2407,25 @@
     },
     {
       "symbol": "BLS",
-      "ltp": 239.17,
+      "ltp": 237.7,
       "short": {
-        "ema5": 239.21,
-        "ema13": 243.76,
-        "ema21": 246.5,
-        "rsi": 41.6,
-        "efi": -25610561.0,
+        "ema5": 238.71,
+        "ema13": 242.89,
+        "ema21": 245.7,
+        "rsi": 40.4,
+        "efi": -22055974.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 253.06,
-        "sma50": 246.84,
-        "sma100": 257.97,
-        "sma200": 272.89,
-        "rsi": 41.6,
-        "macd_hist": -2.03,
-        "vol_ratio": 0.26,
+        "sma20": 251.9,
+        "sma50": 246.58,
+        "sma100": 257.42,
+        "sma200": 272.48,
+        "rsi": 40.4,
+        "macd_hist": -1.73,
+        "vol_ratio": 0.15,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2423,25 +2433,25 @@
     },
     {
       "symbol": "FIRSTCRY",
-      "ltp": 180.16,
+      "ltp": 176.24,
       "short": {
-        "ema5": 179.67,
-        "ema13": 186.75,
-        "ema21": 192.36,
-        "rsi": 31.0,
-        "efi": 9129645.0,
+        "ema5": 177.94,
+        "ema13": 184.06,
+        "ema21": 189.63,
+        "rsi": 28.2,
+        "efi": 6419452.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 195.27,
-        "sma50": 206.49,
-        "sma100": 218.1,
-        "sma200": 239.7,
-        "rsi": 31.0,
-        "macd_hist": -1.67,
-        "vol_ratio": 0.74,
+        "sma20": 191.59,
+        "sma50": 204.67,
+        "sma100": 216.58,
+        "sma200": 238.28,
+        "rsi": 28.2,
+        "macd_hist": -1.08,
+        "vol_ratio": 0.27,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2449,25 +2459,25 @@
     },
     {
       "symbol": "RPOWER",
-      "ltp": 21.94,
+      "ltp": 21.71,
       "short": {
-        "ema5": 22.09,
-        "ema13": 22.38,
-        "ema21": 22.67,
-        "rsi": 36.5,
-        "efi": 829696.0,
+        "ema5": 21.96,
+        "ema13": 22.28,
+        "ema21": 22.58,
+        "rsi": 34.2,
+        "efi": 219508.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 22.59,
-        "sma50": 23.72,
-        "sma100": 25.57,
-        "sma200": 27.64,
-        "rsi": 36.5,
-        "macd_hist": -0.0,
-        "vol_ratio": 1.14,
+        "sma20": 22.49,
+        "sma50": 23.66,
+        "sma100": 25.5,
+        "sma200": 27.55,
+        "rsi": 34.2,
+        "macd_hist": -0.01,
+        "vol_ratio": 0.86,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -2475,25 +2485,25 @@
     },
     {
       "symbol": "SWANCORP",
-      "ltp": 278.1,
+      "ltp": 276.8,
       "short": {
-        "ema5": 283.88,
-        "ema13": 291.66,
-        "ema21": 296.15,
-        "rsi": 21.8,
-        "efi": -1936036.0,
+        "ema5": 281.52,
+        "ema13": 289.54,
+        "ema21": 294.4,
+        "rsi": 21.1,
+        "efi": -1799908.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
       },
       "long": {
-        "sma20": 298.43,
-        "sma50": 307.3,
-        "sma100": 316.39,
-        "sma200": 360.0,
-        "rsi": 21.8,
-        "macd_hist": -2.16,
-        "vol_ratio": 1.27,
+        "sma20": 296.71,
+        "sma50": 306.57,
+        "sma100": 315.69,
+        "sma200": 359.08,
+        "rsi": 21.1,
+        "macd_hist": -2.2,
+        "vol_ratio": 0.84,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
