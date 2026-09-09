@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confluence Board</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+  :root{
+    --ink: #0E1826;
+    --panel: #152238;
+    --panel-2: #1C2E4A;
+    --panel-3: #24395A;
+    --hairline: #2A3E5C;
+    --paper: #ECE7DC;
+    --paper-dim: #B9BFC9;
+    --muted: #7C8AA0;
+    --gold: #C9A23D;
+    --buy: #3CAE7E;
+    --buy-bg: rgba(60,174,126,0.14);
+    --buy-strong-bg: rgba(60,174,126,0.24);
+    --sell: #C15A45;
+    --sell-bg: rgba(193,90,69,0.14);
+    --sell-strong-bg: rgba(193,90,69,0.24);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:14px;
+    padding:32px 28px 64px;
+  }
+  .wrap{max-width:1280px;margin:0 auto;}
+  code{background:var(--panel-2); padding:1px 5px; border-radius:3px; font-size:12px;}
+
+  h1,h2,h3{font-family:'Fraunces', serif; margin:0; letter-spacing:-0.01em;}
+
+  .masthead{
+    display:flex; align-items:flex-end; justify-content:space-between;
+    flex-wrap:wrap; gap:14px 24px;
+    border-bottom:1px solid var(--hairline);
+    padding-bottom:20px; margin-bottom:18px;
+  }
+  .masthead h1{font-size:28px; font-weight:600; color:var(--paper);}
+  .masthead .sub{color:var(--muted); font-size:13px; margin-top:6px; max-width:540px; line-height:1.5;}
+  .masthead-right{text-align:right;}
+  .masthead-right .meta{font-size:12px; color:var(--muted); margin-bottom:8px;}
+
+  button{
+    background:transparent; color:var(--paper); border:1px solid var(--hairline);
+    font-family:'IBM Plex Sans', sans-serif; font-size:13px; font-weight:500;
+    padding:9px 16px; border-radius:6px; cursor:pointer;
+  }
+  button:hover{border-color:var(--gold); color:var(--gold);}
+  button:disabled{opacity:0.5; cursor:default;}
+
+  .clustertabs{display:flex; gap:8px; margin-bottom:20px;}
+  .clustertab{
+    background:var(--panel); border:1px solid var(--hairline); border-radius:8px;
+    padding:12px 20px; cursor:pointer; flex:1; max-width:280px;
+  }
+  .clustertab .t-name{font-family:'Fraunces', serif; font-size:15px; font-weight:600; color:var(--paper-dim);}
+  .clustertab .t-desc{font-size:11.5px; color:var(--muted); margin-top:2px;}
+  .clustertab.active{border-color:var(--gold); background:var(--panel-2);}
+  .clustertab.active .t-name{color:var(--gold);}
+
+  .pills{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:24px;}
+  .pill{
+    display:flex; align-items:center; gap:8px;
+    background:var(--panel); border:1px solid var(--hairline); border-radius:20px;
+    padding:8px 14px; font-size:13px; cursor:pointer; color:var(--paper-dim);
+  }
+  .pill:hover{border-color:var(--muted);}
+  .pill.active{border-color:var(--gold); color:var(--paper); background:var(--panel-2);}
+  .pill .n{font-weight:600; font-variant-numeric:tabular-nums;}
+  .pill.buyish .n{color:var(--buy);}
+  .pill.sellish .n{color:var(--sell);}
+
+  .boards{display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:28px;}
+  .board-col{display:flex; flex-direction:column; gap:16px;}
+  .board{background:var(--panel); border:1px solid var(--hairline); border-radius:8px; padding:18px 20px;}
+  .board-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;}
+  .board h2{font-size:15px; font-weight:600;}
+  .board.buy h2{color:var(--buy);}
+  .board.sell h2{color:var(--sell);}
+  .board .board-count{font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums;}
+  .board .board-sub{font-size:11.5px; color:var(--muted); margin-bottom:14px;}
+  .board-row{
+    display:flex; align-items:center; gap:12px; padding:8px 0;
+    border-bottom:1px solid var(--hairline);
+  }
+  .board-row:last-child{border-bottom:none;}
+  .board-row .rank{width:18px; color:var(--muted); font-size:12px; font-variant-numeric:tabular-nums;}
+  .board-row .sym{font-weight:600; font-size:13.5px; flex:1;}
+  .board-row .tag{font-size:11px; font-weight:600; padding:2px 8px; border-radius:3px;}
+  .board.buy .board-row .tag{background:var(--buy-bg); color:var(--buy);}
+  .board.sell .board-row .tag{background:var(--sell-bg); color:var(--sell);}
+  .board-row .rsi{font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; width:60px; text-align:right;}
+  .board-empty{color:var(--muted); font-size:13px; padding:12px 0;}
+  .board-toggle{
+    width:100%; margin-top:10px; padding:8px; font-size:12px; text-align:center;
+    background:transparent; border:1px dashed var(--hairline); color:var(--muted); border-radius:6px;
+  }
+  .board-toggle:hover{color:var(--gold); border-color:var(--gold);}
+
+  .controls-row{display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:14px;}
+  .search{
+    background:var(--panel); border:1px solid var(--hairline); color:var(--paper);
+    font-family:'IBM Plex Sans', sans-serif; font-size:13px; padding:9px 14px;
+    border-radius:6px; width:260px;
+  }
+  .search:focus{outline:none; border-color:var(--gold);}
+  .count{font-size:12.5px; color:var(--muted);}
+
+  .status{font-size:12px; color:var(--muted); margin-top:8px; min-height:16px;}
+  .status.err{color:var(--sell);}
+
+  table{width:100%; border-collapse:collapse; font-size:13px;}
+  thead th{
+    text-align:left; font-weight:500; color:var(--muted); font-size:11px;
+    padding:8px 10px; border-bottom:1px solid var(--hairline);
+    white-space:nowrap; cursor:pointer; user-select:none;
+  }
+  thead th:hover{color:var(--paper);}
+  thead th.sorted{color:var(--gold);}
+  tbody td{padding:11px 10px; border-bottom:1px solid var(--hairline); vertical-align:middle; white-space:nowrap;}
+  tbody tr:hover{background:var(--panel);}
+  .sym{font-weight:600; font-size:13.5px;}
+  .num{font-variant-numeric:tabular-nums;}
+  .muted{color:var(--muted);}
+
+  .badge{display:inline-block; padding:3px 9px; border-radius:4px; font-size:11px; font-weight:600;}
+  .badge.strongbuy{background:var(--buy-strong-bg); color:var(--buy);}
+  .badge.buy{background:var(--buy-bg); color:var(--buy);}
+  .badge.strongsell{background:var(--sell-strong-bg); color:var(--sell);}
+  .badge.sell{background:var(--sell-bg); color:var(--sell);}
+  .badge.neutral{background:var(--panel-2); color:var(--muted); border:1px solid var(--hairline);}
+
+  .toggle{display:inline-flex; gap:4px;}
+  .toggle button{padding:4px 8px; font-size:10.5px; border-radius:4px;}
+  .toggle button.active-buy{background:var(--buy-bg); color:var(--buy); border-color:var(--buy);}
+  .toggle button.active-sell{background:var(--sell-bg); color:var(--sell); border-color:var(--sell);}
+
+  .final{font-weight:600; font-size:12px;}
+  .final.can-buy{color:var(--buy);}
+  .final.can-sell{color:var(--sell);}
+  .final.wait{color:var(--gold);}
+
+  .note{font-size:11.5px; color:var(--muted); line-height:1.6; margin-top:18px; border-top:1px solid var(--hairline); padding-top:14px;}
+  .empty{color:var(--muted); font-size:13px; padding:36px 0; text-align:center; line-height:1.7;}
+  a{color:var(--gold); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .table-wrap{background:var(--panel); border:1px solid var(--hairline); border-radius:8px; padding:6px 16px 16px;}
+
+  @media (max-width: 800px){
+    .boards{grid-template-columns:1fr;}
+    .clustertabs{flex-direction:column;}
+    .clustertab{max-width:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div>
+      <h1>Confluence Board</h1>
+      <div class="sub">Nifty Smallcap 100, daily chart. Data from <code>data.json</code>, refreshed server-side after market close.</div>
+    </div>
+    <div class="masthead-right">
+      <div class="meta" id="genMeta">No data.json loaded yet.</div>
+      <button id="reloadBtn" type="button">Reload data.json</button>
+    </div>
+  </div>
+
+  <div class="clustertabs" id="clusterTabs" style="display:none;">
+    <div class="clustertab active" data-cluster="short">
+      <div class="t-name">Short-term</div>
+      <div class="t-desc">5·13·21 EMA + RSI50 + EFI — for traders</div>
+    </div>
+    <div class="clustertab" data-cluster="long">
+      <div class="t-name">Long-term</div>
+      <div class="t-desc">20·50·100·200 SMA + RSI + MACD + Volume — for investors</div>
+    </div>
+    <div class="clustertab" data-cluster="monthly">
+      <div class="t-name">Monthly EMA21</div>
+      <div class="t-desc">Pullback / bounce off the monthly 21 EMA — position entries</div>
+    </div>
+  </div>
+
+  <div class="pills" id="pillsRow" style="display:none;"></div>
+
+  <div class="boards" id="boardsRow" style="display:none;">
+    <div class="board-col">
+      <div class="board buy">
+        <div class="board-head"><h2 id="buyConfirmedTitle">Confirmed buy</h2><span class="board-count" id="buyConfirmedCount"></span></div>
+        <div class="board-sub" id="buyConfirmedSub"></div>
+        <div id="buyConfirmedList"></div>
+        <button type="button" class="board-toggle" data-group="buyConfirmed">Show all</button>
+      </div>
+      <div class="board buy">
+        <div class="board-head"><h2 id="buyAntTitle">Anticipatory buy</h2><span class="board-count" id="buyAntCount"></span></div>
+        <div class="board-sub" id="buyAntSub"></div>
+        <div id="buyAntList"></div>
+        <button type="button" class="board-toggle" data-group="buyAnt">Show all</button>
+      </div>
+    </div>
+    <div class="board-col">
+      <div class="board sell">
+        <div class="board-head"><h2 id="sellConfirmedTitle">Confirmed sell</h2><span class="board-count" id="sellConfirmedCount"></span></div>
+        <div class="board-sub" id="sellConfirmedSub"></div>
+        <div id="sellConfirmedList"></div>
+        <button type="button" class="board-toggle" data-group="sellConfirmed">Show all</button>
+      </div>
+      <div class="board sell">
+        <div class="board-head"><h2 id="sellAntTitle">Anticipatory sell</h2><span class="board-count" id="sellAntCount"></span></div>
+        <div class="board-sub" id="sellAntSub"></div>
+        <div id="sellAntList"></div>
+        <button type="button" class="board-toggle" data-group="sellAnt">Show all</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls-row" id="controlsRow" style="display:none;">
+    <input class="search" id="searchBox" type="text" placeholder="Search symbol...">
+    <div class="count" id="countLine"></div>
+  </div>
+
+  <div class="table-wrap" id="tableWrap" style="display:none;">
+    <table>
+      <thead><tr id="tableHeadRow"></tr></thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+    <div class="note" id="tableNote"></div>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <div class="empty" id="emptyPanel">
+    Couldn't find <code>data.json</code> next to this file yet.<br>
+    Run <code>python scan.py</code> once locally, or set up the GitHub Action so it refreshes automatically after market close.
+  </div>
+
+</div>
+
+<script>
+let intradayState = {};
+let lastData = null;
+let activeCluster = 'short';
+let activeFilter = 'all';
+let searchTerm = '';
+let sortKey = null;
+let sortDir = 1;
+const boardExpanded = { buyConfirmed:false, buyAnt:false, sellConfirmed:false, sellAnt:false };
+
+const SHORT_RANK = { 'Strong Buy':4, 'Strong Sell':4, 'Buy (confirmed)':3, 'Sell (confirmed)':3, 'Buy (anticipatory)':2, 'Sell (anticipatory)':2 };
+
+const CLUSTERS = {
+  short: {
+    dataKey: 'short',
+    notes: 'Daily signal = EMA stack + RSI-50 + EFI-sign confluence (Strong Buy/Sell needs all three aligned; plain Buy/Sell = EMA stack only, unconfirmed). Final action applies the Daily+15min matrix — toggle Buy/Sell per stock after checking the 15-min chart. This is not investment advice — verify before acting.',
+    pillDefs: [
+      {key:'all', label:'All', cls:''},
+      {key:'strongbuy', label:'Strong buy', cls:'buyish'},
+      {key:'buyant', label:'Buy (anticipatory + confirmed)', cls:'buyish'},
+      {key:'neutral', label:'Neutral', cls:''},
+      {key:'sellant', label:'Sell (anticipatory + confirmed)', cls:'sellish'},
+      {key:'strongsell', label:'Strong sell', cls:'sellish'},
+    ],
+    matchesFilter(c, filter){
+      if(filter==='strongbuy') return c.signal === 'Strong Buy';
+      if(filter==='buyant') return c.direction === 'buy' && c.signal !== 'Strong Buy';
+      if(filter==='neutral') return !c.direction;
+      if(filter==='sellant') return c.direction === 'sell' && c.signal !== 'Strong Sell';
+      if(filter==='strongsell') return c.signal === 'Strong Sell';
+      return true;
+    },
+    groupTitles: {
+      buyConfirmed: ['Confirmed buy', '5 EMA above both 13 and 21 EMA — ranked by conviction'],
+      buyAnt: ['Anticipatory buy', '5 EMA just crossed above 13 EMA — early signal, unconfirmed'],
+      sellConfirmed: ['Confirmed sell', '5 EMA below both 13 and 21 EMA — ranked by conviction'],
+      sellAnt: ['Anticipatory sell', '5 EMA just crossed below 13 EMA — early signal, unconfirmed'],
+    },
+    groups(all){
+      return {
+        buyConfirmed: all.filter(({c}) => c.direction==='buy' && c.signal!=='Buy (anticipatory)').sort((a,b) => (SHORT_RANK[b.c.signal]||0)-(SHORT_RANK[a.c.signal]||0) || b.c.rsi-a.c.rsi),
+        buyAnt: all.filter(({c}) => c.signal==='Buy (anticipatory)').sort((a,b) => b.c.rsi-a.c.rsi),
+        sellConfirmed: all.filter(({c}) => c.direction==='sell' && c.signal!=='Sell (anticipatory)').sort((a,b) => (SHORT_RANK[b.c.signal]||0)-(SHORT_RANK[a.c.signal]||0) || a.c.rsi-b.c.rsi),
+        sellAnt: all.filter(({c}) => c.signal==='Sell (anticipatory)').sort((a,b) => a.c.rsi-b.c.rsi),
+      };
+    },
+    columns: [
+      {label:'Symbol', key:'symbol'},
+      {label:'LTP', key:'ltp'},
+      {label:'5 EMA', key:'ema5', color:'var(--buy)'},
+      {label:'13 EMA', key:'ema13', color:'var(--sell)'},
+      {label:'21 EMA', key:'ema21', color:'var(--gold)'},
+      {label:'RSI 14', key:'rsi'},
+      {label:'EFI 13', key:'efi'},
+      {label:'Daily signal', key:'signal'},
+      {label:'15-min aligned?', key:null},
+      {label:'Final action', key:null},
+    ],
+  },
+  long: {
+    dataKey: 'long',
+    notes: 'Trend signal = SMA stack (20/50/100/200) + RSI + MACD histogram + volume vs 20-day average. Strong Bullish/Bearish need all indicators aligned; Bullish/Bearish are a partial confirmation. This is a trend read, not a price target — the 100 and 200 SMA act as dynamic support/resistance, not fixed levels. Not investment advice — verify before acting.',
+    pillDefs: [
+      {key:'all', label:'All', cls:''},
+      {key:'strongbuy', label:'Strong bullish', cls:'buyish'},
+      {key:'buyant', label:'Bullish', cls:'buyish'},
+      {key:'neutral', label:'Neutral / wait', cls:''},
+      {key:'sellant', label:'Bearish', cls:'sellish'},
+      {key:'strongsell', label:'Strong bearish', cls:'sellish'},
+    ],
+    matchesFilter(c, filter){
+      if(filter==='strongbuy') return c.signal === 'Strong Bullish';
+      if(filter==='buyant') return c.signal === 'Bullish';
+      if(filter==='neutral') return c.signal === 'Neutral / Wait';
+      if(filter==='sellant') return c.signal === 'Bearish';
+      if(filter==='strongsell') return c.signal === 'Strong Bearish';
+      return true;
+    },
+    groupTitles: {
+      buyConfirmed: ['Strong bullish', 'Above all 4 SMAs, RSI/MACD/volume confirmed'],
+      buyAnt: ['Bullish', 'Above 50/100/200 SMA, bullish MACD — partial confirmation'],
+      sellConfirmed: ['Strong bearish', 'Below all 4 SMAs, bearish MACD'],
+      sellAnt: ['Bearish', 'Below 50/100 SMA, bearish MACD — partial confirmation'],
+    },
+    groups(all){
+      return {
+        buyConfirmed: all.filter(({c}) => c.signal==='Strong Bullish').sort((a,b) => b.c.rsi-a.c.rsi),
+        buyAnt: all.filter(({c}) => c.signal==='Bullish').sort((a,b) => b.c.rsi-a.c.rsi),
+        sellConfirmed: all.filter(({c}) => c.signal==='Strong Bearish').sort((a,b) => a.c.rsi-b.c.rsi),
+        sellAnt: all.filter(({c}) => c.signal==='Bearish').sort((a,b) => a.c.rsi-b.c.rsi),
+      };
+    },
+    columns: [
+      {label:'Symbol', key:'symbol'},
+      {label:'LTP', key:'ltp'},
+      {label:'20 SMA', key:'sma20', color:'var(--buy)'},
+      {label:'50 SMA', key:'sma50'},
+      {label:'100 SMA', key:'sma100'},
+      {label:'200 SMA', key:'sma200', color:'var(--gold)'},
+      {label:'RSI 14', key:'rsi'},
+      {label:'MACD hist', key:'macd_hist'},
+      {label:'Vol vs 20d', key:'vol_ratio'},
+      {label:'Trend signal', key:'signal'},
+      {label:'Stage', key:null},
+    ],
+  },
+  monthly: {
+    dataKey: 'monthly',
+    notes: 'Monthly candle close vs 21 EMA. "Prior uptrend %" = share of the last 12 months closed above EMA21, before this pullback — a high number means the pullback is happening inside an established uptrend, not a fresh breakdown. "Bounce off EMA21" = last month closed at/below EMA21, this month closed back above it. Not investment advice — verify before acting.',
+    pillDefs: [
+      {key:'all', label:'All', cls:''},
+      {key:'bounce', label:'Bounce off EMA21', cls:'buyish'},
+      {key:'pullback', label:'Pullback — in zone', cls:'buyish'},
+      {key:'extended', label:'Extended above', cls:''},
+      {key:'broke', label:'Broke below EMA21', cls:'sellish'},
+      {key:'downtrend', label:'Downtrend', cls:'sellish'},
+    ],
+    matchesFilter(c, filter){
+      if(filter==='bounce') return c.signal === 'Bounce off EMA21';
+      if(filter==='pullback') return c.signal === 'Pullback — testing EMA21';
+      if(filter==='extended') return c.signal === 'Extended above EMA21';
+      if(filter==='broke') return c.signal === 'Broke below EMA21';
+      if(filter==='downtrend') return c.signal === 'Downtrend — below EMA21';
+      return true;
+    },
+    groupTitles: {
+      buyConfirmed: ['Bounce off EMA21', 'Closed back above EMA21 this month, after an established uptrend'],
+      buyAnt: ['Pullback — in zone', 'Within 4% of EMA21, uptrend context intact — watch for a bounce'],
+      sellConfirmed: ['Broke below EMA21', 'Decisively below EMA21 after an uptrend — support may be lost'],
+      sellAnt: ['Downtrend — below EMA21', 'No prior uptrend context, price below EMA21'],
+    },
+    groups(all){
+      return {
+        buyConfirmed: all.filter(({c}) => c.signal==='Bounce off EMA21').sort((a,b) => a.c.dist_pct-b.c.dist_pct),
+        buyAnt: all.filter(({c}) => c.signal==='Pullback — testing EMA21').sort((a,b) => Math.abs(a.c.dist_pct)-Math.abs(b.c.dist_pct)),
+        sellConfirmed: all.filter(({c}) => c.signal==='Broke below EMA21').sort((a,b) => a.c.dist_pct-b.c.dist_pct),
+        sellAnt: all.filter(({c}) => c.signal==='Downtrend — below EMA21').sort((a,b) => a.c.dist_pct-b.c.dist_pct),
+      };
+    },
+    columns: [
+      {label:'Symbol', key:'symbol'},
+      {label:'LTP', key:'ltp'},
+      {label:'21 EMA (M)', key:'ema21', color:'var(--gold)'},
+      {label:'Dist %', key:'dist_pct'},
+      {label:'Prior uptrend %', key:'prior_uptrend_pct'},
+      {label:'Monthly signal', key:'signal'},
+    ],
+  },
+};
+
+function fmt(n, d=2){ return n==null || isNaN(n) ? '—' : Number(n).toFixed(d); }
+
+function badgeClass(signal){
+  if(signal === 'Strong Buy' || signal === 'Strong Bullish') return 'strongbuy';
+  if(signal === 'Strong Sell' || signal === 'Strong Bearish') return 'strongsell';
+  if(signal === 'Bullish' || (signal && signal.startsWith('Buy'))) return 'buy';
+  if(signal === 'Bearish' || (signal && signal.startsWith('Sell'))) return 'sell';
+  if(signal === 'Bounce off EMA21') return 'strongbuy';
+  if(signal === 'Pullback — testing EMA21') return 'buy';
+  if(signal === 'Broke below EMA21') return 'strongsell';
+  if(signal === 'Downtrend — below EMA21') return 'sell';
+  return 'neutral';
+}
+
+function finalAction(dailyDir, m15){
+  if(!dailyDir) return {label:'—', cls:''};
+  if(!m15) return {label:'Daily only', cls:'wait'};
+  if(dailyDir===m15) return {label: dailyDir==='buy' ? 'CAN BUY' : 'CAN SELL', cls: dailyDir==='buy'?'can-buy':'can-sell'};
+  return {label:'NO TRADE', cls:'wait'};
+}
+
+function getRows(){
+  if(!lastData) return [];
+  const conf = CLUSTERS[activeCluster];
+  return lastData.results
+    .filter(r => r[conf.dataKey])
+    .map(r => ({ symbol: r.symbol, ltp: r.ltp, c: r[conf.dataKey] }));
+}
+
+function renderTabs(){
+  document.querySelectorAll('.clustertab').forEach(t => t.classList.toggle('active', t.dataset.cluster === activeCluster));
+}
+
+function renderPills(rows){
+  const conf = CLUSTERS[activeCluster];
+  const counts = {};
+  conf.pillDefs.forEach(d => counts[d.key] = 0);
+  rows.forEach(({c}) => conf.pillDefs.forEach(d => { if(conf.matchesFilter(c, d.key)) counts[d.key]++; }));
+  document.getElementById('pillsRow').innerHTML = conf.pillDefs.map(d =>
+    `<div class="pill ${d.cls} ${activeFilter===d.key?'active':''}" data-filter="${d.key}">${d.label} <span class="n">${counts[d.key]}</span></div>`
+  ).join('');
+}
+
+const boardRowHtml = (row, i) => `<div class="board-row">
+  <span class="rank">${i+1}</span>
+  <span class="sym">${row.symbol}</span>
+  <span class="tag">${row.c.signal}</span>
+  <span class="rsi">RSI ${fmt(row.c.rsi,1)}</span>
+</div>`;
+
+let boardGroups = null;
+
+function renderGroup(key){
+  const conf = CLUSTERS[activeCluster];
+  const [title, sub] = conf.groupTitles[key];
+  document.getElementById(key+'Title').textContent = title;
+  document.getElementById(key+'Sub').textContent = sub;
+
+  const items = boardGroups[key];
+  document.getElementById(key+'Count').textContent = items.length;
+  const expanded = boardExpanded[key];
+  const shown = expanded ? items : items.slice(0, 10);
+  document.getElementById(key+'List').innerHTML = shown.length
+    ? shown.map(boardRowHtml).join('')
+    : `<div class="board-empty">None right now.</div>`;
+
+  const toggleBtn = document.querySelector(`.board-toggle[data-group="${key}"]`);
+  if(items.length <= 10){
+    toggleBtn.style.display = 'none';
+  }else{
+    toggleBtn.style.display = '';
+    toggleBtn.textContent = expanded ? 'Show top 10' : `Show all ${items.length}`;
+  }
+}
+
+function renderBoards(rows){
+  boardGroups = CLUSTERS[activeCluster].groups(rows);
+  ['buyConfirmed','buyAnt','sellConfirmed','sellAnt'].forEach(renderGroup);
+}
+
+function renderTableHead(){
+  const conf = CLUSTERS[activeCluster];
+  document.getElementById('tableHeadRow').innerHTML = conf.columns.map(col =>
+    `<th ${col.key ? `data-key="${col.key}"` : ''}>${col.label}</th>`
+  ).join('');
+  document.getElementById('tableNote').textContent = conf.notes;
+}
+
+function renderRow(row){
+  const c = row.c;
+  const chartUrl = `https://www.tradingview.com/chart/?symbol=NSE:${row.symbol}`;
+
+  if(activeCluster === 'short'){
+    const m15 = intradayState[row.symbol] || null;
+    const fa = finalAction(c.direction, m15);
+    return `<tr>
+      <td class="sym">${row.symbol}<br><a href="${chartUrl}" target="_blank" style="font-size:10.5px;">15-min chart ↗</a></td>
+      <td class="num">${fmt(row.ltp)}</td>
+      <td class="num" style="color:var(--buy)">${fmt(c.ema5)}</td>
+      <td class="num" style="color:var(--sell)">${fmt(c.ema13)}</td>
+      <td class="num" style="color:var(--gold)">${fmt(c.ema21)}</td>
+      <td class="num">${fmt(c.rsi,1)}</td>
+      <td class="num">${fmt(c.efi,0)}</td>
+      <td><span class="badge ${badgeClass(c.signal)}">${c.signal}</span></td>
+      <td>
+        <span class="toggle">
+          <button type="button" class="${m15==='buy'?'active-buy':''}" data-sym="${row.symbol}" data-val="buy">Buy</button>
+          <button type="button" class="${m15==='sell'?'active-sell':''}" data-sym="${row.symbol}" data-val="sell">Sell</button>
+          <button type="button" data-sym="${row.symbol}" data-val="">Clear</button>
+        </span>
+      </td>
+      <td class="final ${fa.cls}">${fa.label}</td>
+    </tr>`;
+  }
+
+  if(activeCluster === 'monthly'){
+    return `<tr>
+      <td class="sym">${row.symbol}<br><a href="${chartUrl}" target="_blank" style="font-size:10.5px;">Chart ↗</a></td>
+      <td class="num">${fmt(row.ltp)}</td>
+      <td class="num" style="color:var(--gold)">${fmt(c.ema21)}</td>
+      <td class="num" style="color:${c.dist_pct>=0?'var(--buy)':'var(--sell)'}">${fmt(c.dist_pct)}%</td>
+      <td class="num">${fmt(c.prior_uptrend_pct,0)}%</td>
+      <td><span class="badge ${badgeClass(c.signal)}">${c.signal}</span></td>
+    </tr>`;
+  }
+
+  return `<tr>
+    <td class="sym">${row.symbol}<br><a href="${chartUrl}" target="_blank" style="font-size:10.5px;">Chart ↗</a></td>
+    <td class="num">${fmt(row.ltp)}</td>
+    <td class="num" style="color:var(--buy)">${fmt(c.sma20)}</td>
+    <td class="num">${fmt(c.sma50)}</td>
+    <td class="num">${fmt(c.sma100)}</td>
+    <td class="num" style="color:var(--gold)">${fmt(c.sma200)}</td>
+    <td class="num">${fmt(c.rsi,1)}</td>
+    <td class="num">${fmt(c.macd_hist)}</td>
+    <td class="num">${fmt(c.vol_ratio)}x</td>
+    <td><span class="badge ${badgeClass(c.signal)}">${c.signal}</span></td>
+    <td class="muted" style="white-space:normal; max-width:220px;">${c.stage}</td>
+  </tr>`;
+}
+
+function applyFilterAndSearch(rows){
+  const conf = CLUSTERS[activeCluster];
+  return rows.filter(row => {
+    if(!conf.matchesFilter(row.c, activeFilter)) return false;
+    if(searchTerm && !row.symbol.toLowerCase().includes(searchTerm.toLowerCase())) return false;
+    return true;
+  });
+}
+
+function sortRows(rows){
+  if(!sortKey) return rows;
+  return [...rows].sort((a,b) => {
+    const av = sortKey==='symbol' ? a.symbol : (sortKey==='ltp' ? a.ltp : a.c[sortKey]);
+    const bv = sortKey==='symbol' ? b.symbol : (sortKey==='ltp' ? b.ltp : b.c[sortKey]);
+    if(typeof av === 'string') return av.localeCompare(bv) * sortDir;
+    return ((av ?? -Infinity) - (bv ?? -Infinity)) * sortDir;
+  });
+}
+
+function redraw(){
+  if(!lastData) return;
+  const allRows = getRows();
+  renderPills(allRows);
+  renderBoards(allRows);
+  renderTableHead();
+
+  const filtered = sortRows(applyFilterAndSearch(allRows));
+  document.getElementById('resultsBody').innerHTML = filtered.map(renderRow).join('');
+  document.getElementById('countLine').textContent = `Showing ${filtered.length} of ${allRows.length}`;
+
+  document.querySelectorAll('thead th[data-key]').forEach(th => {
+    th.classList.toggle('sorted', th.dataset.key === sortKey);
+  });
+}
+
+async function loadData(){
+  const status = document.getElementById('status');
+  const btn = document.getElementById('reloadBtn');
+  btn.disabled = true;
+  status.className = 'status';
+  status.textContent = 'Loading data.json...';
+  try{
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('HTTP ' + res.status);
+    lastData = await res.json();
+
+    ['clusterTabs','pillsRow','boardsRow','controlsRow','tableWrap'].forEach(id => document.getElementById(id).style.display = '');
+    document.getElementById('emptyPanel').style.display = 'none';
+
+    const genTime = lastData.generated_at ? new Date(lastData.generated_at).toLocaleString() : 'unknown time';
+    document.getElementById('genMeta').textContent = `Last scanned: ${genTime} · ${lastData.results.length} ok${lastData.errors && lastData.errors.length ? `, ${lastData.errors.length} failed` : ''}`;
+    status.textContent = '';
+
+    sortKey = null; sortDir = 1; activeFilter = 'all';
+    redraw();
+  }catch(e){
+    ['clusterTabs','pillsRow','boardsRow','controlsRow','tableWrap'].forEach(id => document.getElementById(id).style.display = 'none');
+    document.getElementById('emptyPanel').style.display = 'block';
+    status.className = 'status err';
+    status.textContent = `Couldn't load data.json — ${e.message}. Make sure it's in the same folder as this HTML file.`;
+  }
+  btn.disabled = false;
+}
+
+document.getElementById('reloadBtn').addEventListener('click', loadData);
+
+document.getElementById('clusterTabs').addEventListener('click', (e) => {
+  const tab = e.target.closest('.clustertab');
+  if(!tab) return;
+  activeCluster = tab.dataset.cluster;
+  activeFilter = 'all';
+  sortKey = null; sortDir = 1;
+  renderTabs();
+  redraw();
+});
+
+document.getElementById('pillsRow').addEventListener('click', (e) => {
+  const pill = e.target.closest('.pill');
+  if(!pill) return;
+  activeFilter = pill.dataset.filter;
+  redraw();
+});
+
+document.getElementById('boardsRow').addEventListener('click', (e) => {
+  const btn = e.target.closest('.board-toggle');
+  if(!btn) return;
+  const key = btn.dataset.group;
+  boardExpanded[key] = !boardExpanded[key];
+  renderGroup(key);
+});
+
+document.getElementById('searchBox').addEventListener('input', (e) => {
+  searchTerm = e.target.value;
+  redraw();
+});
+
+document.getElementById('tableHeadRow').addEventListener('click', (e) => {
+  const th = e.target.closest('th[data-key]');
+  if(!th) return;
+  const key = th.dataset.key;
+  if(sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+  redraw();
+});
+
+document.getElementById('resultsBody').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-sym]');
+  if(!btn) return;
+  const sym = btn.getAttribute('data-sym');
+  const val = btn.getAttribute('data-val') || null;
+  intradayState[sym] = val;
+  redraw();
+});
+
+loadData();
+</script>
+</body>
+</html>
