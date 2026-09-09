@@ -45,6 +45,9 @@ WATCHLIST = [
 ]
 
 HISTORY_PERIOD = "2y"  # need 200+ daily bars for the long-term cluster
+MONTHLY_HISTORY_PERIOD = "10y"  # need 30+ monthly bars for EMA21 + lookback context
+MONTHLY_NEAR_PCT = 4.0   # % distance from EMA21 to be considered "in the zone"
+MONTHLY_LOOKBACK = 12    # trailing months (excluding current) checked for prior uptrend
 
 
 def ema(series: pd.Series, period: int) -> pd.Series:
@@ -167,7 +170,54 @@ def compute_long(close: pd.Series, volume: pd.Series):
     }
 
 
-def scan_symbol(symbol: str, df: pd.DataFrame):
+# ---------- monthly (EMA21 pullback / bounce) ----------
+
+def classify_monthly(price, ema21, prior_above_ratio, crossed_up):
+    dist_pct = (price - ema21) / ema21 * 100
+    near = abs(dist_pct) <= MONTHLY_NEAR_PCT
+    uptrend_context = prior_above_ratio >= 0.6
+
+    if crossed_up and uptrend_context:
+        return "Bounce off EMA21", "buy", dist_pct
+    if uptrend_context and near:
+        return "Pullback — testing EMA21", "buy", dist_pct
+    if uptrend_context and price < ema21 and not near:
+        return "Broke below EMA21", "sell", dist_pct
+    if not uptrend_context and price < ema21:
+        return "Downtrend — below EMA21", "sell", dist_pct
+    if dist_pct > MONTHLY_NEAR_PCT:
+        return "Extended above EMA21", None, dist_pct
+    return "Neutral", None, dist_pct
+
+
+def compute_monthly(monthly_close: pd.Series):
+    monthly_close = monthly_close.dropna()
+    if len(monthly_close) < MONTHLY_LOOKBACK + 13:
+        raise ValueError(f"not enough monthly history ({len(monthly_close)} bars)")
+
+    e21 = ema(monthly_close, 21)
+    price = float(monthly_close.iloc[-1])
+    v21 = float(e21.iloc[-1])
+
+    window_close = monthly_close.iloc[-(MONTHLY_LOOKBACK + 1):-1]
+    window_ema = e21.iloc[-(MONTHLY_LOOKBACK + 1):-1]
+    prior_above_ratio = float((window_close > window_ema).mean()) if len(window_close) else 0.0
+
+    prev_price = float(monthly_close.iloc[-2]) if len(monthly_close) >= 2 else price
+    prev_ema21 = float(e21.iloc[-2]) if len(e21) >= 2 else v21
+    crossed_up = prev_price <= prev_ema21 and price > v21
+
+    signal, direction, dist_pct = classify_monthly(price, v21, prior_above_ratio, crossed_up)
+
+    return {
+        "ema21": round(v21, 2),
+        "dist_pct": round(dist_pct, 2),
+        "prior_uptrend_pct": round(prior_above_ratio * 100, 0),
+        "signal": signal, "direction": direction,
+    }
+
+
+def scan_symbol(symbol: str, df: pd.DataFrame, df_monthly: pd.DataFrame = None):
     close, volume = df["Close"], df["Volume"]
     ltp = round(float(close.dropna().iloc[-1]), 2)
     out = {"symbol": symbol, "ltp": ltp}
@@ -177,6 +227,13 @@ def scan_symbol(symbol: str, df: pd.DataFrame):
     except ValueError as e:
         out["long"] = None
         out["long_error"] = str(e)
+    try:
+        if df_monthly is None or df_monthly.empty:
+            raise ValueError("no monthly data")
+        out["monthly"] = compute_monthly(df_monthly["Close"])
+    except ValueError as e:
+        out["monthly"] = None
+        out["monthly_error"] = str(e)
     return out
 
 
@@ -194,18 +251,30 @@ def main():
         progress=False,
     )
 
+    raw_monthly = yf.download(
+        tickers=tickers,
+        period=MONTHLY_HISTORY_PERIOD,
+        interval="1mo",
+        group_by="ticker",
+        auto_adjust=True,
+        threads=True,
+        progress=False,
+    )
+
     results, errors = [], []
     for sym, ticker in zip(symbols, tickers):
         try:
             if len(tickers) == 1:
                 df = raw
+                df_m = raw_monthly
             else:
                 if ticker not in raw.columns.get_level_values(0):
                     raise ValueError("no data returned")
                 df = raw[ticker]
+                df_m = raw_monthly[ticker] if ticker in raw_monthly.columns.get_level_values(0) else None
             if df is None or df.empty:
                 raise ValueError("empty dataframe")
-            results.append(scan_symbol(sym, df))
+            results.append(scan_symbol(sym, df, df_m))
         except Exception as e:
             errors.append({"symbol": sym, "error": str(e)})
 
