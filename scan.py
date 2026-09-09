@@ -170,7 +170,40 @@ def compute_long(close: pd.Series, volume: pd.Series):
     }
 
 
-# ---------- monthly (EMA21 pullback / bounce) ----------
+# ---------- monthly (EMA21 pullback / bounce + highest confirmed top) ----------
+
+def highest_confirmed_ema_top(ema_series: pd.Series):
+    """
+    Port of the "EMA 21 - Highest Confirmed Top" Pine Script logic:
+    track the running high of each EMA rise, and once EMA turns down,
+    that rise's peak becomes a "confirmed top". Keep only the highest
+    confirmed top seen across the whole series.
+    """
+    values = ema_series.dropna().to_numpy()
+    tracking = False
+    rise_high = None
+    highest_top = None
+
+    for i in range(1, len(values)):
+        rising = values[i] > values[i - 1]
+        falling = values[i] < values[i - 1]
+
+        if rising:
+            if not tracking:
+                tracking = True
+                rise_high = values[i]
+            elif values[i] > rise_high:
+                rise_high = values[i]
+
+        if falling and tracking:
+            confirmed_top = rise_high
+            if highest_top is None or confirmed_top > highest_top:
+                highest_top = confirmed_top
+            tracking = False
+            rise_high = None
+
+    return highest_top
+
 
 def classify_monthly(price, ema21, prior_above_ratio, crossed_up):
     dist_pct = (price - ema21) / ema21 * 100
@@ -209,11 +242,17 @@ def compute_monthly(monthly_close: pd.Series):
 
     signal, direction, dist_pct = classify_monthly(price, v21, prior_above_ratio, crossed_up)
 
+    top = highest_confirmed_ema_top(e21)
+    top_val = round(float(top), 2) if top is not None else None
+    dist_to_top_pct = round((price - top) / top * 100, 2) if top is not None else None
+
     return {
         "ema21": round(v21, 2),
         "dist_pct": round(dist_pct, 2),
         "prior_uptrend_pct": round(prior_above_ratio * 100, 0),
         "signal": signal, "direction": direction,
+        "highest_confirmed_top": top_val,
+        "dist_to_top_pct": dist_to_top_pct,
     }
 
 
