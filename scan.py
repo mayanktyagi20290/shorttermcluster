@@ -205,6 +205,36 @@ def highest_confirmed_ema_top(ema_series: pd.Series):
     return highest_top
 
 
+def latest_confirmed_ema_top(ema_series: pd.Series):
+    """
+    Same rise-tracking logic as highest_confirmed_ema_top, but keeps only
+    the MOST RECENT confirmed top (last completed rise-then-turn-down),
+    not the highest one across all history.
+    """
+    values = ema_series.dropna().to_numpy()
+    tracking = False
+    rise_high = None
+    latest_top = None
+
+    for i in range(1, len(values)):
+        rising = values[i] > values[i - 1]
+        falling = values[i] < values[i - 1]
+
+        if rising:
+            if not tracking:
+                tracking = True
+                rise_high = values[i]
+            elif values[i] > rise_high:
+                rise_high = values[i]
+
+        if falling and tracking:
+            latest_top = rise_high
+            tracking = False
+            rise_high = None
+
+    return latest_top
+
+
 def classify_monthly(price, ema21, prior_above_ratio, crossed_up):
     dist_pct = (price - ema21) / ema21 * 100
     near = abs(dist_pct) <= MONTHLY_NEAR_PCT
@@ -246,6 +276,11 @@ def compute_monthly(monthly_close: pd.Series):
     top_val = round(float(top), 2) if top is not None else None
     dist_to_top_pct = round((price - top) / top * 100, 2) if top is not None else None
 
+    latest_top = latest_confirmed_ema_top(e21)
+    latest_top_val = round(float(latest_top), 2) if latest_top is not None else None
+    dist_from_latest_top_pct = round((price - latest_top) / latest_top * 100, 2) if latest_top is not None else None
+    ema_falling_now = bool(v21 < prev_ema21)
+
     return {
         "ema21": round(v21, 2),
         "dist_pct": round(dist_pct, 2),
@@ -253,6 +288,9 @@ def compute_monthly(monthly_close: pd.Series):
         "signal": signal, "direction": direction,
         "highest_confirmed_top": top_val,
         "dist_to_top_pct": dist_to_top_pct,
+        "latest_confirmed_top": latest_top_val,
+        "dist_from_latest_top_pct": dist_from_latest_top_pct,
+        "ema_falling_from_top": ema_falling_now and latest_top_val is not None,
     }
 
 
