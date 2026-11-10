@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:45:52.249993Z",
+  "generated_at": "2026-11-10T17:52:09.916082Z",
   "results": [
     {
       "symbol": "IDBI",
@@ -9,7 +9,7 @@
         "ema13": 79.7,
         "ema21": 80.44,
         "rsi": 46.3,
-        "efi": 5128260.0,
+        "efi": 5128304.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -47,7 +47,7 @@
         "ema13": 228.0,
         "ema21": 226.51,
         "rsi": 62.0,
-        "efi": 8036876.0,
+        "efi": 8037062.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -75,7 +75,7 @@
         "ema13": 696.27,
         "ema21": 694.85,
         "rsi": 62.3,
-        "efi": 11056789.0,
+        "efi": 11056835.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -113,7 +113,7 @@
         "ema13": 2374.18,
         "ema21": 2427.54,
         "rsi": 37.6,
-        "efi": -63682314.0,
+        "efi": -63682323.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -189,7 +189,7 @@
         "ema13": 1988.59,
         "ema21": 1988.29,
         "rsi": 55.2,
-        "efi": 16876740.0,
+        "efi": 16876311.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -217,7 +217,7 @@
         "ema13": 422.49,
         "ema21": 431.15,
         "rsi": 46.4,
-        "efi": 9282281.0,
+        "efi": 9285960.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -255,7 +255,7 @@
         "ema13": 876.01,
         "ema21": 856.74,
         "rsi": 68.3,
-        "efi": 73657940.0,
+        "efi": 73658311.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -293,7 +293,7 @@
         "ema13": 3109.0,
         "ema21": 3068.67,
         "rsi": 70.4,
-        "efi": 52082500.0,
+        "efi": 52082728.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -331,7 +331,7 @@
         "ema13": 1212.17,
         "ema21": 1243.38,
         "rsi": 47.3,
-        "efi": 77260652.0,
+        "efi": 77261801.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -369,7 +369,7 @@
         "ema13": 8605.43,
         "ema21": 8501.85,
         "rsi": 64.7,
-        "efi": 24004803.0,
+        "efi": 24005553.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -407,7 +407,7 @@
         "ema13": 458.01,
         "ema21": 453.36,
         "rsi": 59.9,
-        "efi": 57660152.0,
+        "efi": 57660166.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -483,7 +483,7 @@
         "ema13": 2289.4,
         "ema21": 2255.86,
         "rsi": 75.6,
-        "efi": 8319691.0,
+        "efi": 8319683.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -521,7 +521,7 @@
         "ema13": 129.43,
         "ema21": 129.86,
         "rsi": 45.6,
-        "efi": 20502464.0,
+        "efi": 20501569.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -549,7 +549,7 @@
         "ema13": 411.31,
         "ema21": 409.23,
         "rsi": 61.7,
-        "efi": 36187784.0,
+        "efi": 36187975.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -587,7 +587,7 @@
         "ema13": 1938.9,
         "ema21": 1950.58,
         "rsi": 56.4,
-        "efi": 21258081.0,
+        "efi": 21260253.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -599,7 +599,7 @@
         "sma200": 1719.87,
         "rsi": 56.4,
         "macd_hist": 18.58,
-        "vol_ratio": 1.31,
+        "vol_ratio": 1.32,
         "signal": "Strong Bullish",
         "direction": "buy",
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
@@ -625,7 +625,7 @@
         "ema13": 560.02,
         "ema21": 574.44,
         "rsi": 46.8,
-        "efi": -2705798.0,
+        "efi": -2705735.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -663,7 +663,7 @@
         "ema13": 353.84,
         "ema21": 350.01,
         "rsi": 62.5,
-        "efi": 13096969.0,
+        "efi": 13096966.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -701,7 +701,7 @@
         "ema13": 1593.72,
         "ema21": 1558.35,
         "rsi": 81.2,
-        "efi": 390366275.0,
+        "efi": 390367316.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -729,7 +729,7 @@
         "ema13": 1803.12,
         "ema21": 1781.83,
         "rsi": 60.9,
-        "efi": 4556256.0,
+        "efi": 4556283.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -767,7 +767,7 @@
         "ema13": 539.78,
         "ema21": 540.94,
         "rsi": 52.1,
-        "efi": -2263309.0,
+        "efi": -2263347.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -805,7 +805,7 @@
         "ema13": 668.42,
         "ema21": 678.8,
         "rsi": 42.1,
-        "efi": 15482.0,
+        "efi": 15483.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -843,7 +843,7 @@
         "ema13": 310.89,
         "ema21": 310.57,
         "rsi": 57.5,
-        "efi": 15417674.0,
+        "efi": 15417653.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -919,7 +919,7 @@
         "ema13": 4160.73,
         "ema21": 4302.37,
         "rsi": 27.2,
-        "efi": -105785958.0,
+        "efi": -105784326.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -957,7 +957,7 @@
         "ema13": 176.11,
         "ema21": 174.81,
         "rsi": 51.8,
-        "efi": 51600387.0,
+        "efi": 51600396.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -995,7 +995,7 @@
         "ema13": 1100.87,
         "ema21": 1109.02,
         "rsi": 49.5,
-        "efi": -1341034.0,
+        "efi": -1340963.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -1033,7 +1033,7 @@
         "ema13": 1701.42,
         "ema21": 1709.56,
         "rsi": 40.6,
-        "efi": -2469391.0,
+        "efi": -2469399.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -1061,7 +1061,7 @@
         "ema13": 1296.32,
         "ema21": 1288.88,
         "rsi": 63.3,
-        "efi": 24770816.0,
+        "efi": 24772271.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1099,7 +1099,7 @@
         "ema13": 19764.77,
         "ema21": 19973.09,
         "rsi": 52.2,
-        "efi": 12008119.0,
+        "efi": 12008563.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1137,7 +1137,7 @@
         "ema13": 349.37,
         "ema21": 357.63,
         "rsi": 38.4,
-        "efi": 5367899.0,
+        "efi": 5368153.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1175,7 +1175,7 @@
         "ema13": 2079.37,
         "ema21": 2086.58,
         "rsi": 58.7,
-        "efi": 42294211.0,
+        "efi": 42294531.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1251,7 +1251,7 @@
         "ema13": 228.29,
         "ema21": 221.41,
         "rsi": 73.1,
-        "efi": 182370156.0,
+        "efi": 182370664.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1289,7 +1289,7 @@
         "ema13": 154.01,
         "ema21": 154.1,
         "rsi": 54.5,
-        "efi": 2375365.0,
+        "efi": 2375378.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1317,7 +1317,7 @@
         "ema13": 582.12,
         "ema21": 581.53,
         "rsi": 60.2,
-        "efi": 30291911.0,
+        "efi": 30295125.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1329,7 +1329,7 @@
         "sma200": 537.59,
         "rsi": 60.2,
         "macd_hist": 9.82,
-        "vol_ratio": 0.84,
+        "vol_ratio": 0.85,
         "signal": "Bullish",
         "direction": "buy",
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
@@ -1355,7 +1355,7 @@
         "ema13": 60.75,
         "ema21": 62.51,
         "rsi": 44.2,
-        "efi": 8358608.0,
+        "efi": 8358620.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1393,7 +1393,7 @@
         "ema13": 309.52,
         "ema21": 304.11,
         "rsi": 69.6,
-        "efi": 52571588.0,
+        "efi": 52572831.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1431,7 +1431,7 @@
         "ema13": 239.55,
         "ema21": 240.8,
         "rsi": 53.9,
-        "efi": 5744088.0,
+        "efi": 5744102.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1469,7 +1469,7 @@
         "ema13": 160.86,
         "ema21": 161.76,
         "rsi": 56.2,
-        "efi": 24864925.0,
+        "efi": 24878567.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1507,7 +1507,7 @@
         "ema13": 6319.21,
         "ema21": 6384.85,
         "rsi": 44.4,
-        "efi": -7170017.0,
+        "efi": -7172291.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1545,7 +1545,7 @@
         "ema13": 242.45,
         "ema21": 241.68,
         "rsi": 54.0,
-        "efi": 52586423.0,
+        "efi": 52586416.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1583,7 +1583,7 @@
         "ema13": 3958.87,
         "ema21": 4008.98,
         "rsi": 49.1,
-        "efi": 124178498.0,
+        "efi": 124184232.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1621,7 +1621,7 @@
         "ema13": 3260.47,
         "ema21": 3281.84,
         "rsi": 49.8,
-        "efi": -11040893.0,
+        "efi": -11040587.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1659,7 +1659,7 @@
         "ema13": 218.73,
         "ema21": 220.01,
         "rsi": 53.2,
-        "efi": 5508312.0,
+        "efi": 5509027.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1697,7 +1697,7 @@
         "ema13": 75.83,
         "ema21": 75.71,
         "rsi": 58.7,
-        "efi": 14255202.0,
+        "efi": 14258006.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1735,7 +1735,7 @@
         "ema13": 17883.1,
         "ema21": 17656.82,
         "rsi": 66.7,
-        "efi": 22420841.0,
+        "efi": 22420298.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1811,7 +1811,7 @@
         "ema13": 986.0,
         "ema21": 983.83,
         "rsi": 58.2,
-        "efi": 32608959.0,
+        "efi": 32608961.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1849,7 +1849,7 @@
         "ema13": 1512.92,
         "ema21": 1492.83,
         "rsi": 63.8,
-        "efi": 56014909.0,
+        "efi": 56015297.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1887,7 +1887,7 @@
         "ema13": 548.71,
         "ema21": 555.19,
         "rsi": 44.1,
-        "efi": 1662516.0,
+        "efi": 1662452.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1925,7 +1925,7 @@
         "ema13": 467.02,
         "ema21": 486.69,
         "rsi": 30.3,
-        "efi": -7134248.0,
+        "efi": -7134149.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -1963,7 +1963,7 @@
         "ema13": 140.16,
         "ema21": 140.9,
         "rsi": 53.6,
-        "efi": -1690893.0,
+        "efi": -1690848.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -2001,7 +2001,7 @@
         "ema13": 43.86,
         "ema21": 43.95,
         "rsi": 53.4,
-        "efi": -96009503.0,
+        "efi": -96009028.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -2029,7 +2029,7 @@
         "ema13": 446.39,
         "ema21": 454.22,
         "rsi": 34.7,
-        "efi": -8176111.0,
+        "efi": -8176018.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2095,7 +2095,7 @@
         "ema13": 1511.43,
         "ema21": 1514.61,
         "rsi": 39.1,
-        "efi": -24973684.0,
+        "efi": -24974052.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2133,7 +2133,7 @@
         "ema13": 128.64,
         "ema21": 130.07,
         "rsi": 45.7,
-        "efi": -683056.0,
+        "efi": -682930.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2171,7 +2171,7 @@
         "ema13": 809.2,
         "ema21": 796.88,
         "rsi": 51.6,
-        "efi": 55094349.0,
+        "efi": 55090438.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2209,7 +2209,7 @@
         "ema13": 160.45,
         "ema21": 162.0,
         "rsi": 48.6,
-        "efi": -347034.0,
+        "efi": -347503.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -2237,7 +2237,7 @@
         "ema13": 192.69,
         "ema21": 193.15,
         "rsi": 44.0,
-        "efi": -32485.0,
+        "efi": -32488.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2275,7 +2275,7 @@
         "ema13": 291.92,
         "ema21": 288.21,
         "rsi": 60.0,
-        "efi": 2827492.0,
+        "efi": 2827509.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2313,7 +2313,7 @@
         "ema13": 691.99,
         "ema21": 690.56,
         "rsi": 55.9,
-        "efi": -7809575.0,
+        "efi": -7809614.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2427,7 +2427,7 @@
         "ema13": 454.06,
         "ema21": 459.59,
         "rsi": 54.5,
-        "efi": 99224251.0,
+        "efi": 99224334.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2465,7 +2465,7 @@
         "ema13": 448.35,
         "ema21": 454.1,
         "rsi": 50.6,
-        "efi": 2340645.0,
+        "efi": 2340704.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -2503,7 +2503,7 @@
         "ema13": 34.38,
         "ema21": 34.63,
         "rsi": 46.5,
-        "efi": 74624811.0,
+        "efi": 74624484.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -2541,7 +2541,7 @@
         "ema13": 450.34,
         "ema21": 451.77,
         "rsi": 46.5,
-        "efi": -1606413.0,
+        "efi": -1606394.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2579,7 +2579,7 @@
         "ema13": 1177.53,
         "ema21": 1207.74,
         "rsi": 43.3,
-        "efi": -2710642.0,
+        "efi": -2710560.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2617,7 +2617,7 @@
         "ema13": 123.05,
         "ema21": 123.57,
         "rsi": 54.0,
-        "efi": 9278148.0,
+        "efi": 9278130.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2655,7 +2655,7 @@
         "ema13": 1989.28,
         "ema21": 1982.6,
         "rsi": 51.0,
-        "efi": -3740122.0,
+        "efi": -3739842.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2667,7 +2667,7 @@
         "sma200": 1799.04,
         "rsi": 51.0,
         "macd_hist": 5.79,
-        "vol_ratio": 0.59,
+        "vol_ratio": 0.6,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
@@ -2693,7 +2693,7 @@
         "ema13": 119.34,
         "ema21": 118.27,
         "rsi": 60.2,
-        "efi": 5514169.0,
+        "efi": 5514020.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2721,7 +2721,7 @@
         "ema13": 379.72,
         "ema21": 381.58,
         "rsi": 53.1,
-        "efi": 1059379.0,
+        "efi": 1059430.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2759,7 +2759,7 @@
         "ema13": 202.46,
         "ema21": 204.58,
         "rsi": 52.1,
-        "efi": 1753449.0,
+        "efi": 1753446.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2797,7 +2797,7 @@
         "ema13": 882.67,
         "ema21": 877.59,
         "rsi": 58.9,
-        "efi": 15943952.0,
+        "efi": 15943948.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2835,7 +2835,7 @@
         "ema13": 533.74,
         "ema21": 528.33,
         "rsi": 64.1,
-        "efi": 27996579.0,
+        "efi": 27997206.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2873,7 +2873,7 @@
         "ema13": 405.38,
         "ema21": 397.54,
         "rsi": 67.2,
-        "efi": 65284903.0,
+        "efi": 65284931.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2911,7 +2911,7 @@
         "ema13": 607.43,
         "ema21": 611.24,
         "rsi": 46.1,
-        "efi": 8678100.0,
+        "efi": 8677656.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -2949,7 +2949,7 @@
         "ema13": 721.21,
         "ema21": 725.55,
         "rsi": 58.7,
-        "efi": 13837317.0,
+        "efi": 13837787.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2987,7 +2987,7 @@
         "ema13": 428.99,
         "ema21": 444.41,
         "rsi": 39.0,
-        "efi": 9098077.0,
+        "efi": 9098082.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -3025,7 +3025,7 @@
         "ema13": 205.87,
         "ema21": 206.6,
         "rsi": 59.6,
-        "efi": 21823454.0,
+        "efi": 21824280.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3101,7 +3101,7 @@
         "ema13": 499.19,
         "ema21": 509.45,
         "rsi": 42.5,
-        "efi": 536156.0,
+        "efi": 536271.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -3139,7 +3139,7 @@
         "ema13": 194.35,
         "ema21": 201.83,
         "rsi": 28.2,
-        "efi": -69366743.0,
+        "efi": -69366372.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3151,7 +3151,7 @@
         "sma200": 248.09,
         "rsi": 28.2,
         "macd_hist": -1.57,
-        "vol_ratio": 1.11,
+        "vol_ratio": 1.12,
         "signal": "Strong Bearish",
         "direction": "sell",
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
@@ -3177,7 +3177,7 @@
         "ema13": 62.98,
         "ema21": 63.79,
         "rsi": 54.4,
-        "efi": 20346905.0,
+        "efi": 20347749.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3215,7 +3215,7 @@
         "ema13": 112.43,
         "ema21": 114.12,
         "rsi": 45.8,
-        "efi": -2593829.0,
+        "efi": -2593827.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3253,7 +3253,7 @@
         "ema13": 719.28,
         "ema21": 721.25,
         "rsi": 50.5,
-        "efi": 2474354.0,
+        "efi": 2474351.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3291,7 +3291,7 @@
         "ema13": 104.17,
         "ema21": 104.28,
         "rsi": 61.1,
-        "efi": 8655292.0,
+        "efi": 8658058.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3329,7 +3329,7 @@
         "ema13": 335.51,
         "ema21": 342.79,
         "rsi": 42.9,
-        "efi": -24872704.0,
+        "efi": -24872699.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3367,7 +3367,7 @@
         "ema13": 217.97,
         "ema21": 223.87,
         "rsi": 35.9,
-        "efi": -118185.0,
+        "efi": -118259.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3395,7 +3395,7 @@
         "ema13": 534.3,
         "ema21": 518.22,
         "rsi": 72.4,
-        "efi": 27803322.0,
+        "efi": 27803321.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3433,7 +3433,7 @@
         "ema13": 825.65,
         "ema21": 825.25,
         "rsi": 53.8,
-        "efi": 8639229.0,
+        "efi": 8640879.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3509,7 +3509,7 @@
         "ema13": 164.51,
         "ema21": 166.87,
         "rsi": 41.8,
-        "efi": -245191.0,
+        "efi": -245190.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3547,7 +3547,7 @@
         "ema13": 18.37,
         "ema21": 18.58,
         "rsi": 49.8,
-        "efi": 10764480.0,
+        "efi": 10764914.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -3585,7 +3585,7 @@
         "ema13": 244.6,
         "ema21": 249.77,
         "rsi": 41.9,
-        "efi": 461478.0,
+        "efi": 461484.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
