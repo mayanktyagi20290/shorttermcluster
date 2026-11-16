@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:45:33.493201Z",
+  "generated_at": "2026-11-16T20:30:09.893915Z",
   "results": [
     {
       "symbol": "IDBI",
@@ -9,7 +9,7 @@
         "ema13": 79.84,
         "ema21": 80.34,
         "rsi": 47.5,
-        "efi": 3417012.0,
+        "efi": 3416993.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -27,15 +27,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 84.43,
-        "dist_pct": -5.24,
+        "ema21": 84.4,
+        "dist_pct": -5.59,
         "prior_uptrend_pct": 42.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 90.26,
-        "dist_to_top_pct": -11.37,
+        "dist_to_top_pct": -11.72,
         "latest_confirmed_top": 85.64,
-        "dist_from_latest_top_pct": -6.58,
+        "dist_from_latest_top_pct": -6.95,
         "ema_falling_from_top": true
       }
     },
@@ -47,7 +47,7 @@
         "ema13": 237.46,
         "ema21": 233.2,
         "rsi": 72.0,
-        "efi": 64315477.0,
+        "efi": 64315504.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -75,7 +75,7 @@
         "ema13": 707.8,
         "ema21": 702.96,
         "rsi": 56.4,
-        "efi": 5051031.0,
+        "efi": 5051019.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -93,15 +93,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 642.78,
-        "dist_pct": 12.4,
+        "ema21": 645.28,
+        "dist_pct": 16.23,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 128.62,
-        "dist_to_top_pct": 461.74,
+        "dist_to_top_pct": 483.12,
         "latest_confirmed_top": 107.42,
-        "dist_from_latest_top_pct": 572.58,
+        "dist_from_latest_top_pct": 598.18,
         "ema_falling_from_top": false
       }
     },
@@ -113,7 +113,7 @@
         "ema13": 2309.93,
         "ema21": 2371.0,
         "rsi": 40.9,
-        "efi": -32674177.0,
+        "efi": -32670579.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -131,15 +131,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1439.25,
-        "dist_pct": 54.97,
+        "ema21": 1437.46,
+        "dist_pct": 53.79,
         "prior_uptrend_pct": 92.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 759.68,
-        "dist_to_top_pct": 193.6,
+        "dist_to_top_pct": 191.0,
         "latest_confirmed_top": 759.68,
-        "dist_from_latest_top_pct": 193.6,
+        "dist_from_latest_top_pct": 191.0,
         "ema_falling_from_top": false
       }
     },
@@ -151,7 +151,7 @@
         "ema13": 374.84,
         "ema21": 375.42,
         "rsi": 55.4,
-        "efi": 8211990.0,
+        "efi": 8211386.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -169,15 +169,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 317.61,
-        "dist_pct": 21.46,
+        "ema21": 317.26,
+        "dist_pct": 20.38,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 552.22,
-        "dist_to_top_pct": -30.15,
+        "dist_to_top_pct": -30.84,
         "latest_confirmed_top": 220.46,
-        "dist_from_latest_top_pct": 74.97,
+        "dist_from_latest_top_pct": 73.23,
         "ema_falling_from_top": false
       }
     },
@@ -217,7 +217,7 @@
         "ema13": 429.32,
         "ema21": 433.57,
         "rsi": 50.5,
-        "efi": 33640580.0,
+        "efi": 33634472.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -235,15 +235,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 420.53,
-        "dist_pct": 4.59,
+        "ema21": 419.68,
+        "dist_pct": 2.59,
         "prior_uptrend_pct": 92.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 420.37,
-        "dist_to_top_pct": 4.63,
+        "dist_to_top_pct": 2.42,
         "latest_confirmed_top": 420.37,
-        "dist_from_latest_top_pct": 4.63,
+        "dist_from_latest_top_pct": 2.42,
         "ema_falling_from_top": false
       }
     },
@@ -255,7 +255,7 @@
         "ema13": 893.41,
         "ema21": 873.25,
         "rsi": 66.1,
-        "efi": 45279157.0,
+        "efi": 45279058.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -273,15 +273,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 656.85,
-        "dist_pct": 39.91,
+        "ema21": 655.03,
+        "dist_pct": 37.25,
         "prior_uptrend_pct": 67.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 618.62,
-        "dist_to_top_pct": 48.56,
+        "dist_to_top_pct": 45.32,
         "latest_confirmed_top": 517.24,
-        "dist_from_latest_top_pct": 77.67,
+        "dist_from_latest_top_pct": 73.81,
         "ema_falling_from_top": false
       }
     },
@@ -293,7 +293,7 @@
         "ema13": 3181.87,
         "ema21": 3127.3,
         "rsi": 69.8,
-        "efi": 32558584.0,
+        "efi": 32558624.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -311,15 +311,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 2286.35,
-        "dist_pct": 45.83,
+        "ema21": 2291.06,
+        "dist_pct": 47.79,
         "prior_uptrend_pct": 67.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 3058.48,
-        "dist_to_top_pct": 9.01,
+        "dist_to_top_pct": 10.71,
         "latest_confirmed_top": 1771.71,
-        "dist_from_latest_top_pct": 88.19,
+        "dist_from_latest_top_pct": 91.11,
         "ema_falling_from_top": false
       }
     },
@@ -331,7 +331,7 @@
         "ema13": 1218.89,
         "ema21": 1240.15,
         "rsi": 47.2,
-        "efi": 48712726.0,
+        "efi": 48712325.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -349,15 +349,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 929.19,
-        "dist_pct": 31.77,
+        "ema21": 929.52,
+        "dist_pct": 32.12,
         "prior_uptrend_pct": 83.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 698.62,
-        "dist_to_top_pct": 75.26,
+        "dist_to_top_pct": 75.79,
         "latest_confirmed_top": 698.62,
-        "dist_from_latest_top_pct": 75.26,
+        "dist_from_latest_top_pct": 75.79,
         "ema_falling_from_top": false
       }
     },
@@ -369,7 +369,7 @@
         "ema13": 9082.48,
         "ema21": 8846.42,
         "rsi": 75.0,
-        "efi": 63799436.0,
+        "efi": 63799586.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -387,15 +387,15 @@
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
       },
       "monthly": {
-        "ema21": 6719.2,
-        "dist_pct": 48.86,
+        "ema21": 6709.02,
+        "dist_pct": 47.41,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 4076.24,
-        "dist_to_top_pct": 145.37,
+        "dist_to_top_pct": 142.63,
         "latest_confirmed_top": 3665.41,
-        "dist_from_latest_top_pct": 172.88,
+        "dist_from_latest_top_pct": 169.82,
         "ema_falling_from_top": false
       }
     },
@@ -407,7 +407,7 @@
         "ema13": 469.05,
         "ema21": 461.94,
         "rsi": 61.3,
-        "efi": 39078227.0,
+        "efi": 39078081.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -425,15 +425,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 432.8,
-        "dist_pct": 12.02,
+        "ema21": 433.32,
+        "dist_pct": 13.2,
         "prior_uptrend_pct": 75.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 417.66,
-        "dist_to_top_pct": 16.07,
+        "dist_to_top_pct": 17.44,
         "latest_confirmed_top": 413.55,
-        "dist_from_latest_top_pct": 17.23,
+        "dist_from_latest_top_pct": 18.61,
         "ema_falling_from_top": false
       }
     },
@@ -445,7 +445,7 @@
         "ema13": 1835.04,
         "ema21": 1815.03,
         "rsi": 57.3,
-        "efi": 3892663.0,
+        "efi": 3892669.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -463,15 +463,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1748.47,
-        "dist_pct": 6.4,
+        "ema21": 1751.64,
+        "dist_pct": 8.2,
         "prior_uptrend_pct": 83.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 1738.99,
-        "dist_to_top_pct": 6.98,
+        "dist_to_top_pct": 8.99,
         "latest_confirmed_top": 1738.99,
-        "dist_from_latest_top_pct": 6.98,
+        "dist_from_latest_top_pct": 8.99,
         "ema_falling_from_top": false
       }
     },
@@ -501,8 +501,8 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1685.58,
-        "dist_pct": 41.27,
+        "ema21": 1686.14,
+        "dist_pct": 41.58,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
@@ -521,7 +521,7 @@
         "ema13": 129.54,
         "ema21": 129.82,
         "rsi": 52.4,
-        "efi": 19747205.0,
+        "efi": 19748271.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -549,7 +549,7 @@
         "ema13": 421.12,
         "ema21": 416.34,
         "rsi": 61.6,
-        "efi": 23990182.0,
+        "efi": 23990058.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -567,15 +567,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 423.42,
-        "dist_pct": 3.04,
+        "ema21": 423.8,
+        "dist_pct": 3.93,
         "prior_uptrend_pct": 83.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 528.48,
-        "dist_to_top_pct": -17.44,
+        "dist_to_top_pct": -16.66,
         "latest_confirmed_top": 427.35,
-        "dist_from_latest_top_pct": 2.09,
+        "dist_from_latest_top_pct": 3.06,
         "ema_falling_from_top": false
       }
     },
@@ -587,7 +587,7 @@
         "ema13": 1975.66,
         "ema21": 1972.4,
         "rsi": 55.3,
-        "efi": 12842178.0,
+        "efi": 12842079.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -605,15 +605,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1603.3,
-        "dist_pct": 26.44,
+        "ema21": 1601.23,
+        "dist_pct": 25.18,
         "prior_uptrend_pct": 92.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1234.98,
-        "dist_to_top_pct": 64.15,
+        "dist_to_top_pct": 62.31,
         "latest_confirmed_top": 1234.98,
-        "dist_from_latest_top_pct": 64.15,
+        "dist_from_latest_top_pct": 62.31,
         "ema_falling_from_top": false
       }
     },
@@ -625,7 +625,7 @@
         "ema13": 561.82,
         "ema21": 572.14,
         "rsi": 43.2,
-        "efi": -3850807.0,
+        "efi": -3851288.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -643,15 +643,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 539.26,
-        "dist_pct": 3.79,
+        "ema21": 538.16,
+        "dist_pct": 1.76,
         "prior_uptrend_pct": 83.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 540.02,
-        "dist_to_top_pct": 3.64,
+        "dist_to_top_pct": 1.41,
         "latest_confirmed_top": 540.02,
-        "dist_from_latest_top_pct": 3.64,
+        "dist_from_latest_top_pct": 1.41,
         "ema_falling_from_top": false
       }
     },
@@ -663,7 +663,7 @@
         "ema13": 364.29,
         "ema21": 357.99,
         "rsi": 65.5,
-        "efi": 13475880.0,
+        "efi": 13476001.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -681,15 +681,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 281.78,
-        "dist_pct": 35.41,
+        "ema21": 282.57,
+        "dist_pct": 38.11,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 72.19,
-        "dist_to_top_pct": 428.53,
+        "dist_to_top_pct": 440.58,
         "latest_confirmed_top": 37.24,
-        "dist_from_latest_top_pct": 924.44,
+        "dist_from_latest_top_pct": 947.8,
         "ema_falling_from_top": false
       }
     },
@@ -701,7 +701,7 @@
         "ema13": 1713.83,
         "ema21": 1647.76,
         "rsi": 82.7,
-        "efi": 279117321.0,
+        "efi": 279117371.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -729,7 +729,7 @@
         "ema13": 1823.92,
         "ema21": 1801.09,
         "rsi": 56.3,
-        "efi": 3922047.0,
+        "efi": 3921712.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -747,15 +747,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1482.59,
-        "dist_pct": 24.63,
+        "ema21": 1483.74,
+        "dist_pct": 25.39,
         "prior_uptrend_pct": 83.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1234.24,
-        "dist_to_top_pct": 49.71,
+        "dist_to_top_pct": 50.73,
         "latest_confirmed_top": 1234.24,
-        "dist_from_latest_top_pct": 49.71,
+        "dist_from_latest_top_pct": 50.73,
         "ema_falling_from_top": false
       }
     },
@@ -785,15 +785,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 520.52,
-        "dist_pct": 10.06,
+        "ema21": 520.08,
+        "dist_pct": 9.22,
         "prior_uptrend_pct": 67.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 725.82,
-        "dist_to_top_pct": -21.07,
+        "dist_to_top_pct": -21.74,
         "latest_confirmed_top": 487.03,
-        "dist_from_latest_top_pct": 17.63,
+        "dist_from_latest_top_pct": 16.64,
         "ema_falling_from_top": false
       }
     },
@@ -805,7 +805,7 @@
         "ema13": 671.11,
         "ema21": 678.07,
         "rsi": 44.1,
-        "efi": 348643.0,
+        "efi": 348446.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -823,15 +823,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 713.12,
-        "dist_pct": -6.22,
+        "ema21": 712.74,
+        "dist_pct": -6.75,
         "prior_uptrend_pct": 17.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1067.16,
-        "dist_to_top_pct": -37.33,
+        "dist_to_top_pct": -37.72,
         "latest_confirmed_top": 726.31,
-        "dist_from_latest_top_pct": -7.92,
+        "dist_from_latest_top_pct": -8.5,
         "ema_falling_from_top": true
       }
     },
@@ -843,7 +843,7 @@
         "ema13": 312.54,
         "ema21": 311.82,
         "rsi": 47.1,
-        "efi": -47527380.0,
+        "efi": -47555248.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -861,15 +861,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 282.36,
-        "dist_pct": 9.08,
+        "ema21": 281.98,
+        "dist_pct": 7.74,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 164.59,
-        "dist_to_top_pct": 87.14,
+        "dist_to_top_pct": 84.58,
         "latest_confirmed_top": 164.59,
-        "dist_from_latest_top_pct": 87.14,
+        "dist_from_latest_top_pct": 84.58,
         "ema_falling_from_top": false
       }
     },
@@ -881,7 +881,7 @@
         "ema13": 1964.01,
         "ema21": 1946.79,
         "rsi": 57.6,
-        "efi": 4221380.0,
+        "efi": 4221335.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -899,15 +899,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1630.08,
-        "dist_pct": 22.26,
+        "ema21": 1630.78,
+        "dist_pct": 22.68,
         "prior_uptrend_pct": 67.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1419.97,
-        "dist_to_top_pct": 40.36,
+        "dist_to_top_pct": 40.9,
         "latest_confirmed_top": 1419.97,
-        "dist_from_latest_top_pct": 40.36,
+        "dist_from_latest_top_pct": 40.9,
         "ema_falling_from_top": false
       }
     },
@@ -919,7 +919,7 @@
         "ema13": 4164.06,
         "ema21": 4269.17,
         "rsi": 44.4,
-        "efi": 53032569.0,
+        "efi": 53033930.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -937,15 +937,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 3611.93,
-        "dist_pct": 16.18,
+        "ema21": 3599.46,
+        "dist_pct": 12.77,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1902.84,
-        "dist_to_top_pct": 120.52,
+        "dist_to_top_pct": 113.31,
         "latest_confirmed_top": 1902.84,
-        "dist_from_latest_top_pct": 120.52,
+        "dist_from_latest_top_pct": 113.31,
         "ema_falling_from_top": false
       }
     },
@@ -957,7 +957,7 @@
         "ema13": 176.85,
         "ema21": 175.63,
         "rsi": 53.3,
-        "efi": 34554672.0,
+        "efi": 34555446.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -975,15 +975,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 157.65,
-        "dist_pct": 13.34,
+        "ema21": 157.31,
+        "dist_pct": 11.2,
         "prior_uptrend_pct": 83.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 150.48,
-        "dist_to_top_pct": 18.74,
+        "dist_to_top_pct": 16.25,
         "latest_confirmed_top": 150.48,
-        "dist_from_latest_top_pct": 18.74,
+        "dist_from_latest_top_pct": 16.25,
         "ema_falling_from_top": false
       }
     },
@@ -1013,15 +1013,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 970.02,
-        "dist_pct": 15.18,
+        "ema21": 971.71,
+        "dist_pct": 16.9,
         "prior_uptrend_pct": 75.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 999.58,
-        "dist_to_top_pct": 11.78,
+        "dist_to_top_pct": 13.64,
         "latest_confirmed_top": 861.31,
-        "dist_from_latest_top_pct": 29.72,
+        "dist_from_latest_top_pct": 31.88,
         "ema_falling_from_top": false
       }
     },
@@ -1033,7 +1033,7 @@
         "ema13": 1683.4,
         "ema21": 1695.56,
         "rsi": 39.2,
-        "efi": -2083990.0,
+        "efi": -2084063.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -1061,7 +1061,7 @@
         "ema13": 1348.89,
         "ema21": 1325.86,
         "rsi": 72.1,
-        "efi": 56867860.0,
+        "efi": 56866714.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1079,15 +1079,15 @@
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
       },
       "monthly": {
-        "ema21": 1315.68,
-        "dist_pct": 9.98,
+        "ema21": 1314.49,
+        "dist_pct": 9.08,
         "prior_uptrend_pct": 33.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1339.84,
-        "dist_to_top_pct": 8.0,
+        "dist_to_top_pct": 7.02,
         "latest_confirmed_top": 1310.76,
-        "dist_from_latest_top_pct": 10.39,
+        "dist_from_latest_top_pct": 9.39,
         "ema_falling_from_top": false
       }
     },
@@ -1099,7 +1099,7 @@
         "ema13": 20140.3,
         "ema21": 20169.39,
         "rsi": 60.5,
-        "efi": 11368254.0,
+        "efi": 11368519.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1117,15 +1117,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 16279.87,
-        "dist_pct": 29.47,
+        "ema21": 16330.96,
+        "dist_pct": 32.51,
         "prior_uptrend_pct": 92.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 12373.79,
-        "dist_to_top_pct": 70.34,
+        "dist_to_top_pct": 74.89,
         "latest_confirmed_top": 12373.79,
-        "dist_from_latest_top_pct": 70.34,
+        "dist_from_latest_top_pct": 74.89,
         "ema_falling_from_top": false
       }
     },
@@ -1137,7 +1137,7 @@
         "ema13": 350.13,
         "ema21": 356.06,
         "rsi": 46.7,
-        "efi": 17200047.0,
+        "efi": 17199613.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1155,15 +1155,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 278.63,
-        "dist_pct": 25.51,
+        "ema21": 277.79,
+        "dist_pct": 22.59,
         "prior_uptrend_pct": 75.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 236.17,
-        "dist_to_top_pct": 48.07,
+        "dist_to_top_pct": 44.2,
         "latest_confirmed_top": 236.17,
-        "dist_from_latest_top_pct": 48.07,
+        "dist_from_latest_top_pct": 44.2,
         "ema_falling_from_top": false
       }
     },
@@ -1175,7 +1175,7 @@
         "ema13": 2125.94,
         "ema21": 2116.26,
         "rsi": 56.1,
-        "efi": 28060805.0,
+        "efi": 28060423.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1193,15 +1193,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 2268.13,
-        "dist_pct": -3.67,
+        "ema21": 2263.17,
+        "dist_pct": -5.87,
         "prior_uptrend_pct": 75.0,
-        "signal": "Pullback \u2014 testing EMA21",
-        "direction": "buy",
+        "signal": "Broke below EMA21",
+        "direction": "sell",
         "highest_confirmed_top": 2322.52,
-        "dist_to_top_pct": -5.93,
+        "dist_to_top_pct": -8.28,
         "latest_confirmed_top": 2322.52,
-        "dist_from_latest_top_pct": -5.93,
+        "dist_from_latest_top_pct": -8.28,
         "ema_falling_from_top": true
       }
     },
@@ -1231,15 +1231,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1551.23,
-        "dist_pct": -5.88,
+        "ema21": 1548.17,
+        "dist_pct": -7.87,
         "prior_uptrend_pct": 25.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1655.31,
-        "dist_to_top_pct": -11.8,
+        "dist_to_top_pct": -13.83,
         "latest_confirmed_top": 1620.22,
-        "dist_from_latest_top_pct": -9.89,
+        "dist_from_latest_top_pct": -11.96,
         "ema_falling_from_top": true
       }
     },
@@ -1251,7 +1251,7 @@
         "ema13": 234.44,
         "ema21": 227.26,
         "rsi": 70.8,
-        "efi": 114103642.0,
+        "efi": 114103525.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1269,15 +1269,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 193.65,
-        "dist_pct": 26.28,
+        "ema21": 193.69,
+        "dist_pct": 26.45,
         "prior_uptrend_pct": 33.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 191.0,
-        "dist_to_top_pct": 28.03,
+        "dist_to_top_pct": 28.24,
         "latest_confirmed_top": 191.0,
-        "dist_from_latest_top_pct": 28.03,
+        "dist_from_latest_top_pct": 28.24,
         "ema_falling_from_top": false
       }
     },
@@ -1289,7 +1289,7 @@
         "ema13": 158.74,
         "ema21": 157.22,
         "rsi": 62.3,
-        "efi": 6725535.0,
+        "efi": 6725606.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1317,7 +1317,7 @@
         "ema13": 609.3,
         "ema21": 600.05,
         "rsi": 59.5,
-        "efi": 126292995.0,
+        "efi": 126285306.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1335,15 +1335,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 522.0,
-        "dist_pct": 22.82,
+        "ema21": 523.02,
+        "dist_pct": 24.73,
         "prior_uptrend_pct": 75.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 499.15,
-        "dist_to_top_pct": 28.44,
+        "dist_to_top_pct": 30.69,
         "latest_confirmed_top": 473.29,
-        "dist_from_latest_top_pct": 35.46,
+        "dist_from_latest_top_pct": 37.83,
         "ema_falling_from_top": false
       }
     },
@@ -1355,7 +1355,7 @@
         "ema13": 61.53,
         "ema21": 62.6,
         "rsi": 45.8,
-        "efi": 7113122.0,
+        "efi": 7112480.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1373,15 +1373,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 61.11,
-        "dist_pct": 1.8,
+        "ema21": 61.1,
+        "dist_pct": 1.6,
         "prior_uptrend_pct": 75.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 61.63,
-        "dist_to_top_pct": 0.94,
+        "dist_to_top_pct": 0.71,
         "latest_confirmed_top": 61.63,
-        "dist_from_latest_top_pct": 0.94,
+        "dist_from_latest_top_pct": 0.71,
         "ema_falling_from_top": false
       }
     },
@@ -1393,7 +1393,7 @@
         "ema13": 322.04,
         "ema21": 313.82,
         "rsi": 73.2,
-        "efi": 49787414.0,
+        "efi": 49794716.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1411,15 +1411,15 @@
         "stage": "Stage 4 \u2014 above 20/50/100/200 SMA, RSI/MACD/volume confirmed"
       },
       "monthly": {
-        "ema21": 274.31,
-        "dist_pct": 27.23,
+        "ema21": 274.23,
+        "dist_pct": 26.95,
         "prior_uptrend_pct": 75.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 241.91,
-        "dist_to_top_pct": 44.27,
+        "dist_to_top_pct": 43.92,
         "latest_confirmed_top": 239.78,
-        "dist_from_latest_top_pct": 45.55,
+        "dist_from_latest_top_pct": 45.2,
         "ema_falling_from_top": false
       }
     },
@@ -1449,15 +1449,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 226.34,
-        "dist_pct": 8.81,
+        "ema21": 225.88,
+        "dist_pct": 6.81,
         "prior_uptrend_pct": 42.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 689.53,
-        "dist_to_top_pct": -64.28,
+        "dist_to_top_pct": -65.01,
         "latest_confirmed_top": 689.53,
-        "dist_from_latest_top_pct": -64.28,
+        "dist_from_latest_top_pct": -65.01,
         "ema_falling_from_top": false
       }
     },
@@ -1469,7 +1469,7 @@
         "ema13": 165.53,
         "ema21": 164.66,
         "rsi": 58.6,
-        "efi": 24596752.0,
+        "efi": 24595905.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1487,15 +1487,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 173.45,
-        "dist_pct": -0.33,
+        "ema21": 173.46,
+        "dist_pct": -0.32,
         "prior_uptrend_pct": 42.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 523.0,
         "dist_to_top_pct": -66.94,
         "latest_confirmed_top": 175.43,
-        "dist_from_latest_top_pct": -1.45,
+        "dist_from_latest_top_pct": -1.44,
         "ema_falling_from_top": true
       }
     },
@@ -1507,7 +1507,7 @@
         "ema13": 6357.36,
         "ema21": 6391.25,
         "rsi": 57.8,
-        "efi": 213603631.0,
+        "efi": 213632022.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1525,16 +1525,16 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 6727.91,
-        "dist_pct": 0.66,
+        "ema21": 6680.64,
+        "dist_pct": -6.42,
         "prior_uptrend_pct": 75.0,
-        "signal": "Bounce off EMA21",
-        "direction": "buy",
+        "signal": "Broke below EMA21",
+        "direction": "sell",
         "highest_confirmed_top": 6823.04,
-        "dist_to_top_pct": -0.75,
+        "dist_to_top_pct": -8.37,
         "latest_confirmed_top": 6823.04,
-        "dist_from_latest_top_pct": -0.75,
-        "ema_falling_from_top": false
+        "dist_from_latest_top_pct": -8.37,
+        "ema_falling_from_top": true
       }
     },
     {
@@ -1545,7 +1545,7 @@
         "ema13": 247.98,
         "ema21": 245.49,
         "rsi": 65.3,
-        "efi": 90220654.0,
+        "efi": 90225528.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1563,15 +1563,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 273.66,
-        "dist_pct": -2.04,
+        "ema21": 272.5,
+        "dist_pct": -6.3,
         "prior_uptrend_pct": 50.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 286.65,
-        "dist_to_top_pct": -6.48,
+        "dist_to_top_pct": -10.93,
         "latest_confirmed_top": 285.44,
-        "dist_from_latest_top_pct": -6.09,
+        "dist_from_latest_top_pct": -10.55,
         "ema_falling_from_top": true
       }
     },
@@ -1583,7 +1583,7 @@
         "ema13": 4046.13,
         "ema21": 4054.11,
         "rsi": 56.8,
-        "efi": 124166519.0,
+        "efi": 124167117.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1601,15 +1601,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 3454.2,
-        "dist_pct": 23.56,
+        "ema21": 3447.11,
+        "dist_pct": 21.55,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 2266.36,
-        "dist_to_top_pct": 88.32,
+        "dist_to_top_pct": 84.88,
         "latest_confirmed_top": 2266.36,
-        "dist_from_latest_top_pct": 88.32,
+        "dist_from_latest_top_pct": 84.88,
         "ema_falling_from_top": false
       }
     },
@@ -1621,7 +1621,7 @@
         "ema13": 3324.82,
         "ema21": 3319.55,
         "rsi": 55.5,
-        "efi": 2340803.0,
+        "efi": 2337209.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1639,15 +1639,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 4031.31,
-        "dist_pct": -14.92,
+        "ema21": 3990.41,
+        "dist_pct": -25.32,
         "prior_uptrend_pct": 8.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 5147.85,
-        "dist_to_top_pct": -33.37,
+        "dist_to_top_pct": -42.11,
         "latest_confirmed_top": 5147.85,
-        "dist_from_latest_top_pct": -33.37,
+        "dist_from_latest_top_pct": -42.11,
         "ema_falling_from_top": true
       }
     },
@@ -1659,7 +1659,7 @@
         "ema13": 224.04,
         "ema21": 223.25,
         "rsi": 57.1,
-        "efi": 7746253.0,
+        "efi": 7746182.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1677,15 +1677,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 190.27,
-        "dist_pct": 22.14,
+        "ema21": 190.34,
+        "dist_pct": 22.51,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 143.16,
-        "dist_to_top_pct": 62.34,
+        "dist_to_top_pct": 62.9,
         "latest_confirmed_top": 116.57,
-        "dist_from_latest_top_pct": 99.37,
+        "dist_from_latest_top_pct": 100.06,
         "ema_falling_from_top": false
       }
     },
@@ -1697,7 +1697,7 @@
         "ema13": 77.19,
         "ema21": 76.58,
         "rsi": 55.3,
-        "efi": 8243789.0,
+        "efi": 8241191.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1715,15 +1715,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 90.19,
-        "dist_pct": -12.4,
+        "ema21": 90.12,
+        "dist_pct": -13.2,
         "prior_uptrend_pct": 33.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 97.8,
-        "dist_to_top_pct": -19.23,
+        "dist_to_top_pct": -20.02,
         "latest_confirmed_top": 96.13,
-        "dist_from_latest_top_pct": -17.82,
+        "dist_from_latest_top_pct": -18.63,
         "ema_falling_from_top": true
       }
     },
@@ -1735,7 +1735,7 @@
         "ema13": 18576.25,
         "ema21": 18180.0,
         "rsi": 69.3,
-        "efi": 34300130.0,
+        "efi": 34299928.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1753,15 +1753,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 16534.02,
-        "dist_pct": 18.54,
+        "ema21": 16514.83,
+        "dist_pct": 17.4,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1241.5,
-        "dist_to_top_pct": 1478.74,
+        "dist_to_top_pct": 1461.74,
         "latest_confirmed_top": 1241.5,
-        "dist_from_latest_top_pct": 1478.74,
+        "dist_from_latest_top_pct": 1461.74,
         "ema_falling_from_top": false
       }
     },
@@ -1791,15 +1791,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1257.93,
-        "dist_pct": -12.35,
+        "ema21": 1257.17,
+        "dist_pct": -12.96,
         "prior_uptrend_pct": 75.0,
         "signal": "Broke below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1301.1,
-        "dist_to_top_pct": -15.26,
+        "dist_to_top_pct": -15.9,
         "latest_confirmed_top": 1301.1,
-        "dist_from_latest_top_pct": -15.26,
+        "dist_from_latest_top_pct": -15.9,
         "ema_falling_from_top": true
       }
     },
@@ -1811,7 +1811,7 @@
         "ema13": 1015.56,
         "ema21": 1004.11,
         "rsi": 62.8,
-        "efi": 23120531.0,
+        "efi": 23120534.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -1829,15 +1829,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 909.15,
-        "dist_pct": 18.03,
+        "ema21": 909.09,
+        "dist_pct": 17.96,
         "prior_uptrend_pct": 42.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 996.74,
-        "dist_to_top_pct": 7.66,
+        "dist_to_top_pct": 7.59,
         "latest_confirmed_top": 971.87,
-        "dist_from_latest_top_pct": 10.42,
+        "dist_from_latest_top_pct": 10.34,
         "ema_falling_from_top": false
       }
     },
@@ -1867,15 +1867,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1544.99,
-        "dist_pct": 4.09,
+        "ema21": 1542.12,
+        "dist_pct": 2.24,
         "prior_uptrend_pct": 33.0,
-        "signal": "Extended above EMA21",
+        "signal": "Neutral",
         "direction": null,
         "highest_confirmed_top": 1644.68,
-        "dist_to_top_pct": -2.22,
+        "dist_to_top_pct": -4.14,
         "latest_confirmed_top": 1563.09,
-        "dist_from_latest_top_pct": 2.89,
+        "dist_from_latest_top_pct": 0.86,
         "ema_falling_from_top": false
       }
     },
@@ -1887,7 +1887,7 @@
         "ema13": 550.04,
         "ema21": 554.47,
         "rsi": 45.8,
-        "efi": 1372997.0,
+        "efi": 1372994.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -1905,15 +1905,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 616.67,
-        "dist_pct": -10.95,
+        "ema21": 616.05,
+        "dist_pct": -11.98,
         "prior_uptrend_pct": 8.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 765.34,
-        "dist_to_top_pct": -28.25,
+        "dist_to_top_pct": -29.15,
         "latest_confirmed_top": 638.84,
-        "dist_from_latest_top_pct": -14.04,
+        "dist_from_latest_top_pct": -15.12,
         "ema_falling_from_top": true
       }
     },
@@ -1925,7 +1925,7 @@
         "ema13": 469.97,
         "ema21": 483.68,
         "rsi": 44.1,
-        "efi": 12289123.0,
+        "efi": 12288743.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -1943,15 +1943,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 524.0,
-        "dist_pct": -8.67,
+        "ema21": 522.57,
+        "dist_pct": -11.44,
         "prior_uptrend_pct": 67.0,
         "signal": "Broke below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 536.67,
-        "dist_to_top_pct": -10.83,
+        "dist_to_top_pct": -13.76,
         "latest_confirmed_top": 536.67,
-        "dist_from_latest_top_pct": -10.83,
+        "dist_from_latest_top_pct": -13.76,
         "ema_falling_from_top": true
       }
     },
@@ -1963,7 +1963,7 @@
         "ema13": 141.38,
         "ema21": 141.55,
         "rsi": 50.8,
-        "efi": -1132971.0,
+        "efi": -1133069.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -1981,15 +1981,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 169.1,
-        "dist_pct": -15.83,
+        "ema21": 169.56,
+        "dist_pct": -13.07,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 219.75,
-        "dist_to_top_pct": -35.23,
+        "dist_to_top_pct": -32.92,
         "latest_confirmed_top": 203.63,
-        "dist_from_latest_top_pct": -30.1,
+        "dist_from_latest_top_pct": -27.61,
         "ema_falling_from_top": true
       }
     },
@@ -2001,7 +2001,7 @@
         "ema13": 43.86,
         "ema21": 43.93,
         "rsi": 49.5,
-        "efi": -62952210.0,
+        "efi": -62951984.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2029,7 +2029,7 @@
         "ema13": 447.28,
         "ema21": 452.84,
         "rsi": 46.1,
-        "efi": -928314.0,
+        "efi": -928317.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2057,7 +2057,7 @@
         "ema13": 799.85,
         "ema21": 797.26,
         "rsi": 55.9,
-        "efi": 2057186.0,
+        "efi": 2057153.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2075,15 +2075,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 915.37,
-        "dist_pct": -10.45,
+        "ema21": 916.23,
+        "dist_pct": -9.5,
         "prior_uptrend_pct": 33.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 994.0,
-        "dist_to_top_pct": -17.54,
+        "dist_to_top_pct": -16.58,
         "latest_confirmed_top": 994.0,
-        "dist_from_latest_top_pct": -17.54,
+        "dist_from_latest_top_pct": -16.58,
         "ema_falling_from_top": true
       }
     },
@@ -2095,7 +2095,7 @@
         "ema13": 1484.08,
         "ema21": 1490.02,
         "rsi": 53.7,
-        "efi": 4627469.0,
+        "efi": 4651321.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -2113,15 +2113,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1259.93,
-        "dist_pct": 20.48,
+        "ema21": 1261.28,
+        "dist_pct": 21.53,
         "prior_uptrend_pct": 100.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 920.19,
-        "dist_to_top_pct": 64.97,
+        "dist_to_top_pct": 66.59,
         "latest_confirmed_top": 898.47,
-        "dist_from_latest_top_pct": 68.95,
+        "dist_from_latest_top_pct": 70.61,
         "ema_falling_from_top": false
       }
     },
@@ -2133,7 +2133,7 @@
         "ema13": 129.08,
         "ema21": 130.02,
         "rsi": 45.1,
-        "efi": -435992.0,
+        "efi": -436463.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -2151,15 +2151,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 146.76,
-        "dist_pct": -12.45,
+        "ema21": 146.63,
+        "dist_pct": -13.35,
         "prior_uptrend_pct": 58.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 153.35,
-        "dist_to_top_pct": -16.22,
+        "dist_to_top_pct": -17.14,
         "latest_confirmed_top": 153.35,
-        "dist_from_latest_top_pct": -16.22,
+        "dist_from_latest_top_pct": -17.14,
         "ema_falling_from_top": true
       }
     },
@@ -2171,7 +2171,7 @@
         "ema13": 807.44,
         "ema21": 798.79,
         "rsi": 51.6,
-        "efi": 34896762.0,
+        "efi": 34896686.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2189,15 +2189,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 718.1,
-        "dist_pct": 11.34,
+        "ema21": 716.36,
+        "dist_pct": 8.95,
         "prior_uptrend_pct": 83.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 695.19,
-        "dist_to_top_pct": 15.01,
+        "dist_to_top_pct": 12.26,
         "latest_confirmed_top": 695.19,
-        "dist_from_latest_top_pct": 15.01,
+        "dist_from_latest_top_pct": 12.26,
         "ema_falling_from_top": false
       }
     },
@@ -2209,7 +2209,7 @@
         "ema13": 165.23,
         "ema21": 164.78,
         "rsi": 61.6,
-        "efi": 48789521.0,
+        "efi": 48789688.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2237,7 +2237,7 @@
         "ema13": 191.97,
         "ema21": 192.56,
         "rsi": 43.9,
-        "efi": 44818.0,
+        "efi": 44793.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -2256,12 +2256,12 @@
       },
       "monthly": {
         "ema21": 182.13,
-        "dist_pct": 4.39,
+        "dist_pct": 4.4,
         "prior_uptrend_pct": 67.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 179.82,
-        "dist_to_top_pct": 5.73,
+        "dist_to_top_pct": 5.74,
         "latest_confirmed_top": 177.99,
         "dist_from_latest_top_pct": 6.82,
         "ema_falling_from_top": false
@@ -2275,7 +2275,7 @@
         "ema13": 291.66,
         "ema21": 288.97,
         "rsi": 53.5,
-        "efi": 1093081.0,
+        "efi": 1093091.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2293,15 +2293,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 277.69,
-        "dist_pct": 4.88,
+        "ema21": 277.34,
+        "dist_pct": 3.61,
         "prior_uptrend_pct": 42.0,
-        "signal": "Extended above EMA21",
+        "signal": "Neutral",
         "direction": null,
         "highest_confirmed_top": 305.28,
-        "dist_to_top_pct": -4.6,
+        "dist_to_top_pct": -5.87,
         "latest_confirmed_top": 277.74,
-        "dist_from_latest_top_pct": 4.86,
+        "dist_from_latest_top_pct": 3.46,
         "ema_falling_from_top": false
       }
     },
@@ -2313,7 +2313,7 @@
         "ema13": 703.77,
         "ema21": 697.82,
         "rsi": 58.7,
-        "efi": -137641.0,
+        "efi": -142477.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2325,21 +2325,21 @@
         "sma200": 725.87,
         "rsi": 58.7,
         "macd_hist": 7.76,
-        "vol_ratio": 1.79,
+        "vol_ratio": 1.8,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 720.58,
-        "dist_pct": 0.76,
+        "ema21": 720.33,
+        "dist_pct": 0.41,
         "prior_uptrend_pct": 58.0,
         "signal": "Neutral",
         "direction": null,
         "highest_confirmed_top": 732.86,
-        "dist_to_top_pct": -0.93,
+        "dist_to_top_pct": -1.3,
         "latest_confirmed_top": 732.86,
-        "dist_from_latest_top_pct": -0.93,
+        "dist_from_latest_top_pct": -1.3,
         "ema_falling_from_top": false
       }
     },
@@ -2369,15 +2369,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 550.59,
-        "dist_pct": -7.42,
+        "ema21": 548.14,
+        "dist_pct": -11.92,
         "prior_uptrend_pct": 42.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 565.5,
-        "dist_to_top_pct": -9.86,
+        "dist_to_top_pct": -14.62,
         "latest_confirmed_top": 565.5,
-        "dist_from_latest_top_pct": -9.86,
+        "dist_from_latest_top_pct": -14.62,
         "ema_falling_from_top": true
       }
     },
@@ -2389,7 +2389,7 @@
         "ema13": 447.06,
         "ema21": 453.87,
         "rsi": 41.7,
-        "efi": -213280.0,
+        "efi": -213285.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -2407,15 +2407,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 472.0,
-        "dist_pct": -5.87,
+        "ema21": 471.76,
+        "dist_pct": -6.37,
         "prior_uptrend_pct": 92.0,
         "signal": "Broke below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 478.16,
-        "dist_to_top_pct": -7.08,
+        "dist_to_top_pct": -7.62,
         "latest_confirmed_top": 478.16,
-        "dist_from_latest_top_pct": -7.08,
+        "dist_from_latest_top_pct": -7.62,
         "ema_falling_from_top": true
       }
     },
@@ -2427,7 +2427,7 @@
         "ema13": 468.7,
         "ema21": 468.09,
         "rsi": 56.3,
-        "efi": 67041155.0,
+        "efi": 67040098.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2445,15 +2445,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 494.59,
-        "dist_pct": -1.27,
+        "ema21": 493.58,
+        "dist_pct": -3.33,
         "prior_uptrend_pct": 92.0,
         "signal": "Pullback \u2014 testing EMA21",
         "direction": "buy",
         "highest_confirmed_top": 503.58,
-        "dist_to_top_pct": -3.03,
+        "dist_to_top_pct": -5.25,
         "latest_confirmed_top": 503.58,
-        "dist_from_latest_top_pct": -3.03,
+        "dist_from_latest_top_pct": -5.25,
         "ema_falling_from_top": true
       }
     },
@@ -2465,7 +2465,7 @@
         "ema13": 461.16,
         "ema21": 461.29,
         "rsi": 58.4,
-        "efi": 6464941.0,
+        "efi": 6464937.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2483,15 +2483,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 463.52,
-        "dist_pct": 3.98,
+        "ema21": 462.84,
+        "dist_pct": 2.52,
         "prior_uptrend_pct": 50.0,
         "signal": "Neutral",
         "direction": null,
         "highest_confirmed_top": 796.53,
-        "dist_to_top_pct": -39.49,
+        "dist_to_top_pct": -40.43,
         "latest_confirmed_top": 464.27,
-        "dist_from_latest_top_pct": 3.81,
+        "dist_from_latest_top_pct": 2.2,
         "ema_falling_from_top": false
       }
     },
@@ -2503,7 +2503,7 @@
         "ema13": 34.59,
         "ema21": 34.71,
         "rsi": 49.0,
-        "efi": 59398056.0,
+        "efi": 59394877.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -2521,8 +2521,8 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 45.58,
-        "dist_pct": -23.97,
+        "ema21": 45.49,
+        "dist_pct": -25.86,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
@@ -2541,7 +2541,7 @@
         "ema13": 455.57,
         "ema21": 454.96,
         "rsi": 51.6,
-        "efi": 1760047.0,
+        "efi": 1759670.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2559,15 +2559,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 579.32,
-        "dist_pct": -20.84,
+        "ema21": 579.22,
+        "dist_pct": -21.0,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 956.85,
-        "dist_to_top_pct": -52.07,
+        "dist_to_top_pct": -52.18,
         "latest_confirmed_top": 956.85,
-        "dist_from_latest_top_pct": -52.07,
+        "dist_from_latest_top_pct": -52.18,
         "ema_falling_from_top": true
       }
     },
@@ -2597,15 +2597,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 1250.07,
-        "dist_pct": 0.94,
+        "ema21": 1258.34,
+        "dist_pct": 7.51,
         "prior_uptrend_pct": 67.0,
         "signal": "Bounce off EMA21",
         "direction": "buy",
         "highest_confirmed_top": 1263.77,
-        "dist_to_top_pct": -0.16,
+        "dist_to_top_pct": 7.05,
         "latest_confirmed_top": 1263.77,
-        "dist_from_latest_top_pct": -0.16,
+        "dist_from_latest_top_pct": 7.05,
         "ema_falling_from_top": false
       }
     },
@@ -2635,15 +2635,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 136.75,
-        "dist_pct": -5.03,
+        "ema21": 136.44,
+        "dist_pct": -7.28,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 176.28,
-        "dist_to_top_pct": -26.33,
+        "dist_to_top_pct": -28.23,
         "latest_confirmed_top": 169.95,
-        "dist_from_latest_top_pct": -23.58,
+        "dist_from_latest_top_pct": -25.56,
         "ema_falling_from_top": true
       }
     },
@@ -2655,7 +2655,7 @@
         "ema13": 2034.4,
         "ema21": 2014.64,
         "rsi": 57.6,
-        "efi": 56359099.0,
+        "efi": 56358943.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2673,15 +2673,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1831.15,
-        "dist_pct": 14.58,
+        "ema21": 1827.85,
+        "dist_pct": 12.8,
         "prior_uptrend_pct": 50.0,
         "signal": "Extended above EMA21",
         "direction": null,
         "highest_confirmed_top": 1803.98,
-        "dist_to_top_pct": 16.31,
+        "dist_to_top_pct": 14.3,
         "latest_confirmed_top": 1754.45,
-        "dist_from_latest_top_pct": 19.59,
+        "dist_from_latest_top_pct": 17.52,
         "ema_falling_from_top": false
       }
     },
@@ -2693,7 +2693,7 @@
         "ema13": 121.43,
         "ema21": 119.93,
         "rsi": 66.6,
-        "efi": 4444815.0,
+        "efi": 4444800.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2721,7 +2721,7 @@
         "ema13": 379.28,
         "ema21": 379.24,
         "rsi": 52.2,
-        "efi": 1437300.0,
+        "efi": 1437218.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2739,15 +2739,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 431.26,
-        "dist_pct": -10.9,
+        "ema21": 430.1,
+        "dist_pct": -13.63,
         "prior_uptrend_pct": 17.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 472.42,
-        "dist_to_top_pct": -18.66,
+        "dist_to_top_pct": -21.36,
         "latest_confirmed_top": 455.69,
-        "dist_from_latest_top_pct": -15.68,
+        "dist_from_latest_top_pct": -18.48,
         "ema_falling_from_top": true
       }
     },
@@ -2759,7 +2759,7 @@
         "ema13": 208.81,
         "ema21": 208.3,
         "rsi": 61.8,
-        "efi": 3194860.0,
+        "efi": 3194669.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2777,15 +2777,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 241.24,
-        "dist_pct": -8.75,
+        "ema21": 241.54,
+        "dist_pct": -7.49,
         "prior_uptrend_pct": 58.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 464.45,
-        "dist_to_top_pct": -52.6,
+        "dist_to_top_pct": -51.89,
         "latest_confirmed_top": 252.78,
-        "dist_from_latest_top_pct": -12.91,
+        "dist_from_latest_top_pct": -11.6,
         "ema_falling_from_top": true
       }
     },
@@ -2797,7 +2797,7 @@
         "ema13": 907.92,
         "ema21": 895.75,
         "rsi": 63.3,
-        "efi": 14477356.0,
+        "efi": 14477141.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2815,15 +2815,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 926.89,
-        "dist_pct": 2.59,
+        "ema21": 925.75,
+        "dist_pct": 1.36,
         "prior_uptrend_pct": 33.0,
         "signal": "Neutral",
         "direction": null,
         "highest_confirmed_top": 974.74,
-        "dist_to_top_pct": -2.45,
+        "dist_to_top_pct": -3.74,
         "latest_confirmed_top": 941.04,
-        "dist_from_latest_top_pct": 1.05,
+        "dist_from_latest_top_pct": -0.29,
         "ema_falling_from_top": false
       }
     },
@@ -2835,7 +2835,7 @@
         "ema13": 546.53,
         "ema21": 538.26,
         "rsi": 63.3,
-        "efi": 18302485.0,
+        "efi": 18302411.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2853,16 +2853,16 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 557.86,
-        "dist_pct": 1.6,
+        "ema21": 554.73,
+        "dist_pct": -4.03,
         "prior_uptrend_pct": 33.0,
-        "signal": "Neutral",
-        "direction": null,
+        "signal": "Downtrend \u2014 below EMA21",
+        "direction": "sell",
         "highest_confirmed_top": 600.13,
-        "dist_to_top_pct": -5.55,
+        "dist_to_top_pct": -11.29,
         "latest_confirmed_top": 566.28,
-        "dist_from_latest_top_pct": 0.09,
-        "ema_falling_from_top": false
+        "dist_from_latest_top_pct": -5.98,
+        "ema_falling_from_top": true
       }
     },
     {
@@ -2891,15 +2891,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 512.54,
-        "dist_pct": -13.31,
+        "ema21": 512.26,
+        "dist_pct": -13.87,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 763.09,
-        "dist_to_top_pct": -41.78,
+        "dist_to_top_pct": -42.18,
         "latest_confirmed_top": 763.09,
-        "dist_from_latest_top_pct": -41.78,
+        "dist_from_latest_top_pct": -42.18,
         "ema_falling_from_top": true
       }
     },
@@ -2911,7 +2911,7 @@
         "ema13": 606.82,
         "ema21": 609.89,
         "rsi": 46.8,
-        "efi": 5575741.0,
+        "efi": 5575743.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -2929,15 +2929,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 746.51,
-        "dist_pct": -18.84,
+        "ema21": 747.08,
+        "dist_pct": -18.07,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1007.8,
-        "dist_to_top_pct": -39.88,
+        "dist_to_top_pct": -39.26,
         "latest_confirmed_top": 946.21,
-        "dist_from_latest_top_pct": -35.97,
+        "dist_from_latest_top_pct": -35.31,
         "ema_falling_from_top": true
       }
     },
@@ -2949,7 +2949,7 @@
         "ema13": 733.48,
         "ema21": 732.75,
         "rsi": 55.2,
-        "efi": 8255346.0,
+        "efi": 8255326.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -2967,15 +2967,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 865.54,
-        "dist_pct": -13.14,
+        "ema21": 864.36,
+        "dist_pct": -14.53,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1048.4,
-        "dist_to_top_pct": -28.29,
+        "dist_to_top_pct": -29.53,
         "latest_confirmed_top": 1048.4,
-        "dist_from_latest_top_pct": -28.29,
+        "dist_from_latest_top_pct": -29.53,
         "ema_falling_from_top": true
       }
     },
@@ -2987,7 +2987,7 @@
         "ema13": 435.25,
         "ema21": 444.8,
         "rsi": 46.0,
-        "efi": 7480571.0,
+        "efi": 7480559.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -3005,15 +3005,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 533.31,
-        "dist_pct": -17.0,
+        "ema21": 532.19,
+        "dist_pct": -19.14,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 721.63,
-        "dist_to_top_pct": -38.66,
+        "dist_to_top_pct": -40.36,
         "latest_confirmed_top": 721.63,
-        "dist_from_latest_top_pct": -38.66,
+        "dist_from_latest_top_pct": -40.36,
         "ema_falling_from_top": true
       }
     },
@@ -3025,7 +3025,7 @@
         "ema13": 209.06,
         "ema21": 208.58,
         "rsi": 51.9,
-        "efi": 10734102.0,
+        "efi": 10733516.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3043,15 +3043,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 264.32,
-        "dist_pct": -20.03,
+        "ema21": 264.47,
+        "dist_pct": -19.46,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 373.93,
-        "dist_to_top_pct": -43.47,
+        "dist_to_top_pct": -43.04,
         "latest_confirmed_top": 358.26,
-        "dist_from_latest_top_pct": -41.0,
+        "dist_from_latest_top_pct": -40.55,
         "ema_falling_from_top": true
       }
     },
@@ -3063,7 +3063,7 @@
         "ema13": 800.07,
         "ema21": 799.94,
         "rsi": 55.8,
-        "efi": 1850025.0,
+        "efi": 1850112.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3081,15 +3081,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 907.83,
-        "dist_pct": -10.73,
+        "ema21": 909.49,
+        "dist_pct": -8.89,
         "prior_uptrend_pct": 33.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1091.59,
-        "dist_to_top_pct": -25.76,
+        "dist_to_top_pct": -24.09,
         "latest_confirmed_top": 958.47,
-        "dist_from_latest_top_pct": -15.44,
+        "dist_from_latest_top_pct": -13.54,
         "ema_falling_from_top": true
       }
     },
@@ -3101,7 +3101,7 @@
         "ema13": 499.55,
         "ema21": 507.16,
         "rsi": 40.9,
-        "efi": 219589.0,
+        "efi": 219580.0,
         "signal": "Sell (confirmed)",
         "direction": "sell",
         "pct": 100
@@ -3119,15 +3119,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 610.31,
-        "dist_pct": -18.46,
+        "ema21": 609.45,
+        "dist_pct": -19.91,
         "prior_uptrend_pct": 17.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 764.93,
-        "dist_to_top_pct": -34.94,
+        "dist_to_top_pct": -36.19,
         "latest_confirmed_top": 647.2,
-        "dist_from_latest_top_pct": -23.11,
+        "dist_from_latest_top_pct": -24.58,
         "ema_falling_from_top": true
       }
     },
@@ -3139,7 +3139,7 @@
         "ema13": 185.55,
         "ema21": 193.26,
         "rsi": 29.6,
-        "efi": -42613674.0,
+        "efi": -42613662.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3157,15 +3157,15 @@
         "stage": "Below 20/50/100/200 SMA, bearish MACD"
       },
       "monthly": {
-        "ema21": 254.32,
-        "dist_pct": -31.2,
+        "ema21": 254.4,
+        "dist_pct": -30.85,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 306.0,
-        "dist_to_top_pct": -42.82,
+        "dist_to_top_pct": -42.51,
         "latest_confirmed_top": 306.0,
-        "dist_from_latest_top_pct": -42.82,
+        "dist_from_latest_top_pct": -42.51,
         "ema_falling_from_top": true
       }
     },
@@ -3177,7 +3177,7 @@
         "ema13": 63.81,
         "ema21": 64.15,
         "rsi": 49.2,
-        "efi": 7788972.0,
+        "efi": 7788237.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3195,53 +3195,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 102.0,
-        "dist_pct": -36.81,
+        "ema21": 101.55,
+        "dist_pct": -41.41,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 153.28,
-        "dist_to_top_pct": -57.95,
+        "dist_to_top_pct": -61.18,
         "latest_confirmed_top": 151.06,
-        "dist_from_latest_top_pct": -57.33,
-        "ema_falling_from_top": true
-      }
-    },
-    {
-      "symbol": "JMFINANCIL",
-      "ltp": 114.56,
-      "short": {
-        "ema5": 113.33,
-        "ema13": 112.24,
-        "ema21": 113.01,
-        "rsi": 51.2,
-        "efi": -383404.0,
-        "signal": "Buy (confirmed)",
-        "direction": "buy",
-        "pct": 100
-      },
-      "long": {
-        "sma20": 111.4,
-        "sma50": 118.62,
-        "sma100": 121.57,
-        "sma200": 123.56,
-        "rsi": 51.2,
-        "macd_hist": 1.08,
-        "vol_ratio": 0.55,
-        "signal": "Neutral / Wait",
-        "direction": null,
-        "stage": "Mixed signals \u2014 no clear trend confirmation"
-      },
-      "monthly": {
-        "ema21": 121.81,
-        "dist_pct": -5.95,
-        "prior_uptrend_pct": 58.0,
-        "signal": "Downtrend \u2014 below EMA21",
-        "direction": "sell",
-        "highest_confirmed_top": 124.33,
-        "dist_to_top_pct": -7.86,
-        "latest_confirmed_top": 124.17,
-        "dist_from_latest_top_pct": -7.74,
+        "dist_from_latest_top_pct": -60.61,
         "ema_falling_from_top": true
       }
     },
@@ -3271,15 +3233,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 907.9,
-        "dist_pct": -15.56,
+        "ema21": 907.81,
+        "dist_pct": -15.66,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 1150.55,
-        "dist_to_top_pct": -33.37,
+        "dist_to_top_pct": -33.46,
         "latest_confirmed_top": 1150.55,
-        "dist_from_latest_top_pct": -33.37,
+        "dist_from_latest_top_pct": -33.46,
         "ema_falling_from_top": true
       }
     },
@@ -3291,7 +3253,7 @@
         "ema13": 107.27,
         "ema21": 106.34,
         "rsi": 58.9,
-        "efi": 7743000.0,
+        "efi": 7742918.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3309,15 +3271,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 141.37,
-        "dist_pct": -21.33,
+        "ema21": 141.17,
+        "dist_pct": -22.73,
         "prior_uptrend_pct": 8.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 187.87,
-        "dist_to_top_pct": -40.8,
+        "dist_to_top_pct": -41.94,
         "latest_confirmed_top": 174.58,
-        "dist_from_latest_top_pct": -36.29,
+        "dist_from_latest_top_pct": -37.52,
         "ema_falling_from_top": true
       }
     },
@@ -3329,7 +3291,7 @@
         "ema13": 336.9,
         "ema21": 341.97,
         "rsi": 43.7,
-        "efi": -13986115.0,
+        "efi": -13987238.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3347,15 +3309,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 565.01,
-        "dist_pct": -40.95,
+        "ema21": 564.18,
+        "dist_pct": -42.47,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 800.35,
-        "dist_to_top_pct": -58.31,
+        "dist_to_top_pct": -59.45,
         "latest_confirmed_top": 800.35,
-        "dist_from_latest_top_pct": -58.31,
+        "dist_from_latest_top_pct": -59.45,
         "ema_falling_from_top": true
       }
     },
@@ -3367,7 +3329,7 @@
         "ema13": 219.13,
         "ema21": 223.16,
         "rsi": 45.0,
-        "efi": 463054.0,
+        "efi": 463060.0,
         "signal": "Buy (anticipatory)",
         "direction": "buy",
         "pct": 40
@@ -3413,15 +3375,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 567.46,
-        "dist_pct": -3.16,
+        "ema21": 566.51,
+        "dist_pct": -4.84,
         "prior_uptrend_pct": 8.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 691.48,
-        "dist_to_top_pct": -20.53,
+        "dist_to_top_pct": -22.04,
         "latest_confirmed_top": 691.48,
-        "dist_from_latest_top_pct": -20.53,
+        "dist_from_latest_top_pct": -22.04,
         "ema_falling_from_top": true
       }
     },
@@ -3451,15 +3413,15 @@
         "stage": "Stage 3 \u2014 above 50/100/200 SMA"
       },
       "monthly": {
-        "ema21": 1016.03,
-        "dist_pct": -18.41,
+        "ema21": 1016.62,
+        "dist_pct": -17.82,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 2114.71,
-        "dist_to_top_pct": -60.8,
+        "dist_to_top_pct": -60.49,
         "latest_confirmed_top": 1735.59,
-        "dist_from_latest_top_pct": -52.24,
+        "dist_from_latest_top_pct": -51.86,
         "ema_falling_from_top": true
       }
     },
@@ -3471,7 +3433,7 @@
         "ema13": 222.83,
         "ema21": 222.0,
         "rsi": 56.7,
-        "efi": 2998702.0,
+        "efi": 2998809.0,
         "signal": "Strong Buy",
         "direction": "buy",
         "pct": 100
@@ -3489,15 +3451,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 275.04,
-        "dist_pct": -16.56,
+        "ema21": 274.63,
+        "dist_pct": -18.05,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 349.82,
-        "dist_to_top_pct": -34.4,
+        "dist_to_top_pct": -35.66,
         "latest_confirmed_top": 349.82,
-        "dist_from_latest_top_pct": -34.4,
+        "dist_from_latest_top_pct": -35.66,
         "ema_falling_from_top": true
       }
     },
@@ -3509,7 +3471,7 @@
         "ema13": 163.73,
         "ema21": 165.77,
         "rsi": 40.3,
-        "efi": -543502.0,
+        "efi": -545543.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3527,15 +3489,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 283.61,
-        "dist_pct": -43.44,
+        "ema21": 283.44,
+        "dist_pct": -44.05,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 640.25,
-        "dist_to_top_pct": -74.95,
+        "dist_to_top_pct": -75.23,
         "latest_confirmed_top": 640.25,
-        "dist_from_latest_top_pct": -74.95,
+        "dist_from_latest_top_pct": -75.23,
         "ema_falling_from_top": true
       }
     },
@@ -3547,7 +3509,7 @@
         "ema13": 18.61,
         "ema21": 18.69,
         "rsi": 47.2,
-        "efi": 6630097.0,
+        "efi": 6630052.0,
         "signal": "Buy (confirmed)",
         "direction": "buy",
         "pct": 100
@@ -3565,15 +3527,15 @@
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 28.58,
-        "dist_pct": -35.1,
+        "ema21": 28.54,
+        "dist_pct": -36.68,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 43.31,
-        "dist_to_top_pct": -57.17,
+        "dist_to_top_pct": -58.28,
         "latest_confirmed_top": 40.64,
-        "dist_from_latest_top_pct": -54.35,
+        "dist_from_latest_top_pct": -55.54,
         "ema_falling_from_top": true
       }
     },
@@ -3585,7 +3547,7 @@
         "ema13": 241.58,
         "ema21": 246.49,
         "rsi": 35.7,
-        "efi": -696024.0,
+        "efi": -696652.0,
         "signal": "Strong Sell",
         "direction": "sell",
         "pct": 100
@@ -3597,24 +3559,29 @@
         "sma200": 319.94,
         "rsi": 35.7,
         "macd_hist": 1.02,
-        "vol_ratio": 0.96,
+        "vol_ratio": 0.97,
         "signal": "Neutral / Wait",
         "direction": null,
         "stage": "Mixed signals \u2014 no clear trend confirmation"
       },
       "monthly": {
-        "ema21": 359.18,
-        "dist_pct": -35.27,
+        "ema21": 358.85,
+        "dist_pct": -36.22,
         "prior_uptrend_pct": 0.0,
         "signal": "Downtrend \u2014 below EMA21",
         "direction": "sell",
         "highest_confirmed_top": 526.69,
-        "dist_to_top_pct": -55.86,
+        "dist_to_top_pct": -56.55,
         "latest_confirmed_top": 526.69,
-        "dist_from_latest_top_pct": -55.86,
+        "dist_from_latest_top_pct": -56.55,
         "ema_falling_from_top": true
       }
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "symbol": "JMFINANCIL",
+      "error": "single positional indexer is out-of-bounds"
+    }
+  ]
 }
